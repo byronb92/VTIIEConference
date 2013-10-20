@@ -14,7 +14,6 @@
 		F440BD521813519600858B37 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F440BD511813519600858B37 /* main.m */; };
 		F440BD561813519600858B37 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F440BD551813519600858B37 /* AppDelegate.m */; };
 		F440BD591813519600858B37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F440BD571813519600858B37 /* Main.storyboard */; };
-		F440BD5C1813519600858B37 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F440BD5B1813519600858B37 /* ViewController.m */; };
 		F440BD5E1813519600858B37 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F440BD5D1813519600858B37 /* Images.xcassets */; };
 		F440BD651813519600858B37 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F440BD641813519600858B37 /* XCTest.framework */; };
 		F440BD661813519600858B37 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F440BD451813519600858B37 /* Foundation.framework */; };
@@ -45,8 +44,6 @@
 		F440BD541813519600858B37 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F440BD551813519600858B37 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		F440BD581813519600858B37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F440BD5A1813519600858B37 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F440BD5B1813519600858B37 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		F440BD5D1813519600858B37 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F440BD631813519600858B37 /* ConferenceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConferenceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F440BD641813519600858B37 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -115,8 +112,6 @@
 				F440BD541813519600858B37 /* AppDelegate.h */,
 				F440BD551813519600858B37 /* AppDelegate.m */,
 				F440BD571813519600858B37 /* Main.storyboard */,
-				F440BD5A1813519600858B37 /* ViewController.h */,
-				F440BD5B1813519600858B37 /* ViewController.m */,
 				F440BD5D1813519600858B37 /* Images.xcassets */,
 				F440BD4C1813519600858B37 /* Supporting Files */,
 			);
@@ -249,7 +244,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F440BD5C1813519600858B37 /* ViewController.m in Sources */,
 				F440BD561813519600858B37 /* AppDelegate.m in Sources */,
 				F440BD521813519600858B37 /* main.m in Sources */,
 			);
@@ -377,6 +371,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Conference/Conference-Prefix.pch";
 				INFOPLIST_FILE = "Conference/Conference-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -390,6 +385,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Conference/Conference-Prefix.pch";
 				INFOPLIST_FILE = "Conference/Conference-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
