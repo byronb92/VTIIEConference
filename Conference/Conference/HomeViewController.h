@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface HomeViewController : UIViewController
+@property (strong, nonatomic) IBOutlet UILabel *eventDateLabel;
+@property (strong, nonatomic) IBOutlet UILabel *timerLabel;
 
 @end

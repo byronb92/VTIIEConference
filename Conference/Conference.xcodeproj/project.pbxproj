@@ -20,6 +20,7 @@
 		F440BD671813519600858B37 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F440BD491813519600858B37 /* UIKit.framework */; };
 		F440BD6F1813519600858B37 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F440BD6D1813519600858B37 /* InfoPlist.strings */; };
 		F440BD711813519600858B37 /* ConferenceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F440BD701813519600858B37 /* ConferenceTests.m */; };
+		F440BD7C1813599400858B37 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F440BD7B1813599400858B37 /* HomeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,8 @@
 		F440BD6C1813519600858B37 /* ConferenceTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ConferenceTests-Info.plist"; sourceTree = "<group>"; };
 		F440BD6E1813519600858B37 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F440BD701813519600858B37 /* ConferenceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConferenceTests.m; sourceTree = "<group>"; };
+		F440BD7A1813599400858B37 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		F440BD7B1813599400858B37 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +112,8 @@
 		F440BD4B1813519600858B37 /* Conference */ = {
 			isa = PBXGroup;
 			children = (
+				F440BD7A1813599400858B37 /* HomeViewController.h */,
+				F440BD7B1813599400858B37 /* HomeViewController.m */,
 				F440BD541813519600858B37 /* AppDelegate.h */,
 				F440BD551813519600858B37 /* AppDelegate.m */,
 				F440BD571813519600858B37 /* Main.storyboard */,
@@ -246,6 +251,7 @@
 			files = (
 				F440BD561813519600858B37 /* AppDelegate.m in Sources */,
 				F440BD521813519600858B37 /* main.m in Sources */,
+				F440BD7C1813599400858B37 /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
