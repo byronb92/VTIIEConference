@@ -1,5 +1,171 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<dict/>
+<dict>
+	<key>Malone, James</key>
+	<dict>
+		<key>Photo</key>
+		<string>malone-james.png</string>
+		<key>Position</key>
+		<string>President</string>
+		<key>Email</key>
+		<string>jamesm27@vt.edu</string>
+		<key>Phone</key>
+		<string>(703) 509-1259</string>
+	</dict>
+	<key>Rubright, Colin</key>
+	<dict>
+		<key>Photo</key>
+		<string>rubright-colin.png</string>
+		<key>Position</key>
+		<string>Vice President</string>
+		<key>Email</key>
+		<string>cmr27@vt.edu</string>
+		<key>Phone</key>
+		<string>(443) 878-8495</string>
+	</dict>
+	<key>Ekasi-Otu, Edi</key>
+	<dict>
+		<key>Photo</key>
+		<string>ekasi-otu-edi.png</string>
+		<key>Position</key>
+		<string>Secretary</string>
+		<key>Email</key>
+		<string>ediotu@vt.edu</string>
+		<key>Phone</key>
+		<string>(571) 388-0071</string>
+	</dict>
+	<key>Monahan, Alex</key>
+	<dict>
+		<key>Photo</key>
+		<string>monahan-alex.png</string>
+		<key>Position</key>
+		<string>Treasurer</string>
+		<key>Email</key>
+		<string>alexm91@vt.edu</string>
+		<key>Phone</key>
+		<string>(540) 850-1101</string>
+	</dict>
+	<key>Fearing, Brandon</key>
+	<dict>
+		<key>Photo</key>
+		<string>fearing-brandon.png</string>
+		<key>Position</key>
+		<string>Webmaster</string>
+		<key>Email</key>
+		<string>bfearing@vt.edu</string>
+		<key>Phone</key>
+		<string>(757) 390-0856</string>
+	</dict>
+	<key>Baylis, Zander</key>
+	<dict>
+		<key>Photo</key>
+		<string>baylis-alexander.png</string>
+		<key>Position</key>
+		<string>Director of Corporate Relations</string>
+		<key>Email</key>
+		<string>zander@vt.edu</string>
+		<key>Phone</key>
+		<string>(302) 893-6572</string>
+	</dict>
+	<key>Shutt, Matthew</key>
+	<dict>
+		<key>Photo</key>
+		<string>shutt-matthew.png</string>
+		<key>Position</key>
+		<string>Director of Student Relations</string>
+		<key>Email</key>
+		<string>mpshutt@vt.edu</string>
+		<key>Phone</key>
+		<string>(804) 385-2177</string>
+	</dict>
+	<key>Alexander, Cory</key>
+	<dict>
+		<key>Photo</key>
+		<string>alexander-cory.png</string>
+		<key>Position</key>
+		<string>Director of Fundraising</string>
+		<key>Email</key>
+		<string>corya92@vt.edu</string>
+		<key>Phone</key>
+		<string>(757) 927-6714</string>
+	</dict>
+	<key>Cindrich, Zvonko</key>
+	<dict>
+		<key>Photo</key>
+		<string>cindrich-zvonko.png</string>
+		<key>Position</key>
+		<string>Conference Chair</string>
+		<key>Email</key>
+		<string>zzvonko@vt.edu</string>
+		<key>Phone</key>
+		<string>(540) 553-2207</string>
+	</dict>
+	<key>Downs, Carla</key>
+	<dict>
+		<key>Photo</key>
+		<string>downs-carla.png</string>
+		<key>Position</key>
+		<string>Undergraduate Liaison</string>
+		<key>Email</key>
+		<string>carlad11@vt.edu</string>
+		<key>Phone</key>
+		<string>(540) 846-6815</string>
+	</dict>
+	<key>Dalipi, Halil</key>
+	<dict>
+		<key>Photo</key>
+		<string>dalipi-halil.png</string>
+		<key>Position</key>
+		<string>Conference Committee</string>
+		<key>Email</key>
+		<string>hdalipi@vt.edu</string>
+		<key>Phone</key>
+		<string>(540) 314-5126</string>
+	</dict>
+	<key>Jones, Carley</key>
+	<dict>
+		<key>Photo</key>
+		<string>jones-carley.png</string>
+		<key>Position</key>
+		<string>Conference Committee</string>
+		<key>Email</key>
+		<string>cjones6@vt.edu</string>
+		<key>Phone</key>
+		<string>(540) 229-7193</string>
+	</dict>
+	<key>Baldwin, Haley</key>
+	<dict>
+		<key>Photo</key>
+		<string>noimage.png</string>
+		<key>Position</key>
+		<string>Conference Committee</string>
+		<key>Email</key>
+		<string>haleyb@vt.edu</string>
+		<key>Phone</key>
+		<string>(703) 400-2375</string>
+	</dict>
+	<key>Fenninger, John</key>
+	<dict>
+		<key>Photo</key>
+		<string>fenninger-john.png</string>
+		<key>Position</key>
+		<string>Conference Committee</string>
+		<key>Email</key>
+		<string>johnf7@vt.edu</string>
+		<key>Phone</key>
+		<string>(703) 785-9698</string>
+	</dict>
+	<key>Foster, John</key>
+	<dict>
+		<key>Photo</key>
+		<string>foster-john.png</string>
+		<key>Position</key>
+		<string>Conference Committee</string>
+		<key>Email</key>
+		<string>jmfoster@vt.edu</string>
+		<key>Phone</key>
+		<string>(484) 798-7920</string>
+	</dict>
+</dict>
 </plist>

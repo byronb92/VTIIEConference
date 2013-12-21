@@ -7,32 +7,63 @@
 //
 
 #import "ContactViewController.h"
+#import "ContactCustomCell.h"
 
 @interface ContactViewController ()
-
+@property (strong, nonatomic) NSDictionary *contactDictionaries;
+@property (strong, nonatomic) NSArray *contactNames;
 @end
 
 @implementation ContactViewController
 
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
-{
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self) {
-        // Custom initialization
-    }
-    return self;
-}
-
 - (void)viewDidLoad
 {
+    NSString *filePath;
+    filePath = [[NSBundle mainBundle] pathForResource:@"Contacts" ofType:@"plist"];
+    
+    self.contactDictionaries = [[NSMutableDictionary alloc] initWithContentsOfFile:filePath];
+    self.contactNames= [[self.contactDictionaries allKeys] sortedArrayUsingSelector:@selector(compare:)];
     [super viewDidLoad];
-	// Do any additional setup after loading the view.
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+}
+
+#pragma mark - Table View Delegate Methods.
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
+    return 1;
+}
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    return [self.contactNames count];
+}
+
+- (ContactCustomCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    
+    ContactCustomCell *cell = [tableView dequeueReusableCellWithIdentifier:@"ContactCell"];
+    // Iterate through the plist with the rowNumber as the index.
+    NSUInteger rowNumber = [indexPath row];
+    
+    // We use the name of the contact as the key to obtain that contact's data.
+    NSString *currentContactKey = [self.contactNames objectAtIndex:rowNumber];
+    NSDictionary *currentContactDictionary = [self.contactDictionaries objectForKey:currentContactKey];
+    
+    // Each contact dictionary has 4 keys: Photo, Position, Email, and Phone.
+    cell.nameLabel.text = currentContactKey;
+    cell.positionLabel.text = [currentContactDictionary objectForKey:@"Position"];
+    cell.photoImageView.image = [UIImage imageNamed:[currentContactDictionary objectForKey:@"Photo"]];
+    cell.photoImageView.contentMode = UIViewContentModeScaleAspectFill;
+    
+    return cell;
+}
+
+// Informs the table view delegate that the specified row is now selected.
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    // Implement later.
+    //ContactDetail
+    [self performSegueWithIdentifier:@"ContactDetail" sender:self];
 }
 
 @end
