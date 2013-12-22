@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F43A87D5184EF45500B90690 /* ContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F43A87D4184EF45500B90690 /* ContactViewController.m */; };
 		F440BD461813519600858B37 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F440BD451813519600858B37 /* Foundation.framework */; };
 		F440BD481813519600858B37 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F440BD471813519600858B37 /* CoreGraphics.framework */; };
 		F440BD4A1813519600858B37 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F440BD491813519600858B37 /* UIKit.framework */; };
@@ -21,6 +22,9 @@
 		F440BD6F1813519600858B37 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F440BD6D1813519600858B37 /* InfoPlist.strings */; };
 		F440BD711813519600858B37 /* ConferenceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F440BD701813519600858B37 /* ConferenceTests.m */; };
 		F440BD7C1813599400858B37 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F440BD7B1813599400858B37 /* HomeViewController.m */; };
+		F47C08BF1866939D009CEF28 /* ContactDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F47C08BE1866939D009CEF28 /* ContactDetailViewController.m */; };
+		F4ECCB861865519E00B29D49 /* Contacts.plist in Resources */ = {isa = PBXBuildFile; fileRef = F4ECCB851865519E00B29D49 /* Contacts.plist */; };
+		F4ECCB8918662EA800B29D49 /* ContactCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F4ECCB8818662EA800B29D49 /* ContactCustomCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F43A87D3184EF45500B90690 /* ContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactViewController.h; sourceTree = "<group>"; };
+		F43A87D4184EF45500B90690 /* ContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactViewController.m; sourceTree = "<group>"; };
 		F440BD421813519600858B37 /* Conference.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Conference.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F440BD451813519600858B37 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F440BD471813519600858B37 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +59,11 @@
 		F440BD701813519600858B37 /* ConferenceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConferenceTests.m; sourceTree = "<group>"; };
 		F440BD7A1813599400858B37 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		F440BD7B1813599400858B37 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		F47C08BD1866939D009CEF28 /* ContactDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactDetailViewController.h; sourceTree = "<group>"; };
+		F47C08BE1866939D009CEF28 /* ContactDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactDetailViewController.m; sourceTree = "<group>"; };
+		F4ECCB851865519E00B29D49 /* Contacts.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Contacts.plist; sourceTree = "<group>"; };
+		F4ECCB8718662EA800B29D49 /* ContactCustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactCustomCell.h; sourceTree = "<group>"; };
+		F4ECCB8818662EA800B29D49 /* ContactCustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactCustomCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,7 +129,14 @@
 				F440BD551813519600858B37 /* AppDelegate.m */,
 				F440BD571813519600858B37 /* Main.storyboard */,
 				F440BD5D1813519600858B37 /* Images.xcassets */,
+				F4ECCB8718662EA800B29D49 /* ContactCustomCell.h */,
+				F4ECCB8818662EA800B29D49 /* ContactCustomCell.m */,
+				F43A87D3184EF45500B90690 /* ContactViewController.h */,
+				F43A87D4184EF45500B90690 /* ContactViewController.m */,
+				F47C08BD1866939D009CEF28 /* ContactDetailViewController.h */,
+				F47C08BE1866939D009CEF28 /* ContactDetailViewController.m */,
 				F440BD4C1813519600858B37 /* Supporting Files */,
+				F4ECCB851865519E00B29D49 /* Contacts.plist */,
 			);
 			path = Conference;
 			sourceTree = "<group>";
@@ -231,6 +249,7 @@
 				F440BD5E1813519600858B37 /* Images.xcassets in Resources */,
 				F440BD501813519600858B37 /* InfoPlist.strings in Resources */,
 				F440BD591813519600858B37 /* Main.storyboard in Resources */,
+				F4ECCB861865519E00B29D49 /* Contacts.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,7 +268,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F47C08BF1866939D009CEF28 /* ContactDetailViewController.m in Sources */,
 				F440BD561813519600858B37 /* AppDelegate.m in Sources */,
+				F43A87D5184EF45500B90690 /* ContactViewController.m in Sources */,
+				F4ECCB8918662EA800B29D49 /* ContactCustomCell.m in Sources */,
 				F440BD521813519600858B37 /* main.m in Sources */,
 				F440BD7C1813599400858B37 /* HomeViewController.m in Sources */,
 			);
@@ -377,7 +399,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Conference/Conference-Prefix.pch";
 				INFOPLIST_FILE = "Conference/Conference-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -391,7 +413,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Conference/Conference-Prefix.pch";
 				INFOPLIST_FILE = "Conference/Conference-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -456,6 +478,7 @@
 				F440BD761813519600858B37 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F440BD771813519600858B37 /* Build configuration list for PBXNativeTarget "ConferenceTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +487,7 @@
 				F440BD791813519600858B37 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
