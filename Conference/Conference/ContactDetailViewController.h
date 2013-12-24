@@ -10,7 +10,7 @@
 
 @interface ContactDetailViewController : UIViewController
 
-@property (strong, nonatomic) IBOutlet UITextView *positionTextView;
+@property (strong, nonatomic) IBOutlet UILabel *positionLabel;
 @property (strong, nonatomic) IBOutlet UITextView *emailTextView;
 @property (strong, nonatomic) IBOutlet UITextView *phoneTextView;
 @property (strong, nonatomic) IBOutlet UIImageView *photoImageView;

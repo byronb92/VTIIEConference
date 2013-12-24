@@ -23,6 +23,7 @@
 		F440BD711813519600858B37 /* ConferenceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F440BD701813519600858B37 /* ConferenceTests.m */; };
 		F440BD7C1813599400858B37 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F440BD7B1813599400858B37 /* HomeViewController.m */; };
 		F47C08BF1866939D009CEF28 /* ContactDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F47C08BE1866939D009CEF28 /* ContactDetailViewController.m */; };
+		F4C876F518695C4C00065E2F /* ios6.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4C876F418695C4B00065E2F /* ios6.storyboard */; };
 		F4ECCB861865519E00B29D49 /* Contacts.plist in Resources */ = {isa = PBXBuildFile; fileRef = F4ECCB851865519E00B29D49 /* Contacts.plist */; };
 		F4ECCB8918662EA800B29D49 /* ContactCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F4ECCB8818662EA800B29D49 /* ContactCustomCell.m */; };
 /* End PBXBuildFile section */
@@ -61,6 +62,7 @@
 		F440BD7B1813599400858B37 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		F47C08BD1866939D009CEF28 /* ContactDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactDetailViewController.h; sourceTree = "<group>"; };
 		F47C08BE1866939D009CEF28 /* ContactDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactDetailViewController.m; sourceTree = "<group>"; };
+		F4C876F418695C4B00065E2F /* ios6.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ios6.storyboard; sourceTree = "<group>"; };
 		F4ECCB851865519E00B29D49 /* Contacts.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Contacts.plist; sourceTree = "<group>"; };
 		F4ECCB8718662EA800B29D49 /* ContactCustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactCustomCell.h; sourceTree = "<group>"; };
 		F4ECCB8818662EA800B29D49 /* ContactCustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactCustomCell.m; sourceTree = "<group>"; };
@@ -128,6 +130,7 @@
 				F440BD541813519600858B37 /* AppDelegate.h */,
 				F440BD551813519600858B37 /* AppDelegate.m */,
 				F440BD571813519600858B37 /* Main.storyboard */,
+				F4C876F418695C4B00065E2F /* ios6.storyboard */,
 				F440BD5D1813519600858B37 /* Images.xcassets */,
 				F4ECCB8718662EA800B29D49 /* ContactCustomCell.h */,
 				F4ECCB8818662EA800B29D49 /* ContactCustomCell.m */,
@@ -246,6 +249,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4C876F518695C4C00065E2F /* ios6.storyboard in Resources */,
 				F440BD5E1813519600858B37 /* Images.xcassets in Resources */,
 				F440BD501813519600858B37 /* InfoPlist.strings in Resources */,
 				F440BD591813519600858B37 /* Main.storyboard in Resources */,
@@ -399,7 +403,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Conference/Conference-Prefix.pch";
 				INFOPLIST_FILE = "Conference/Conference-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -413,7 +417,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Conference/Conference-Prefix.pch";
 				INFOPLIST_FILE = "Conference/Conference-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

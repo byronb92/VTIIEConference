@@ -16,7 +16,6 @@ NSTimer *timer;
 - (void)viewDidLoad
 {
     timer = [NSTimer scheduledTimerWithTimeInterval:1.0 target:self selector:@selector(timerTick:) userInfo:nil repeats:YES];
-    _timerLabel.hidden = YES;
     [super viewDidLoad];
 }
 
@@ -31,7 +30,7 @@ NSTimer *timer;
         dateFormatter.dateFormat = @"MMMM d, y h:mm:ss a";
     }
     /* ------------------------------------------------------------
-     * Comparing dates return 3 objects:
+     * Comparing two dates returns 3 objects:
      *      NSOrderedSame if they are equal
      *      NSOrderedDescending if receiver happens after argument
      *      NSOrderedAscending if receiver happens before argument
@@ -39,7 +38,7 @@ NSTimer *timer;
      */
     if ([now compare:eventStart] == NSOrderedDescending) {
         self.eventDateLabel.text = @"The conference date has arrived!";
-        _timerLabel.hidden = NO;
+        _timerLabel.hidden = YES;
     }
     else {
         NSCalendar *sysCalendar = [NSCalendar currentCalendar];
@@ -54,19 +53,18 @@ NSTimer *timer;
         NSString *countdownString = [NSString stringWithFormat:@"%d Months %d Days %d Hours %d Minutes %d Seconds", months, days, hours, minutes, seconds];
         self.timerLabel.text = countdownString;
     }
-    _timerLabel.hidden = NO;
 }
 - (NSDate *)dateOfConference:(NSDate *)inputDate
 {
     // Use the user's current calendar and time zone
     NSCalendar *calendar = [NSCalendar currentCalendar];
     NSTimeZone *timeZone = [NSTimeZone systemTimeZone];
-    [calendar setTimeZone:timeZone];
+    [calendar setTimeZone:timeZone]; 
     
-    // Selectively convert the date components (year, month, day, hour, seconds) of the input date
+    // Convert the date components (year, month, day, hour, seconds) of the input date.
     NSDateComponents *dateComps = [calendar components:NSYearCalendarUnit | NSMonthCalendarUnit | NSDayCalendarUnit | NSHourCalendarUnit | NSSecondCalendarUnit fromDate:inputDate];
     
-    // Conference begins February 21st, 2014.
+    // Target date: February 21st, 2014.
     [dateComps setDay:21];
     [dateComps setMonth:02];
     [dateComps setYear:2014];

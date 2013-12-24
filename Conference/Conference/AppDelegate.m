@@ -12,7 +12,12 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    // Obtain the complete version string.
+    // E.G. If the version is 7.0.3, then "7.0.3." will be returned.
+    NSString *currentVersionFull = [[UIDevice currentDevice] systemVersion];
+    [self initializeStoryBoardBasedOnVersion:currentVersionFull];
+    
+
     return YES;
 }
 							
@@ -43,4 +48,44 @@
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
 
+
+-(void)initializeStoryBoardBasedOnVersion:(NSString*)versionString {
+    
+    if ([UIDevice currentDevice].userInterfaceIdiom == UIUserInterfaceIdiomPhone)
+    {   // The iOS device = iPhone or iPod Touch
+        
+        // Read the first chr of the version string and convert it to an integer for comparison.
+        NSInteger currentVersion = [[versionString substringToIndex:1] integerValue];
+        if (currentVersion == 7)
+        {
+            // Load ios7(Main) storyboard.
+            // Instantiate a new storyboard object using the storyboard file named Main
+            UIStoryboard *iPhone75Storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+            
+            // Instantiate the initial view controller object from the storyboard
+            UIViewController *initialViewController = [iPhone75Storyboard instantiateInitialViewController];
+            
+            // Instantiate a UIWindow object and initialize it with the screen size of the iOS device
+            self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+            
+            // Set the initial view controller to be the root view controller of the window object
+            self.window.rootViewController  = initialViewController;
+            
+            // Set the window object to be the key window and show it
+            [self.window makeKeyAndVisible];
+        }
+        else {
+            // load ios6 storyboard
+            UIStoryboard *iPhone6Storyboard = [UIStoryboard storyboardWithName:@"ios6" bundle:nil];
+            
+            UIViewController *initialViewController = [iPhone6Storyboard instantiateInitialViewController];
+            
+            self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+            self.window.rootViewController  = initialViewController;
+            [self.window makeKeyAndVisible];
+        }
+        
+        
+    }
+}
 @end

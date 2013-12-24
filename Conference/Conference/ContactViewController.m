@@ -8,10 +8,13 @@
 
 #import "ContactViewController.h"
 #import "ContactCustomCell.h"
+#import "ContactDetailViewController.h"
 
 @interface ContactViewController ()
 @property (strong, nonatomic) NSDictionary *contactDictionaries;
 @property (strong, nonatomic) NSArray *contactNames;
+
+@property (strong, nonatomic) NSMutableDictionary *contactData;
 @end
 
 @implementation ContactViewController
@@ -61,9 +64,20 @@
 
 // Informs the table view delegate that the specified row is now selected.
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    // Implement later.
-    //ContactDetail
+    
+    NSUInteger rowNumber = [indexPath row];
+    NSString *currentContactName = [self.contactNames objectAtIndex:rowNumber];
+    self.contactData = [self.contactDictionaries objectForKey:currentContactName];
+    // Before we pass the dictionary, we must also include the contact's name inside of it.
+    [self.contactData setValue:currentContactName forKey:@"Name"];
     [self performSegueWithIdentifier:@"ContactDetail" sender:self];
 }
-
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    if ([[segue identifier] isEqualToString:@"ContactDetail"])
+    {
+        ContactDetailViewController *contactDetailViewController = [segue destinationViewController];
+        contactDetailViewController.contactData = self.contactData;
+    }
+}
 @end
