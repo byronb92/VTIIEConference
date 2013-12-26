@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Friday</key>
+	<dict>
+		<key>0</key>
+		<dict>
+			<key>Event</key>
+			<string>Registration</string>
+			<key>Time</key>
+			<string>3:00pm - 6:00pm</string>
+		</dict>
+		<key>1</key>
+		<dict>
+			<key>Event</key>
+			<string>Social Time</string>
+			<key>Time</key>
+			<string>6:00pm - 6:20pm</string>
+		</dict>
+		<key>2</key>
+		<dict>
+			<key>Event</key>
+			<string>Icebreaker</string>
+			<key>Time</key>
+			<string>6:20pm - 7:00pm</string>
+		</dict>
+		<key>3</key>
+		<dict>
+			<key>Event</key>
+			<string>Keynote Speaker</string>
+			<key>Time</key>
+			<string>8:30pm - 9:30pm</string>
+		</dict>
+	</dict>
+	<key>Saturday</key>
+	<dict>
+		<key>0</key>
+		<dict>
+			<key>Event</key>
+			<string>Breakfast</string>
+			<key>Time</key>
+			<string>8:00 am - 9:00am</string>
+		</dict>
+		<key>1</key>
+		<dict>
+			<key>Event</key>
+			<string>Motivational Speaker</string>
+			<key>Time</key>
+			<string>9:00am - 10:00am</string>
+		</dict>
+		<key>2</key>
+		<dict>
+			<key>Event</key>
+			<string>Session 1</string>
+			<key>Time</key>
+			<string>10:15am - 11:15am</string>
+		</dict>
+		<key>3</key>
+		<dict>
+			<key>Event</key>
+			<string>Session 2</string>
+			<key>Time</key>
+			<string>11:25am - 12:25pm</string>
+		</dict>
+		<key>4</key>
+		<dict>
+			<key>Event</key>
+			<string>Session 3</string>
+			<key>Time</key>
+			<string>12:35pm - 1:35pm</string>
+		</dict>
+		<key>5</key>
+		<dict>
+			<key>Event</key>
+			<string>Lunch</string>
+			<key>Time</key>
+			<string>1:35pm-2:30pm</string>
+		</dict>
+		<key>6</key>
+		<dict>
+			<key>Event</key>
+			<string>Career Fair</string>
+			<key>Time</key>
+			<string>2:30pm - 4:00pm</string>
+		</dict>
+		<key>7</key>
+		<dict>
+			<key>Event</key>
+			<string>Case Competition </string>
+			<key>Time</key>
+			<string>4:00pm - 6:00pm</string>
+		</dict>
+		<key>8</key>
+		<dict>
+			<key>Event</key>
+			<string>Dinner</string>
+			<key>Time</key>
+			<string>6:30pm - 7:30pm</string>
+		</dict>
+		<key>9</key>
+		<dict>
+			<key>Event</key>
+			<string>Keynote Speaker</string>
+			<key>Time</key>
+			<string>7:30pm - 8:30pm</string>
+		</dict>
+	</dict>
+	<key>Sunday</key>
+	<dict>
+		<key>0</key>
+		<dict>
+			<key>Event</key>
+			<string>Break</string>
+			<key>Time</key>
+			<string>8:00am - 9:00am</string>
+		</dict>
+		<key>1</key>
+		<dict>
+			<key>Event</key>
+			<string>Technical Paper Competition</string>
+			<key>Time</key>
+			<string>9:00am - 10:00am</string>
+		</dict>
+		<key>2</key>
+		<dict>
+			<key>Event</key>
+			<string>Plant Tour</string>
+			<key>Time</key>
+			<string>10:00am - 12:00pm</string>
+		</dict>
+		<key>3</key>
+		<dict>
+			<key>Event</key>
+			<string>Alumni Panel(s)</string>
+			<key>Time</key>
+			<string>12:30 pm - 1:30pm</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
