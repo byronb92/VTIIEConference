@@ -578,7 +578,7 @@
                                     <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Off-Campus Attraction Cell" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="cYe-Fk-0Iz">
+                                        <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Points Of Interest" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="cYe-Fk-0Iz">
                                             <rect key="frame" x="15" y="0.0" width="270" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="18"/>
@@ -601,16 +601,18 @@
                         <segue destination="g3o-Q1-WKG" kind="push" identifier="Friday" id="dGf-lJ-JPS"/>
                         <segue destination="g3o-Q1-WKG" kind="push" identifier="Saturday" id="rfv-ap-5oz"/>
                         <segue destination="g3o-Q1-WKG" kind="push" identifier="Sunday" id="Z32-yU-2ac"/>
+                        <segue destination="JOr-Xx-0Hc" kind="push" identifier="InterestsOnCampus" id="42u-dH-RDW"/>
+                        <segue destination="JOr-Xx-0Hc" kind="push" identifier="InterestsOffCampus" id="CU9-g3-abe"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JLx-RR-bg8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1428" y="-459"/>
         </scene>
-        <!--On Campus View Controller-->
+        <!--Weekend View Controller-->
         <scene sceneID="okR-yM-0q7">
             <objects>
-                <viewController id="g3o-Q1-WKG" customClass="OnCampusViewController" sceneMemberID="viewController">
+                <viewController id="g3o-Q1-WKG" customClass="WeekendViewController" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="osC-lY-odC">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -619,7 +621,7 @@
                             <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="CurrentEventCell" textLabel="jm4-oE-FyB" detailTextLabel="PVe-eQ-uCv" style="IBUITableViewCellStyleSubtitle" id="jqU-gT-gKs">
                                 <rect key="frame" x="0.0" y="86" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="jqU-gT-gKs">
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="jqU-gT-gKs" id="kmX-9A-HUd">
                                     <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
@@ -649,7 +651,139 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9UA-Bs-Kae" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1811" y="-459"/>
+            <point key="canvasLocation" x="2041" y="-815"/>
+        </scene>
+        <!--Interest View Controller-->
+        <scene sceneID="hOX-vA-V9T">
+            <objects>
+                <viewController id="JOr-Xx-0Hc" customClass="InterestViewController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="tGm-fr-ptH">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="InterestCell" textLabel="Nko-nZ-eIT" detailTextLabel="4NN-eB-Dzw" style="IBUITableViewCellStyleSubtitle" id="foK-Bc-3gt">
+                                <rect key="frame" x="0.0" y="86" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="foK-Bc-3gt" id="JkY-o0-9zI">
+                                    <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Burress Hall" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Nko-nZ-eIT">
+                                            <rect key="frame" x="15" y="3" width="98" height="22"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="800 Drillfield Drive Blackburg, VA 24060" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="4NN-eB-Dzw">
+                                            <rect key="frame" x="15" y="25" width="222" height="15"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="61Y-cl-iB7"/>
+                    <connections>
+                        <outlet property="interestTableView" destination="tGm-fr-ptH" id="L1h-mL-ZYd"/>
+                        <segue destination="mgp-qe-J5A" kind="push" identifier="InterestInfo" id="ZUY-pK-Gse"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hYt-Xg-0uf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2041" y="-218"/>
+        </scene>
+        <!--Specific Interest View Controller - Interest Name-->
+        <scene sceneID="AYg-eP-5w6">
+            <objects>
+                <viewController id="mgp-qe-J5A" customClass="SpecificInterestViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="J18-06-8VF"/>
+                        <viewControllerLayoutGuide type="bottom" id="hiI-SH-Zrg"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Q3i-gK-5h5">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6ZF-MI-mXj">
+                                <rect key="frame" x="20" y="76" width="280" height="201"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" translatesAutoresizingMaskIntoConstraints="NO" id="jf4-Tz-RYI">
+                                <rect key="frame" x="20" y="432" width="280" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <segments>
+                                    <segment title="Driving"/>
+                                    <segment title="Walking"/>
+                                    <segment title="Bicycling"/>
+                                    <segment title="Transit"/>
+                                </segments>
+                                <connections>
+                                    <action selector="getDirections:" destination="mgp-qe-J5A" eventType="valueChanged" id="5aZ-r4-S3i"/>
+                                </connections>
+                            </segmentedControl>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Directions" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qHC-yL-rqS">
+                                <rect key="frame" x="122" y="403" width="77" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="K5W-TN-k99">
+                                <rect key="frame" x="20" y="285" width="280" height="89"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Interest Name" id="u1j-sf-Ldq"/>
+                    <connections>
+                        <outlet property="descriptionTextView" destination="K5W-TN-k99" id="zt7-83-3s4"/>
+                        <outlet property="directionSegmentedControl" destination="jf4-Tz-RYI" id="duz-4s-Svb"/>
+                        <segue destination="wfu-of-0na" kind="push" identifier="Directions" id="kD4-aU-7aa"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="e2M-d0-gbt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2405" y="-218"/>
+        </scene>
+        <!--Direction Web View Controller-->
+        <scene sceneID="eeZ-2b-MPF">
+            <objects>
+                <viewController id="wfu-of-0na" customClass="DirectionWebViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="PfC-fo-KOF"/>
+                        <viewControllerLayoutGuide type="bottom" id="26F-74-JVZ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="1rk-ZJ-2Xf">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" scalesPageToFit="YES" translatesAutoresizingMaskIntoConstraints="NO" id="W8h-bd-fsg">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <dataDetectorType key="dataDetectorTypes" phoneNumber="YES" link="YES" address="YES"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="FlT-UF-tRe"/>
+                    <connections>
+                        <outlet property="directionsWebView" destination="W8h-bd-fsg" id="5Ai-u7-mPp"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rza-Jj-7A3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2791" y="-210"/>
         </scene>
         <!--View Controller - Sponsors-->
         <scene sceneID="snQ-tJ-alY">
@@ -706,5 +840,6 @@
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
         <segue reference="Z32-yU-2ac"/>
+        <segue reference="CU9-g3-abe"/>
     </inferredMetricsTieBreakers>
 </document>

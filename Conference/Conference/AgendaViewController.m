@@ -7,12 +7,16 @@
 //
 
 #import "AgendaViewController.h"
-#import "OnCampusViewController.h"
+#import "WeekendViewController.h"
+#import "InterestViewController.h"
 
 @interface AgendaViewController ()
 @property (strong, nonatomic) NSDictionary *weekendAgenda_Dict;     // each day has a dictionary
 @property (strong, nonatomic) NSArray *weekendDays;                 // holds list of days
 @property (strong, nonatomic) NSDictionary *currentDayAgenda;       // agenda of selected day
+
+@property (strong, nonatomic) NSDictionary *pointsOfInterestDict;
+@property (strong, nonatomic) NSDictionary *interestData;
 
 @end
 
@@ -42,9 +46,9 @@
 {
     if (section == 0)
     {
-        return @"On-Campus Agenda";
+        return @"Weekend Agenda";
     }
-    return @"Off-Campus Agenda";
+    return @"Points of Interest";
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
@@ -91,11 +95,11 @@
         cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
         if (currentRow == 0)
         {
-            cell.textLabel.text = @"Attraction #1";
+            cell.textLabel.text = @"On-Campus";
         }
         else if (currentRow == 1)
         {
-            cell.textLabel.text = @"Attraction #2";
+            cell.textLabel.text = @"Off-Campus";
         }
 
     }
@@ -117,7 +121,7 @@
         // Since we know one of the weekend dates has been selected, we can obtain
         // all of the dates from the onCampusAgenda.plist.
         NSString *filePath;
-        filePath = [[NSBundle mainBundle] pathForResource:@"OnCampusAgenda" ofType:@"plist"];
+        filePath = [[NSBundle mainBundle] pathForResource:@"WeekendAgenda" ofType:@"plist"];
         
         self.weekendAgenda_Dict = [[NSMutableDictionary alloc] initWithContentsOfFile:filePath];
         self.weekendDays = [[self.weekendAgenda_Dict allKeys] sortedArrayUsingSelector:@selector(compare:)];
@@ -146,7 +150,27 @@
             [self performSegueWithIdentifier:@"Sunday" sender:self];
         }
     }
-    // TODO Implement attraction view segue.
+    
+    else if (sectionNumber == 1)
+    {
+        // Since sectionNumber is 1, one of the Points of Interest cells have been clicked.
+        NSString *filePath;
+        filePath = [[NSBundle mainBundle] pathForResource:@"PointsOfInterest" ofType:@"plist"];
+        self.pointsOfInterestDict = [[NSMutableDictionary alloc] initWithContentsOfFile:filePath];
+        
+        if (rowNumber == 0)
+        {
+            NSString *onCampus = @"On-Campus";
+            self.interestData = [self.pointsOfInterestDict objectForKey:onCampus];
+            [self performSegueWithIdentifier:@"InterestsOnCampus" sender:self];
+        }
+        else
+        {
+            NSString *offCampus = @"Off-Campus";
+            self.interestData = [self.pointsOfInterestDict objectForKey:offCampus];
+            [self performSegueWithIdentifier:@"InterestsOffCampus" sender:self];
+        }
+    }
 }
 
 #pragma mark - Navigation
@@ -154,23 +178,37 @@
 {
     if ([[segue identifier] isEqualToString:@"Friday"])
     {
-        OnCampusViewController *fridayOnCampusViewController = [segue destinationViewController];
+        WeekendViewController *fridayOnCampusViewController = [segue destinationViewController];
         fridayOnCampusViewController.currentDayAgenda = self.currentDayAgenda;
         fridayOnCampusViewController.title = @"Friday Agenda";
     }
     
     else if ([[segue identifier] isEqualToString:@"Saturday"])
     {
-        OnCampusViewController *saturdayOnCampusViewController = [segue destinationViewController];
+        WeekendViewController *saturdayOnCampusViewController = [segue destinationViewController];
         saturdayOnCampusViewController.currentDayAgenda = self.currentDayAgenda;
         saturdayOnCampusViewController.title = @"Saturday Agenda";
     }
     
     else if ([[segue identifier] isEqualToString:@"Sunday"])
     {
-        OnCampusViewController *sundayOnCampusViewController = [segue destinationViewController];
+        WeekendViewController *sundayOnCampusViewController = [segue destinationViewController];
         sundayOnCampusViewController.currentDayAgenda = self.currentDayAgenda;
         sundayOnCampusViewController.title = @"Sunday Agenda";
+    }
+    
+    else if ([[segue identifier] isEqualToString:@"InterestsOnCampus"])
+    {
+        InterestViewController *interestsViewController = [segue destinationViewController];
+        interestsViewController.title = @"On-Campus Interests";
+        interestsViewController.interestData = self.interestData;
+    }
+    
+    else if ([[segue identifier] isEqualToString:@"InterestsOffCampus"])
+    {
+        InterestViewController *interestsViewController = [segue destinationViewController];
+        interestsViewController.title = @"Off-Campus Interests";
+        interestsViewController.interestData = self.interestData;
     }
 }
 

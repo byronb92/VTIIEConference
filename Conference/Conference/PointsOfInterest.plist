@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>On-Campus</key>
+	<dict>
+		<key>Burress Hall</key>
+		<dict>
+			<key>Description</key>
+			<string>Burruss Hall is Virginia Tech.</string>
+			<key>Address</key>
+			<string>800 Drillfield Drive Blackburg, VA 24060</string>
+			<key>Coordinates</key>
+			<string>37.229,-80.42371</string>
+		</dict>
+		<key>Duck Pond</key>
+		<dict>
+			<key>Description</key>
+			<string>Ducks and stuff!</string>
+			<key>Address</key>
+			<string>Duckpond Rd. Blacksburg, Virginia 24061</string>
+			<key>Coordinates</key>
+			<string>37.220314,-80.426460</string>
+		</dict>
+	</dict>
+	<key>Off-Campus</key>
+	<dict>
+		<key>TOTS</key>
+		<dict>
+			<key>Address</key>
+			<string>217 College Ave. Blacksburg, VA</string>
+			<key>Description</key>
+			<string>Bar</string>
+			<key>Coordinates</key>
+			<string>37.229822,-80.416526</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
