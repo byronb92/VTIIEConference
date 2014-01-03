@@ -12,7 +12,6 @@
 @property (strong, nonatomic) NSDictionary *currentEventData;
 @property (strong, nonatomic) NSString *navBackButtonTitle;
 
-
 @property (strong, nonatomic) IBOutlet UITextView *descriptionTextView;
 @property (strong, nonatomic) IBOutlet UILabel *timeLabel;
 @property (strong, nonatomic) IBOutlet UILabel *locationLabel;

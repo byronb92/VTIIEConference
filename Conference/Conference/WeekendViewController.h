@@ -11,5 +11,5 @@
 @interface WeekendViewController : UITableViewController
 
 @property (strong, nonatomic) IBOutlet UITableView *onCampusTableView;
-@property (strong, nonatomic) NSDictionary *currentDayAgenda;       // agenda of selected day
+@property (strong, nonatomic) NSDictionary *currentDayAgenda;
 @end

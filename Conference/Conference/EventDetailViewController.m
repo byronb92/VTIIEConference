@@ -21,13 +21,11 @@
     self.timeLabel.text = [self.currentEventData objectForKey:@"Time"];
     self.locationLabel.text = [self.currentEventData objectForKey:@"Location"];
     [super viewDidLoad];
-	// Do any additional setup after loading the view.
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 @end
