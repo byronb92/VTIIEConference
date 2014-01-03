@@ -29,6 +29,7 @@
 		F440BD7C1813599400858B37 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F440BD7B1813599400858B37 /* HomeViewController.m */; };
 		F47C08BF1866939D009CEF28 /* ContactDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F47C08BE1866939D009CEF28 /* ContactDetailViewController.m */; };
 		F47C3866187501C800116FA1 /* DirectionWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F47C3865187501C800116FA1 /* DirectionWebViewController.m */; };
+		F47C386918766B4100116FA1 /* EventDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F47C386818766B4100116FA1 /* EventDetailViewController.m */; };
 		F4B61B5E186CA90900EEE0DD /* WeekendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4B61B5D186CA90900EEE0DD /* WeekendViewController.m */; };
 		F4B61B60186CA98500EEE0DD /* WeekendAgenda.plist in Resources */ = {isa = PBXBuildFile; fileRef = F4B61B5F186CA98500EEE0DD /* WeekendAgenda.plist */; };
 		F4B61B66186CAEEC00EEE0DD /* AgendaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4B61B65186CAEEC00EEE0DD /* AgendaViewController.m */; };
@@ -80,6 +81,8 @@
 		F47C08BE1866939D009CEF28 /* ContactDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactDetailViewController.m; sourceTree = "<group>"; };
 		F47C3864187501C800116FA1 /* DirectionWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DirectionWebViewController.h; sourceTree = "<group>"; };
 		F47C3865187501C800116FA1 /* DirectionWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DirectionWebViewController.m; sourceTree = "<group>"; };
+		F47C386718766B4100116FA1 /* EventDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventDetailViewController.h; sourceTree = "<group>"; };
+		F47C386818766B4100116FA1 /* EventDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventDetailViewController.m; sourceTree = "<group>"; };
 		F4B61B5C186CA90900EEE0DD /* WeekendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeekendViewController.h; sourceTree = "<group>"; };
 		F4B61B5D186CA90900EEE0DD /* WeekendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeekendViewController.m; sourceTree = "<group>"; };
 		F4B61B5F186CA98500EEE0DD /* WeekendAgenda.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = WeekendAgenda.plist; sourceTree = "<group>"; };
@@ -214,6 +217,8 @@
 				F4B61B65186CAEEC00EEE0DD /* AgendaViewController.m */,
 				F4B61B5C186CA90900EEE0DD /* WeekendViewController.h */,
 				F4B61B5D186CA90900EEE0DD /* WeekendViewController.m */,
+				F47C386718766B4100116FA1 /* EventDetailViewController.h */,
+				F47C386818766B4100116FA1 /* EventDetailViewController.m */,
 				F4B61B5F186CA98500EEE0DD /* WeekendAgenda.plist */,
 				F4164A1D186D876900B77B62 /* InterestViewController.h */,
 				F4164A1E186D876900B77B62 /* InterestViewController.m */,
@@ -335,6 +340,7 @@
 				F4B61B5E186CA90900EEE0DD /* WeekendViewController.m in Sources */,
 				F440BD561813519600858B37 /* AppDelegate.m in Sources */,
 				F43A87D5184EF45500B90690 /* ContactViewController.m in Sources */,
+				F47C386918766B4100116FA1 /* EventDetailViewController.m in Sources */,
 				F4164A1F186D876900B77B62 /* InterestViewController.m in Sources */,
 				F4ECCB8918662EA800B29D49 /* ContactCustomCell.m in Sources */,
 				F440BD521813519600858B37 /* main.m in Sources */,

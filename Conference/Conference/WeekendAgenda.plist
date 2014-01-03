@@ -10,6 +10,10 @@
 			<string>Registration</string>
 			<key>Time</key>
 			<string>3:00pm - 6:00pm</string>
+			<key>Description</key>
+			<string>Placeholder text blah blah blah description will be inserted here.</string>
+			<key>Location</key>
+			<string>Virginia Tech... duh</string>
 		</dict>
 		<key>1</key>
 		<dict>
@@ -17,6 +21,10 @@
 			<string>Social Time</string>
 			<key>Time</key>
 			<string>6:00pm - 6:20pm</string>
+			<key>Description</key>
+			<string>Placeholder text blah blah blah description will be inserted here.</string>
+			<key>Location</key>
+			<string>Virginia Tech... duh</string>
 		</dict>
 		<key>2</key>
 		<dict>
@@ -24,6 +32,10 @@
 			<string>Icebreaker</string>
 			<key>Time</key>
 			<string>6:20pm - 7:00pm</string>
+			<key>Description</key>
+			<string>Placeholder text blah blah blah description will be inserted here.</string>
+			<key>Location</key>
+			<string>Virginia Tech... duh</string>
 		</dict>
 		<key>3</key>
 		<dict>
@@ -31,6 +43,10 @@
 			<string>Keynote Speaker</string>
 			<key>Time</key>
 			<string>8:30pm - 9:30pm</string>
+			<key>Description</key>
+			<string>Placeholder text blah blah blah description will be inserted here.</string>
+			<key>Location</key>
+			<string>Virginia Tech... duh</string>
 		</dict>
 	</dict>
 	<key>Saturday</key>
@@ -41,6 +57,10 @@
 			<string>Breakfast</string>
 			<key>Time</key>
 			<string>8:00 am - 9:00am</string>
+			<key>Description</key>
+			<string>Placeholder text blah blah blah description will be inserted here.</string>
+			<key>Location</key>
+			<string>Virginia Tech... duh</string>
 		</dict>
 		<key>1</key>
 		<dict>
@@ -48,6 +68,10 @@
 			<string>Motivational Speaker</string>
 			<key>Time</key>
 			<string>9:00am - 10:00am</string>
+			<key>Description</key>
+			<string>Placeholder text blah blah blah description will be inserted here.</string>
+			<key>Location</key>
+			<string>Virginia Tech... duh</string>
 		</dict>
 		<key>2</key>
 		<dict>
@@ -55,6 +79,10 @@
 			<string>Session 1</string>
 			<key>Time</key>
 			<string>10:15am - 11:15am</string>
+			<key>Description</key>
+			<string>Placeholder text blah blah blah description will be inserted here.</string>
+			<key>Location</key>
+			<string>Virginia Tech... duh</string>
 		</dict>
 		<key>3</key>
 		<dict>
@@ -62,6 +90,10 @@
 			<string>Session 2</string>
 			<key>Time</key>
 			<string>11:25am - 12:25pm</string>
+			<key>Description</key>
+			<string>Placeholder text blah blah blah description will be inserted here.</string>
+			<key>Location</key>
+			<string>Virginia Tech... duh</string>
 		</dict>
 		<key>4</key>
 		<dict>
@@ -69,6 +101,10 @@
 			<string>Session 3</string>
 			<key>Time</key>
 			<string>12:35pm - 1:35pm</string>
+			<key>Description</key>
+			<string>Placeholder text blah blah blah description will be inserted here.</string>
+			<key>Location</key>
+			<string>Virginia Tech... duh</string>
 		</dict>
 		<key>5</key>
 		<dict>
@@ -76,6 +112,10 @@
 			<string>Lunch</string>
 			<key>Time</key>
 			<string>1:35pm-2:30pm</string>
+			<key>Description</key>
+			<string>Placeholder text blah blah blah description will be inserted here.</string>
+			<key>Location</key>
+			<string>Virginia Tech... duh</string>
 		</dict>
 		<key>6</key>
 		<dict>
@@ -83,6 +123,10 @@
 			<string>Career Fair</string>
 			<key>Time</key>
 			<string>2:30pm - 4:00pm</string>
+			<key>Description</key>
+			<string>Placeholder text blah blah blah description will be inserted here.</string>
+			<key>Location</key>
+			<string>Virginia Tech... duh</string>
 		</dict>
 		<key>7</key>
 		<dict>
@@ -90,6 +134,10 @@
 			<string>Case Competition </string>
 			<key>Time</key>
 			<string>4:00pm - 6:00pm</string>
+			<key>Description</key>
+			<string>Placeholder text blah blah blah description will be inserted here.</string>
+			<key>Location</key>
+			<string>Virginia Tech... duh</string>
 		</dict>
 		<key>8</key>
 		<dict>
@@ -97,6 +145,10 @@
 			<string>Dinner</string>
 			<key>Time</key>
 			<string>6:30pm - 7:30pm</string>
+			<key>Description</key>
+			<string>Placeholder text blah blah blah description will be inserted here.</string>
+			<key>Location</key>
+			<string>Virginia Tech... duh</string>
 		</dict>
 		<key>9</key>
 		<dict>
@@ -104,6 +156,10 @@
 			<string>Keynote Speaker</string>
 			<key>Time</key>
 			<string>7:30pm - 8:30pm</string>
+			<key>Description</key>
+			<string>Placeholder text blah blah blah description will be inserted here.</string>
+			<key>Location</key>
+			<string>Virginia Tech... duh</string>
 		</dict>
 	</dict>
 	<key>Sunday</key>
@@ -114,6 +170,10 @@
 			<string>Break</string>
 			<key>Time</key>
 			<string>8:00am - 9:00am</string>
+			<key>Description</key>
+			<string>Placeholder text blah blah blah description will be inserted here.</string>
+			<key>Location</key>
+			<string>Virginia Tech... duh</string>
 		</dict>
 		<key>1</key>
 		<dict>
@@ -121,6 +181,10 @@
 			<string>Technical Paper Competition</string>
 			<key>Time</key>
 			<string>9:00am - 10:00am</string>
+			<key>Description</key>
+			<string>Placeholder text blah blah blah description will be inserted here.</string>
+			<key>Location</key>
+			<string>Virginia Tech... duh</string>
 		</dict>
 		<key>2</key>
 		<dict>
@@ -128,6 +192,10 @@
 			<string>Plant Tour</string>
 			<key>Time</key>
 			<string>10:00am - 12:00pm</string>
+			<key>Description</key>
+			<string>Placeholder text blah blah blah description will be inserted here.</string>
+			<key>Location</key>
+			<string>Virginia Tech... duh</string>
 		</dict>
 		<key>3</key>
 		<dict>
@@ -135,6 +203,10 @@
 			<string>Alumni Panel(s)</string>
 			<key>Time</key>
 			<string>12:30 pm - 1:30pm</string>
+			<key>Description</key>
+			<string>Placeholder text blah blah blah description will be inserted here.</string>
+			<key>Location</key>
+			<string>Virginia Tech... duh</string>
 		</dict>
 	</dict>
 </dict>

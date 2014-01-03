@@ -11,5 +11,7 @@
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+// Keeps track of what iOS version the user is using.
+@property NSInteger currentVersion;
 
 @end

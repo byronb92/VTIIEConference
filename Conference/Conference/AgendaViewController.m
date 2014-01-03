@@ -180,21 +180,21 @@
     {
         WeekendViewController *fridayOnCampusViewController = [segue destinationViewController];
         fridayOnCampusViewController.currentDayAgenda = self.currentDayAgenda;
-        fridayOnCampusViewController.title = @"Friday Agenda";
+        fridayOnCampusViewController.title = @"Friday";
     }
     
     else if ([[segue identifier] isEqualToString:@"Saturday"])
     {
         WeekendViewController *saturdayOnCampusViewController = [segue destinationViewController];
         saturdayOnCampusViewController.currentDayAgenda = self.currentDayAgenda;
-        saturdayOnCampusViewController.title = @"Saturday Agenda";
+        saturdayOnCampusViewController.title = @"Saturday";
     }
     
     else if ([[segue identifier] isEqualToString:@"Sunday"])
     {
         WeekendViewController *sundayOnCampusViewController = [segue destinationViewController];
         sundayOnCampusViewController.currentDayAgenda = self.currentDayAgenda;
-        sundayOnCampusViewController.title = @"Sunday Agenda";
+        sundayOnCampusViewController.title = @"Sunday";
     }
     
     else if ([[segue identifier] isEqualToString:@"InterestsOnCampus"])
