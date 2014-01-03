@@ -84,7 +84,6 @@
         EventDetailViewController *eventDetailViewController = [segue destinationViewController];
         eventDetailViewController.currentEventData = self.currentEventData;
         // Determine the navigation back button title.
-        
         // Keeping the title short makes the navigation bar look cleaner in iOS7
         // We need to determine if the user is running iOS 7.
         AppDelegate *appDelegate = (AppDelegate *)[[UIApplication sharedApplication] delegate];

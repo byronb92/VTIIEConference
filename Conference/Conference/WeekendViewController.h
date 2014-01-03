@@ -7,7 +7,6 @@
 //
 
 #import <UIKit/UIKit.h>
-
 @interface WeekendViewController : UITableViewController
 
 @property (strong, nonatomic) IBOutlet UITableView *onCampusTableView;

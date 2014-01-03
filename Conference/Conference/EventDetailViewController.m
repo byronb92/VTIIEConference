@@ -9,7 +9,6 @@
 #import "EventDetailViewController.h"
 
 @interface EventDetailViewController ()
-
 @end
 
 @implementation EventDetailViewController
