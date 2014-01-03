@@ -1,30 +1,30 @@
 //
-//  DirectionWebViewController.m
+//  NewsViewController.m
 //  Conference
 //
-//  Created by Byron Becker on 1/1/14.
+//  Created by Byron Becker on 1/3/14.
 //  Copyright (c) 2014 Byron Becker. All rights reserved.
 //
 
-#import "DirectionWebViewController.h"
+#import "NewsViewController.h"
 
-@interface DirectionWebViewController ()
+@interface NewsViewController ()
 
 @end
 
-@implementation DirectionWebViewController
+@implementation NewsViewController
 
 - (void)viewDidLoad
 {
-    [self.directionsWebView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:self.googleMapQuery]]];
+    // Currently a dummy URL, waiting for official website to be come online.
+    NSString *urlToLoad = @"http://google.com";
+    [self.newsWebView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:urlToLoad]]];
     [super viewDidLoad];
-
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 - (void)webViewDidStartLoad:(UIWebView *)webView {
@@ -41,8 +41,6 @@
     NSString *errorString = [NSString stringWithFormat:
                              @"<html><font size=+2 color='red'><p>An error occurred: %@<br />Possible causes for this error:<br />- No network connection<br />- Wrong URL entered<br />- Server computer is down</p></font></html>",
                              error.localizedDescription];
-    [self.directionsWebView loadHTMLString:errorString baseURL:nil];
+    [self.newsWebView loadHTMLString:errorString baseURL:nil];
 }
-
-
 @end
