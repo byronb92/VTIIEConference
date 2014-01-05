@@ -7,6 +7,12 @@
 //
 
 #import "AppDelegate.h"
+// http://www.appcoda.com/customize-navigation-status-bar-ios-7/
+#define UIColorFromRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
+// Not used, just for reference.
+#define maroon @"0x#660000"
+#define orange @"0xff6600"
+#define cream @"0xf5f5eb"
 
 @implementation AppDelegate
 
@@ -16,11 +22,28 @@
     // E.G. If the version is 7.0.3, then "7.0.3." will be returned.
     NSString *currentVersionFull = [[UIDevice currentDevice] systemVersion];
     [self initializeStoryBoardBasedOnVersion:currentVersionFull];
+    // Override point for customization after application launch.
     
 
+    
+    // Only applies to iOS 7.
+    if ([self.window respondsToSelector:@selector(setTintColor:)])
+    {
+    //[[UINavigationBar appearance] setBarTintColor:UIColorFromRGB(0xff6600)];
+       self.window.tintColor = UIColorFromRGB(0x660000);
+        // 0x590000 is the hex code for maroon.
+        [[UINavigationBar appearance] setTitleTextAttributes: [NSDictionary dictionaryWithObjectsAndKeys:
+                                                               UIColorFromRGB(0x660000), NSForegroundColorAttributeName, nil]];
+
+    }
     return YES;
 }
-							
+
+
+- (NSUInteger)application:(UIApplication *)application supportedInterfaceOrientationsForWindow:(UIWindow *)window
+{
+    return (UIInterfaceOrientationMaskPortrait);
+}
 - (void)applicationWillResignActive:(UIApplication *)application
 {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
@@ -83,6 +106,14 @@
             self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
             self.window.rootViewController  = initialViewController;
             [self.window makeKeyAndVisible];
+            
+            // Customizes Navbar Background
+            UIImage *navBackgroundImage = [UIImage imageNamed:@"navbar_bg"];
+            [[UINavigationBar appearance] setBackgroundImage:navBackgroundImage forBarMetrics:UIBarMetricsDefault];
+            
+            // Change the appearance of back button (relevant for iOS 6 only)
+            UIImage *backButtonImage = [[UIImage imageNamed:@"ios6_button_back"] resizableImageWithCapInsets:UIEdgeInsetsMake(0, 13, 0, 6)];
+            [[UIBarButtonItem appearance] setBackButtonBackgroundImage:backButtonImage forState:UIControlStateNormal barMetrics:UIBarMetricsDefault];
         }
         
         

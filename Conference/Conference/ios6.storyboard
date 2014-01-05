@@ -45,7 +45,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="Da9-Ie-oqE" kind="push" id="wSp-BZ-ipR"/>
+                                    <segue destination="xAY-8S-SKB" kind="push" id="Zpc-nL-v3b"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qrn-UH-Vvo">
@@ -230,36 +230,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Myy-23-VqV" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="572" y="27"/>
-        </scene>
-        <!--View Controller - News-->
-        <scene sceneID="d6h-aX-XFw">
-            <objects>
-                <viewController id="Da9-Ie-oqE" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="MBr-Yt-mNI"/>
-                        <viewControllerLayoutGuide type="bottom" id="0Bk-nN-a2U"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="Vtc-Im-GbM">
-                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="WhiteBackground" translatesAutoresizingMaskIntoConstraints="NO" id="LTD-2u-FBf">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="416"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                            </imageView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="LTD-2u-FBf" firstAttribute="top" secondItem="Vtc-Im-GbM" secondAttribute="top" id="UFu-el-XOK"/>
-                            <constraint firstAttribute="bottom" secondItem="LTD-2u-FBf" secondAttribute="bottom" id="eFw-TH-qmI"/>
-                            <constraint firstItem="LTD-2u-FBf" firstAttribute="leading" secondItem="Vtc-Im-GbM" secondAttribute="leading" id="lbr-Ma-5Y1"/>
-                        </constraints>
-                    </view>
-                    <navigationItem key="navigationItem" title="News" id="GWV-mk-Ohk"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="BCC-QU-6p2" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1428" y="-1095"/>
         </scene>
         <!--View Controller - Speakers-->
         <scene sceneID="KgZ-6z-dah">
@@ -821,33 +791,33 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AMz-ee-d67">
-                                <rect key="frame" x="15" y="84" width="280" height="186"/>
+                                <rect key="frame" x="20" y="20" width="280" height="186"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <mutableString key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</mutableString>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Time:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7tg-Yy-7zq">
-                                <rect key="frame" x="20" y="360" width="43" height="21"/>
+                                <rect key="frame" x="20" y="253" width="43" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Location:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X4M-OA-QD0">
-                                <rect key="frame" x="20" y="402" width="72" height="21"/>
+                                <rect key="frame" x="20" y="302" width="72" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Time here" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6fY-ty-3ck">
-                                <rect key="frame" x="101" y="360" width="199" height="21"/>
+                                <rect key="frame" x="101" y="253" width="199" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Location here" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EC0-fg-xCc">
-                                <rect key="frame" x="101" y="402" width="199" height="21"/>
+                                <rect key="frame" x="101" y="302" width="199" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
@@ -865,6 +835,48 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Oo6-8o-O06" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2405" y="-815"/>
+        </scene>
+        <!--News View Controller - News-->
+        <scene sceneID="rCP-Bo-lNn">
+            <objects>
+                <viewController id="xAY-8S-SKB" customClass="NewsViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ddT-f0-hoq"/>
+                        <viewControllerLayoutGuide type="bottom" id="5a7-Qr-ped"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="hIy-SX-b3Z">
+                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="WhiteBackground" translatesAutoresizingMaskIntoConstraints="NO" id="UcU-gM-gBY">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="416"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" scalesPageToFit="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MCK-w0-X3Y">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="416"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <dataDetectorType key="dataDetectorTypes" phoneNumber="YES" link="YES" address="YES" calendarEvent="YES"/>
+                                <connections>
+                                    <outlet property="delegate" destination="xAY-8S-SKB" id="J55-5p-aXu"/>
+                                </connections>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="UcU-gM-gBY" secondAttribute="bottom" id="2Gf-4P-cXg"/>
+                            <constraint firstItem="UcU-gM-gBY" firstAttribute="leading" secondItem="hIy-SX-b3Z" secondAttribute="leading" id="GaB-QJ-KyA"/>
+                            <constraint firstItem="UcU-gM-gBY" firstAttribute="top" secondItem="hIy-SX-b3Z" secondAttribute="top" id="UCy-Zr-biK"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="News" id="JwW-xC-YVU"/>
+                    <connections>
+                        <outlet property="newsWebView" destination="MCK-w0-X3Y" id="L6F-Fr-G2r"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MvE-la-Iwf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1428" y="-1059"/>
         </scene>
     </scenes>
     <resources>

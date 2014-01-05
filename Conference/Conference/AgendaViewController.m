@@ -9,6 +9,8 @@
 #import "AgendaViewController.h"
 #import "WeekendViewController.h"
 #import "InterestViewController.h"
+#define UIColorFromRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
+
 
 @interface AgendaViewController ()
 @property (strong, nonatomic) NSDictionary *weekendAgenda_Dict;     // each day has a dictionary
@@ -104,7 +106,8 @@
 
     }
     
-    
+    // Change selection color.
+//    cell.selectedBackgroundView = UIColorFromRGB(0x660000);
     return cell;
 }
 

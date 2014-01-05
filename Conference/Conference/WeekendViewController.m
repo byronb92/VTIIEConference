@@ -9,10 +9,13 @@
 #import "WeekendViewController.h"
 #import "EventDetailViewController.h"
 #import "AppDelegate.h"
+#define UIColorFromRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
+
 
 @interface WeekendViewController ()
 @property (strong, nonatomic) NSArray *sortedAgenda;
 @property (strong, nonatomic) NSDictionary *currentEventData;
+
 @end
 
 @implementation WeekendViewController
@@ -61,6 +64,7 @@
     // Set the current cell to match with the current event.
     cell.textLabel.text = eventName;
     cell.detailTextLabel.text = eventTime;
+    cell.detailTextLabel.textColor = UIColorFromRGB(0x660000);
 
     return cell;
 }
