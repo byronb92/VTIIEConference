@@ -14,8 +14,8 @@
 
 @interface AgendaViewController ()
 @property (strong, nonatomic) NSDictionary *weekendAgenda_Dict;     // each day has a dictionary
-@property (strong, nonatomic) NSArray *weekendDays;                 // holds list of days
-@property (strong, nonatomic) NSDictionary *currentDayAgenda;       // agenda of selected day
+@property (strong, nonatomic) NSArray *weekendDays;
+@property (strong, nonatomic) NSDictionary *currentDayAgenda;
 
 @property (strong, nonatomic) NSDictionary *pointsOfInterestDict;
 @property (strong, nonatomic) NSDictionary *interestData;
@@ -38,12 +38,11 @@
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
-    // Return the number of sections.
+    // There are two sections, Weekend Agenda and Points of Interest.
     return 2;
 }
 
 
-// Set the table view section header
 - (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section
 {
     if (section == 0)
@@ -57,12 +56,11 @@
 {
     if (section == 0)
     {
+        // For the Weekend Agenda there are 3 cells: Friday, Saturday, Sunday.
         return 3;
     }
-    else
-    {
-        return 2;
-    }
+    // There are 2 areas where points of interest may reside: On-Campus and Off-Campus..
+    return 2;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -107,22 +105,23 @@
     }
     
     // Change selection color.
-//    cell.selectedBackgroundView = UIColorFromRGB(0x660000);
+//    UIView *selectionColor = [[UIView alloc] init];
+//    selectionColor.backgroundColor =  [UIColor colorWithRed:0.898 green:0.518 blue:0.075 alpha:1.0],
+//    cell.selectedBackgroundView = selectionColor;
     return cell;
 }
 
-
-// Informs the table view delegate that the specified row is now selected.
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     
-    // Row 0 = Roster
+    // Section 0 = Weekend Agenda
+    // Section 1 = Points of Interest
     NSUInteger sectionNumber = [indexPath section];
     NSUInteger rowNumber = [indexPath row];
     
     if (sectionNumber == 0)
     {
         // Since we know one of the weekend dates has been selected, we can obtain
-        // all of the dates from the onCampusAgenda.plist.
+        // the data contained in the WeekendAgenda.plist.
         NSString *filePath;
         filePath = [[NSBundle mainBundle] pathForResource:@"WeekendAgenda" ofType:@"plist"];
         
@@ -156,11 +155,10 @@
     
     else if (sectionNumber == 1)
     {
-        // Since sectionNumber is 1, one of the Points of Interest cells have been clicked.
         NSString *filePath;
         filePath = [[NSBundle mainBundle] pathForResource:@"PointsOfInterest" ofType:@"plist"];
         self.pointsOfInterestDict = [[NSMutableDictionary alloc] initWithContentsOfFile:filePath];
-        
+    
         if (rowNumber == 0)
         {
             NSString *onCampus = @"On-Campus";
@@ -176,7 +174,6 @@
     }
 }
 
-#pragma mark - Navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
     if ([[segue identifier] isEqualToString:@"Friday"])
@@ -205,6 +202,7 @@
         InterestViewController *interestsViewController = [segue destinationViewController];
         interestsViewController.title = @"On-Campus Interests";
         interestsViewController.interestData = self.interestData;
+        interestsViewController.interestNavBarName = @"On-Campus";
     }
     
     else if ([[segue identifier] isEqualToString:@"InterestsOffCampus"])
@@ -212,6 +210,7 @@
         InterestViewController *interestsViewController = [segue destinationViewController];
         interestsViewController.title = @"Off-Campus Interests";
         interestsViewController.interestData = self.interestData;
+        interestsViewController.interestNavBarName = @"Off-Campus";
     }
 }
 

@@ -12,6 +12,8 @@
 			<string>800 Drillfield Drive Blackburg, VA 24060</string>
 			<key>Coordinates</key>
 			<string>37.229,-80.42371</string>
+			<key>Image</key>
+			<string>burruss.png</string>
 		</dict>
 		<key>Duck Pond</key>
 		<dict>
@@ -21,6 +23,8 @@
 			<string>Duckpond Rd. Blacksburg, Virginia 24061</string>
 			<key>Coordinates</key>
 			<string>37.220314,-80.426460</string>
+			<key>Image</key>
+			<string>burruss.png</string>
 		</dict>
 	</dict>
 	<key>Off-Campus</key>
@@ -33,6 +37,8 @@
 			<string>Bar</string>
 			<key>Coordinates</key>
 			<string>37.229822,-80.416526</string>
+			<key>Image</key>
+			<string>burruss.png</string>
 		</dict>
 	</dict>
 </dict>

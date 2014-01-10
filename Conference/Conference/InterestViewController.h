@@ -13,5 +13,8 @@
 @property (strong, nonatomic) IBOutlet UITableView *interestTableView;
 @property (strong, nonatomic) NSDictionary *interestData;
 
+// Used to shorten the length of the nav bar back button.
+@property (strong, nonatomic) NSString *interestNavBarName;
+
 
 @end

@@ -16,6 +16,7 @@
 @property (strong, nonatomic) NSString *selectedAddress;
 @property (strong, nonatomic) NSString *selectedCoordinates;
 @property (strong, nonatomic) NSString *selectedDescription;
+@property (strong, nonatomic) NSString *selectedInterestImageName;
 
 @end
 
@@ -25,8 +26,6 @@
 - (void)viewDidLoad
 {
     self.interestList = [[self.interestData allKeys] sortedArrayUsingSelector:@selector(compare:)];
-    // Obtain maps path from bundle to load Google Maps API.
-
     [super viewDidLoad];
 }
 
@@ -41,7 +40,6 @@
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
-    // Return the number of sections.
     return 1;
 }
 
@@ -56,7 +54,6 @@
     static NSString *CellIdentifier;
     UITableViewCell *cell;
     NSInteger currentRow = [indexPath row];
-    
     
     CellIdentifier = @"InterestCell";
     cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
@@ -76,12 +73,15 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     NSUInteger rowNumber = [indexPath row];
+    
+    // Once a cell is clicked, it's data must be obtained and passed to the next controller.
     self.selectedInterest = [self.interestList objectAtIndex:rowNumber];
     NSDictionary *currentInterestData = [self.interestData objectForKey:self.selectedInterest];
     
     self.selectedDescription = [currentInterestData objectForKey:@"Description"];
     self.selectedAddress = [currentInterestData objectForKey:@"Address"];
     self.selectedCoordinates = [currentInterestData objectForKey:@"Coordinates"];
+    self.selectedInterestImageName = [currentInterestData objectForKey:@"Image"];
     
     [self performSegueWithIdentifier:@"InterestInfo" sender:self];
     
@@ -97,6 +97,11 @@
         specificInterestsViewController.selectedAddress = self.selectedAddress;
         specificInterestsViewController.selectedCoordinates = self.selectedCoordinates;
         specificInterestsViewController.selectedDescription = self.selectedDescription;
+        specificInterestsViewController.selectedInterestImageName = self.selectedInterestImageName;
+        // Create button and shorten title.
+        UIBarButtonItem *backButton = [[UIBarButtonItem alloc] initWithTitle:self.interestNavBarName
+                                                                       style:UIBarButtonItemStyleDone target:nil action:nil];
+        [[self navigationItem] setBackBarButtonItem:backButton];
     }
 }
 

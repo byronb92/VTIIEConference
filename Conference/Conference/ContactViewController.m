@@ -10,6 +10,8 @@
 #import "ContactCustomCell.h"
 #import "ContactDetailViewController.h"
 
+#define UIColorFromRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
+
 @interface ContactViewController ()
 @property (strong, nonatomic) NSDictionary *contactDictionaries;
 @property (strong, nonatomic) NSArray *contactNames;
@@ -56,13 +58,12 @@
     // Each contact dictionary has 4 keys: Photo, Position, Email, and Phone.
     cell.nameLabel.text = currentContactKey;
     cell.positionLabel.text = [currentContactDictionary objectForKey:@"Position"];
+    cell.positionLabel.textColor = UIColorFromRGB(0x660000);
     cell.photoImageView.image = [UIImage imageNamed:[currentContactDictionary objectForKey:@"Photo"]];
     cell.photoImageView.contentMode = UIViewContentModeScaleAspectFill;
-    
     return cell;
 }
 
-// Informs the table view delegate that the specified row is now selected.
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     
     NSUInteger rowNumber = [indexPath row];
@@ -72,6 +73,7 @@
     [self.contactData setValue:currentContactName forKey:@"Name"];
     [self performSegueWithIdentifier:@"ContactDetail" sender:self];
 }
+
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
     if ([[segue identifier] isEqualToString:@"ContactDetail"])

@@ -19,7 +19,7 @@ NSTimer *timer;
     [super viewDidLoad];
 }
 
-// Code to run after every countdown timer tick. (specified as 1.0 seconds)
+// Code to run after every countdown timer tick. (specified as 1.0 seconds in viewDidLoad)
 - (void)timerTick:(NSTimer *)timer {
     NSDate *now = [NSDate date];
     NSDate *eventStart = [self dateOfConference:[NSDate date]];

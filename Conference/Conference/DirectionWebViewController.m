@@ -16,15 +16,15 @@
 
 - (void)viewDidLoad
 {
+    self.title = @"Directions";
     [self.directionsWebView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:self.googleMapQuery]]];
     [super viewDidLoad];
-
+    
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 - (void)webViewDidStartLoad:(UIWebView *)webView {

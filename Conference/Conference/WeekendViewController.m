@@ -65,19 +65,18 @@
     cell.textLabel.text = eventName;
     cell.detailTextLabel.text = eventTime;
     cell.detailTextLabel.textColor = UIColorFromRGB(0x660000);
-
     return cell;
 }
 
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     NSUInteger rowNumber = [indexPath row];
+    
     // Obtain the current event's data.
     NSString *currentEvent = [self.sortedAgenda objectAtIndex:rowNumber];
     NSDictionary *currentEventData = [self.currentDayAgenda objectForKey:currentEvent];
     self.currentEventData = currentEventData;
     [self performSegueWithIdentifier:@"EventDetails" sender:self];
-    
 }
 
 #pragma mark - Navigation
@@ -87,17 +86,16 @@
     {
         EventDetailViewController *eventDetailViewController = [segue destinationViewController];
         eventDetailViewController.currentEventData = self.currentEventData;
+        
         // Determine the navigation back button title.
         // Keeping the title short makes the navigation bar look cleaner in iOS7
-        // We need to determine if the user is running iOS 7.
+        // "currentVersion" in the appDelegate determines what iOS version the user is running.
         AppDelegate *appDelegate = (AppDelegate *)[[UIApplication sharedApplication] delegate];
-
         if (appDelegate.currentVersion == 7)
         {
             if ([self.title isEqualToString:@"Friday"])
             {
                 // Create button and set title to "Fri"
-                
                 UIBarButtonItem *backButton = [[UIBarButtonItem alloc] initWithTitle:@"Fri"
                                                                                style:UIBarButtonItemStyleDone target:nil action:nil];
                 [[self navigationItem] setBackBarButtonItem:backButton];

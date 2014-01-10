@@ -20,12 +20,13 @@
 {
     self.title = self.selectedInterest;
     self.descriptionTextView.text = self.selectedDescription;
-    
+    self.interestImageView.image =  [UIImage imageNamed:self.selectedInterestImageName];
+    self.interestImageView.contentMode = UIViewContentModeScaleAspectFill;
+
+    // Obtain path to the Google Maps page saved locally.
     NSURL *mapsHtmlRelativeFilePath = [[NSBundle mainBundle] URLForResource:@"maps" withExtension:@"html"];
     self.mapsHtmlAbsoluteFilePath = [mapsHtmlRelativeFilePath absoluteString];
-    
     [super viewDidLoad];
-	// Do any additional setup after loading the view.
 }
 
 - (void)didReceiveMemoryWarning
@@ -93,6 +94,8 @@
 {
     if ([[segue identifier] isEqualToString:@"Directions"])
     {
+        // Deselect the segmented control before moving to the next view.
+        self.directionSegmentedControl.selectedSegmentIndex = -1;
         DirectionWebViewController *directionWebViewController = [segue destinationViewController];
         directionWebViewController.googleMapQuery = self.googleMapQuery;
         directionWebViewController.directionsType = self.directionsType;
