@@ -17,7 +17,7 @@
 - (void)viewDidLoad
 {
     // Currently a dummy URL, waiting for official website to be come online.
-    NSString *urlToLoad = @"http://google.com";
+    NSString *urlToLoad = @"http://vtiie.org/iieconference/index.php/news";
     [self.newsWebView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:urlToLoad]]];
     [super viewDidLoad];
 }

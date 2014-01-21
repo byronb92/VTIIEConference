@@ -17,7 +17,6 @@
 {
     self.title = [self.contactData objectForKey:@"Name"];
     self.photoImageView.image = [UIImage imageNamed:[self.contactData objectForKey:@"Photo"]];
-    
     self.positionLabel.text = [self.contactData objectForKey:@"Position"];
     self.emailTextView.text = [self.contactData objectForKey:@"Email"];
     self.phoneTextView.text = [self.contactData objectForKey:@"Phone"];

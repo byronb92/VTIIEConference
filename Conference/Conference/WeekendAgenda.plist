@@ -11,42 +11,53 @@
 			<key>Time</key>
 			<string>3:00pm - 6:00pm</string>
 			<key>Description</key>
-			<string>Placeholder text blah blah blah description will be inserted here.</string>
+			<string>Students and company representatives will check-in and receive all necessary paperwork and gifts.</string>
 			<key>Location</key>
 			<string>Virginia Tech... duh</string>
 		</dict>
 		<key>1</key>
 		<dict>
 			<key>Event</key>
-			<string>Social Time</string>
+			<string>Networking Reception</string>
 			<key>Time</key>
-			<string>6:00pm - 6:20pm</string>
+			<string>6:00pm - 6:30pm</string>
 			<key>Description</key>
-			<string>Placeholder text blah blah blah description will be inserted here.</string>
+			<string>Students and other attendees from all schools and companies are invited to socialize in the ballroom of The Inn at Virginia Tech.</string>
 			<key>Location</key>
-			<string>Virginia Tech... duh</string>
+			<string>The Inn At Virginia Tech, Ballroom</string>
 		</dict>
 		<key>2</key>
 		<dict>
 			<key>Event</key>
 			<string>Icebreaker</string>
 			<key>Time</key>
-			<string>6:20pm - 7:00pm</string>
+			<string>6:30pm - 7:00pm</string>
 			<key>Description</key>
-			<string>Placeholder text blah blah blah description will be inserted here.</string>
+			<string>An event will be carried out to get students acclimated to each other and encourage networking.</string>
 			<key>Location</key>
-			<string>Virginia Tech... duh</string>
+			<string>The Inn At Virginia Tech</string>
 		</dict>
 		<key>3</key>
+		<dict>
+			<key>Event</key>
+			<string>Dinner</string>
+			<key>Time</key>
+			<string>7:00pm-8:30pm</string>
+			<key>Description</key>
+			<string>A meal will be catered by The Inn at Virginia Tech and will last about an hour.</string>
+			<key>Location</key>
+			<string>The Inn At Virginia Tech</string>
+		</dict>
+		<key>4</key>
 		<dict>
 			<key>Event</key>
 			<string>Keynote Speaker</string>
 			<key>Time</key>
 			<string>8:30pm - 9:30pm</string>
 			<key>Description</key>
-			<string>Placeholder text blah blah blah description will be inserted here.</string>
+			<string>An hour block is set aside for a speaker to introduce students to the conference and set the tone for the weekend. </string>
 			<key>Location</key>
-			<string>Virginia Tech... duh</string>
+			<string>The Inn At Virginia Tech</string>
 		</dict>
 	</dict>
 	<key>Saturday</key>
@@ -58,29 +69,32 @@
 			<key>Time</key>
 			<string>8:00am - 9:00am</string>
 			<key>Description</key>
-			<string>Placeholder text blah blah blah description will be inserted here.</string>
+			<string>A meal will be catered by The Inn at Virginia Tech and will last about an hour.</string>
 			<key>Location</key>
-			<string>Virginia Tech... duh</string>
+			<string>The Inn At Virginia Tech</string>
 		</dict>
 		<key>1</key>
 		<dict>
 			<key>Event</key>
-			<string>Motivational Speaker</string>
+			<string>Technical Paper Competition</string>
 			<key>Time</key>
-			<string>9:00am - 10:00am</string>
+			<string>9:00am - 10:30am</string>
 			<key>Description</key>
-			<string>Placeholder text blah blah blah description will be inserted here.</string>
+			<string>Students are invited to submit and present their IE-related research papers.</string>
 			<key>Location</key>
-			<string>Virginia Tech... duh</string>
+			<string>The Inn At Virginia Tech</string>
 		</dict>
 		<key>2</key>
 		<dict>
 			<key>Event</key>
 			<string>Session 1</string>
 			<key>Time</key>
-			<string>10:15am - 11:15am</string>
+			<string>10:40am - 11:40am</string>
 			<key>Description</key>
-			<string>Placeholder text blah blah blah description will be inserted here.</string>
+			<string>Sessions include: 
+1. Break-out Sessions will commence and be carried out according to the student&apos;s preferences. 
+2. Panels of company representatives, IE alumni, and other post-graduates will gather to speak about IE as a profession, graduate school, and post-graduate life. 
+3. Six Sigma information session about its meaning and the steps necessary to acquiring certifications. </string>
 			<key>Location</key>
 			<string>Virginia Tech... duh</string>
 		</dict>
