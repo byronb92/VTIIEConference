@@ -68,7 +68,7 @@ NSTimer *timer;
     [dateComps setDay:21];
     [dateComps setMonth:02];
     [dateComps setYear:2014];
-    [dateComps setHour:0];
+    [dateComps setHour:15];
     [dateComps setMinute:0];
     [dateComps setSecond:0];
     NSDate *conferenceDate = [calendar dateFromComponents:dateComps];

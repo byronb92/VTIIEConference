@@ -21,7 +21,10 @@
     self.timeLabel.textColor = UIColorFromRGB(0x660000);
     
     self.locationLabel.text = [self.currentEventData objectForKey:@"Location"];
+    self.locationLabel.numberOfLines = 5;
     self.locationLabel.textColor = UIColorFromRGB(0x660000);
+    
+    // TODO: If event session is Session 1, 2, or 3... provide a directions page.
     [super viewDidLoad];
 }
 
