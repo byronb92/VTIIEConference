@@ -49,18 +49,18 @@
     {
         return @"Weekend Agenda";
     }
-    return @"Points of Interest";
+    return @"Attractions";
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
+    // For the Weekend Agenda there are 3 cells: Friday, Saturday, Sunday.
+    // For the attractions there are 4 cells: Bars, Restaurants, Food Deliver, and Other.
     if (section == 0)
     {
-        // For the Weekend Agenda there are 3 cells: Friday, Saturday, Sunday.
         return 3;
     }
-    // There are 2 areas where points of interest may reside: On-Campus and Off-Campus..
-    return 2;
+    return 4;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -95,11 +95,19 @@
         cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
         if (currentRow == 0)
         {
-            cell.textLabel.text = @"On-Campus";
+            cell.textLabel.text = @"Bars";
         }
         else if (currentRow == 1)
         {
-            cell.textLabel.text = @"Off-Campus";
+            cell.textLabel.text = @"Restaurants";
+        }
+        else if (currentRow == 2)
+        {
+            cell.textLabel.text = @"Food Delivery";
+        }
+        else
+        {
+            cell.textLabel.text = @"Others";
         }
 
     }
@@ -114,7 +122,7 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     
     // Section 0 = Weekend Agenda
-    // Section 1 = Points of Interest
+    // Section 1 = Attractions
     NSUInteger sectionNumber = [indexPath section];
     NSUInteger rowNumber = [indexPath row];
     
@@ -156,20 +164,34 @@
     else if (sectionNumber == 1)
     {
         NSString *filePath;
-        filePath = [[NSBundle mainBundle] pathForResource:@"PointsOfInterest" ofType:@"plist"];
+        filePath = [[NSBundle mainBundle] pathForResource:@"Attractions" ofType:@"plist"];
         self.pointsOfInterestDict = [[NSMutableDictionary alloc] initWithContentsOfFile:filePath];
     
         if (rowNumber == 0)
         {
-            NSString *onCampus = @"On-Campus";
+            NSString *onCampus = @"Bars";
             self.interestData = [self.pointsOfInterestDict objectForKey:onCampus];
-            [self performSegueWithIdentifier:@"InterestsOnCampus" sender:self];
+            [self performSegueWithIdentifier:@"Bars" sender:self];
         }
+        else if (rowNumber == 1)
+        {
+            NSString *offCampus = @"Restaurants";
+            self.interestData = [self.pointsOfInterestDict objectForKey:offCampus];
+            [self performSegueWithIdentifier:@"Restaurants" sender:self];
+        }
+        
+        else if (rowNumber == 2)
+        {
+            NSString *offCampus = @"Food Delivery";
+            self.interestData = [self.pointsOfInterestDict objectForKey:offCampus];
+            [self performSegueWithIdentifier:@"Food Delivery" sender:self];
+        }
+        
         else
         {
-            NSString *offCampus = @"Off-Campus";
+            NSString *offCampus = @"Other";
             self.interestData = [self.pointsOfInterestDict objectForKey:offCampus];
-            [self performSegueWithIdentifier:@"InterestsOffCampus" sender:self];
+            [self performSegueWithIdentifier:@"Other" sender:self];
         }
     }
 }
@@ -197,20 +219,36 @@
         sundayOnCampusViewController.title = @"Sunday";
     }
     
-    else if ([[segue identifier] isEqualToString:@"InterestsOnCampus"])
+    else if ([[segue identifier] isEqualToString:@"Bars"])
     {
         InterestViewController *interestsViewController = [segue destinationViewController];
-        interestsViewController.title = @"On-Campus Interests";
+        interestsViewController.title = @"Bars";
         interestsViewController.interestData = self.interestData;
-        interestsViewController.interestNavBarName = @"On-Campus";
+        interestsViewController.interestNavBarName = @"Bars";
     }
     
-    else if ([[segue identifier] isEqualToString:@"InterestsOffCampus"])
+    else if ([[segue identifier] isEqualToString:@"Restaurants"])
     {
         InterestViewController *interestsViewController = [segue destinationViewController];
-        interestsViewController.title = @"Off-Campus Interests";
+        interestsViewController.title = @"Restaurants";
         interestsViewController.interestData = self.interestData;
-        interestsViewController.interestNavBarName = @"Off-Campus";
+        interestsViewController.interestNavBarName = @"Dining";
+    }
+    
+    else if ([[segue identifier] isEqualToString:@"Food Delivery"])
+    {
+        InterestViewController *interestsViewController = [segue destinationViewController];
+        interestsViewController.title = @"Food Delivery";
+        interestsViewController.interestData = self.interestData;
+        interestsViewController.interestNavBarName = @"Food Delivery";
+    }
+    
+    else if ([[segue identifier] isEqualToString:@"Others"])
+    {
+        InterestViewController *interestsViewController = [segue destinationViewController];
+        interestsViewController.title = @"Others";
+        interestsViewController.interestData = self.interestData;
+        interestsViewController.interestNavBarName = @"Others";
     }
 }
 

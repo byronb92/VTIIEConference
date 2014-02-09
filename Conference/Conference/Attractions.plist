@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Bars</key>
+	<dict>
+		<key>TOTS</key>
+		<dict>
+			<key>Address</key>
+			<string>217 College Ave. Blacksburg, VA</string>
+			<key>Description</key>
+			<string>Typically has DJ, a $2 cover, and a line. This is probably the biggest bar at Virginia Tech.</string>
+			<key>Coordinates</key>
+			<string>37.229822,-80.416526</string>
+			<key>Image</key>
+			<string>TOTS.png</string>
+		</dict>
+		<key>Hokie House</key>
+		<dict>
+			<key>Address</key>
+			<string>322 N Main St, Blacksburg, VA 24060</string>
+			<key>Description</key>
+			<string>Typically has DJ, a $2 cover, and a line. This is probably the biggest bar at Virginia Tech.</string>
+			<key>Coordinates</key>
+			<string>37.23132,-80.41560</string>
+			<key>Image</key>
+			<string>hokie_house.png</string>
+		</dict>
+		<key>Big Al&apos;s</key>
+		<dict>
+			<key>Address</key>
+			<string>201 N. Main Street, Blacksburg, Virginia 24060</string>
+			<key>Description</key>
+			<string>Located upstairs of Poor Billy&apos;s Seafood Restaurant. Has 2 billiards tables, occasional cover, a smaller venue, and with all the TV’s it makes for a great sports bar.</string>
+			<key>Coordinates</key>
+			<string>37.23011,-80.41485</string>
+			<key>Image</key>
+			<string>big_als.png</string>
+		</dict>
+		<key>Sharkeys</key>
+		<dict>
+			<key>Address</key>
+			<string>220 N. Main Street, Blacksburg, Virginia 24060</string>
+			<key>Description</key>
+			<string>A great sports bar with lots of seating and TV’s. It has an indoor and outdoor portion and 2 billiards tables.</string>
+			<key>Coordinates</key>
+			<string>37.23060,-80.41525</string>
+			<key>Image</key>
+			<string>sharkeys.png</string>
+		</dict>
+		<key>River Mill</key>
+		<dict>
+			<key>Address</key>
+			<string>212 Draper Rd, Blacksburg, Virginia 24060</string>
+			<key>Description</key>
+			<string>A great sports bar with lots of seating and TV’s. It has an indoor and outdoor portion and 2 billiards tables.</string>
+			<key>Coordinates</key>
+			<string>37.22984,-80.41607</string>
+			<key>Image</key>
+			<string>rivermill.png</string>
+		</dict>
+	</dict>
+	<key>Restaurants</key>
+	<dict>
+		<key>Cabo Fish Taco</key>
+		<dict>
+			<key>Address</key>
+			<string>117 S Main St, Blacksburg, Virginia 24060-4822</string>
+			<key>Description</key>
+			<string>Baja California Dining- great fish tacos and great margaritas.</string>
+			<key>Coordinates</key>
+			<string>37.228802,-80.4130928</string>
+			<key>Image</key>
+			<string>burruss.png</string>
+		</dict>
+		<key>Blacksburg Taphouse</key>
+		<dict>
+			<key>Address</key>
+			<string>607 North Main St., Blacksburg, Virginia 24060</string>
+			<key>Description</key>
+			<string>Premium food made from fresh, local products and 36 beers on tap.</string>
+			<key>Coordinates</key>
+			<string>37.2331999,-80.4187</string>
+			<key>Image</key>
+			<string>burruss.png</string>
+		</dict>
+		<key>El Rodeo</key>
+		<dict>
+			<key>Address</key>
+			<string>623 N Main St, Blacksburg, Virginia 24060-3348</string>
+			<key>Description</key>
+			<string>Typical Mexican dining but a local favorite.</string>
+			<key>Coordinates</key>
+			<string>37.2342,-80.4198</string>
+			<key>Image</key>
+			<string>burruss.png</string>
+		</dict>
+		<key>Green&apos;s Grill and Sushi Bar</key>
+		<dict>
+			<key>Address</key>
+			<string>109A College Ave, Blacksburg, Virginia 24060</string>
+			<key>Description</key>
+			<string>Known for the best sushi in town and their great chicken shawarma.</string>
+			<key>Coordinates</key>
+			<string>37.2303994,-80.4156004</string>
+			<key>Image</key>
+			<string>burruss.png</string>
+		</dict>
+		<key>The Cellar</key>
+		<dict>
+			<key>Address</key>
+			<string>302 North Main Street, Blacksburg, Virginia 24060</string>
+			<key>Description</key>
+			<string>Here you can enjoy a relaxing night of great food, pick from a large beer list, and listen to music from local bands.</string>
+			<key>Coordinates</key>
+			<string>37.231,-80.4148</string>
+			<key>Image</key>
+			<string>burruss.png</string>
+		</dict>
+	</dict>
+	<key>Food Delivery</key>
+	<dict>
+		<key>Jimmy John&apos;s Sandwiches</key>
+		<dict>
+			<key>Number</key>
+			<string>(540) 951-2100</string>
+			<key>Hours</key>
+			<string>11am-3am</string>
+			<key>Description</key>
+			<string>One of the best place to go for sandwiches in Blacksburg.</string>
+			<key>Menu</key>
+			<string>https://www.jimmyjohns.com/menu/#/</string>
+			<key>Image</key>
+			<string>burruss.png</string>
+		</dict>
+		<key>Campus Cookies</key>
+		<dict>
+			<key>Number</key>
+			<string>(540) 658-2752</string>
+			<key>Hours</key>
+			<string>7am-3am</string>
+			<key>Description</key>
+			<string>They deliver to your door the delicious, and somehow still warm, cookies of your choosing.</string>
+			<key>Menu</key>
+			<string>http://www.allmenus.com/va/blacksburg/294218-campus-cookies/menu/</string>
+			<key>Image</key>
+			<string>burruss.png</string>
+		</dict>
+		<key>Benny&apos;s Pizza</key>
+		<dict>
+			<key>Number</key>
+			<string>(540) 443-3949</string>
+			<key>Hours</key>
+			<string>11am – 3am</string>
+			<key>Description</key>
+			<string>Oversized slices of New York-style pizza served late-night.</string>
+			<key>Menu</key>
+			<string>https://www.grubhub.com/Blacksburg/benny-marzanos-blacksburg/</string>
+			<key>Image</key>
+			<string>burruss.png</string>
+		</dict>
+		<key>Domino&apos;s Pizza</key>
+		<dict>
+			<key>Number</key>
+			<string>(540) 953-4600</string>
+			<key>Hours</key>
+			<string>10am - 4am</string>
+			<key>Description</key>
+			<string>Good ol&apos; Dominos!</string>
+			<key>Menu</key>
+			<string>https://order.dominos.com/en/pages/order/menu.jsp#/menu/category/all/</string>
+			<key>Image</key>
+			<string>burruss.png</string>
+		</dict>
+	</dict>
+	<key>Others</key>
+	<dict>
+		<key>Duck Pond</key>
+		<dict>
+			<key>Description</key>
+			<string>Ducks and stuff!</string>
+			<key>Address</key>
+			<string>Duckpond Rd. Blacksburg, Virginia 24061</string>
+			<key>Coordinates</key>
+			<string>37.220314,-80.426460</string>
+			<key>Image</key>
+			<string>burruss.png</string>
+		</dict>
+		<key>BreakZone</key>
+		<dict>
+			<key>Description</key>
+			<string>From billiards, bowling, and table tennis, to foosball, darts, and video games, you can find just
+
+about anything to have fun with at BreakZONE.</string>
+			<key>Address</key>
+			<string>290 College Ave #225 Blacksburg, VA</string>
+			<key>Coordinates</key>
+			<string>37.220314,-80.426460</string>
+			<key>Image</key>
+			<string>burruss.png</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

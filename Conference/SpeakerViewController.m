@@ -13,6 +13,9 @@
 @property (strong, nonatomic) NSDictionary *speakerContent;
 @property (strong, nonatomic) NSArray *listOfDays;
 @property (strong, nonatomic) NSArray *speakerForCurrentDay;
+
+@property (strong, nonatomic) NSDictionary *selectedSpeakerDictionary;
+
 @end
 
 @implementation SpeakerViewController
@@ -40,6 +43,15 @@
     return 2;
 }
 
+
+- (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section
+{
+    if (section == 0)
+    {
+        return @"Friday";
+    }
+    return @"Saturday";
+}
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     NSString *currentDay = [self.listOfDays objectAtIndex:section];
     NSDictionary *currentDayDictionary = [self.speakerContent objectForKey:currentDay];
@@ -57,11 +69,17 @@
     // Obtain the array of speakers.
     NSArray *currentSpeakers = [self.speakerContent objectForKey:currentDay];
     NSDictionary *speakerInfo = [currentSpeakers objectAtIndex:rowNumber];
+
     
     //NSDictionary *currentSpeaker = [currentDay
     
     // Each contact dictionary has 4 keys: Photo, Position, Email, and Phone.
-//    cell.nameLabel.text = currentContactKey;
+    NSString *speaker = [speakerInfo objectForKey:@"Speaker"];
+    NSString *title = [speakerInfo objectForKey:@"Title"];
+    cell.textLabel.text = speaker;
+    cell.detailTextLabel.text = title;
+    cell.imageView.image = [UIImage imageNamed:[speakerInfo objectForKey:@"Photo"]];
+    cell.imageView.contentMode = UIViewContentModeScaleAspectFill;
 //    cell.positionLabel.text = [currentContactDictionary objectForKey:@"Position"];
 //    cell.positionLabel.textColor = UIColorFromRGB(0x660000);
 //    cell.photoImageView.image = [UIImage imageNamed:[currentContactDictionary objectForKey:@"Photo"]];
@@ -71,11 +89,19 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     
-//    NSUInteger rowNumber = [indexPath row];
-//    NSString *currentContactName = [self.contactNames objectAtIndex:rowNumber];
-//    self.contactData = [self.contactDictionaries objectForKey:currentContactName];
-//    // Before we pass the dictionary, we must also include the contact's name inside of it.
-//    [self.contactData setValue:currentContactName forKey:@"Name"];
+    
+    // Obtain the string for the current day.
+    NSInteger section = [indexPath section];
+    NSUInteger rowNumber = [indexPath row];
+    NSString *currentDay = [self.listOfDays objectAtIndex:section];
+    
+    // Obtain the array of speakers.
+    NSArray *currentSpeakers = [self.speakerContent objectForKey:currentDay];
+    //NSDictionary *speakerInfo = [currentSpeakers objectAtIndex:rowNumber];
+    
+    // Get speaker name (key for speaker info dictionary)
+    self.selectedSpeakerDictionary = [currentSpeakers objectAtIndex:rowNumber];
+
     [self performSegueWithIdentifier:@"SpeakerDetails" sender:self];
 }
 
@@ -84,7 +110,7 @@
     if ([[segue identifier] isEqualToString:@"SpeakerDetails"])
     {
         SpeakerDetailViewController *speakerdetailcontroller = [segue destinationViewController];
-        //speakerdetailcontroller.contactData = self.contactData;
+        speakerdetailcontroller.selectedSpeakerDictionary = self.selectedSpeakerDictionary;
     }
 }
 @end

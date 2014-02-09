@@ -6,11 +6,73 @@
 	<array>
 		<dict>
 			<key>Speaker</key>
-			<string>Joe</string>
-			<key>BIo</key>
-			<string>Joe is a cool guy.</string>
+			<string>Juan R. Perez</string>
 			<key>Photo</key>
-			<string>wilck.png</string>
+			<string>juan_perez.png</string>
+			<key>Bio</key>
+			<string>Vice President of Information Services (I.S.) for
+
+UPS, the global leader in logistics and transportation. As the Operations
+
+Portfolio Manager, Juan is responsible for UPS systems in Customer 
+
+Relationship Management, Package Operations Systems, Package
+
+Planning Systems, Scanning Applications, International Operations, 
+
+Automation Systems, and Production Flow Systems. He also oversees 
+
+the UPS Supply Chain Solutions Information Services group which supports Distribution, 
+
+Logistics, and Freight Forwarding operations. 
+
+Juan has 24 years of UPS experience in U.S. Domestic, International, and Supply Chain 
+
+Solutions (SCS). He began his UPS career as an intern in Los Angeles, CA and has had 
+
+numerous assignments of increasing responsibility across multiple UPS business units in 
+
+operations, industrial engineering, quality, and technology. He has also held assignments in the 
+
+corporate and region Industrial Engineering function. In 1997, Juan was a key member of the
+
+group that defined the foundation for the operational technology tools and strategies used today
+
+to facilitate driver dispatch, package delivery operations, and many technology-enabled services.
+
+In 2011 Juan was named SCS IT Portfolio Manager responsible for development and support 
+
+of global systems designed to support the customers’ complex logistics needs in warehousing, 
+
+distribution, service parts logistics, and freight forwarding. In 2012 Juan’s team completed the 
+
+development of the Global Healthcare Office Services system designed to support the growing 
+
+need for order-to-cash services in the healthcare industry. In 2013 Juan was recognized by 
+
+Computerworld as a Premier 100 IT Leader. 
+
+Juan actively serves as coordinator for the UPS Latino Business Resource Group (BRG), 
+
+a company-sponsored program that supports diversity within our communities, customers, 
+
+people, and suppliers. He is a senior member of the Institute of Industrial Engineers and the 
+
+American Society for Quality. He also acts as a program evaluator for the Accreditation Board of 
+
+Juan holds a BS in Industrial Engineering from the University of Southern California and an MS 
+
+in Computer and Manufacturing Engineering. He also holds professional certificates in Logistics, 
+
+Project Management, Business Administration, and IT management. He has contributed with 
+
+several patents in support UPS’ intellectual property.</string>
+			<key>Title</key>
+			<string>UPS, Vice President</string>
+			<key>Topic Title</key>
+			<string>Engineering Innovation at UPS</string>
+			<key>Topic Info</key>
+			<string>Idk</string>
 		</dict>
 		<dict>
 			<key>Speaker</key>
@@ -25,11 +87,19 @@
 	<array>
 		<dict>
 			<key>Speaker</key>
-			<string>Joe</string>
-			<key>BIo</key>
-			<string>Joe is a cool guy.</string>
+			<string>Joe Wilck</string>
 			<key>Photo</key>
 			<string>wilck.png</string>
+			<key>Bio</key>
+			<string>Joe Wilck is an Assistant Professor at the University of Tennessee (Knoxville). He received his PhD in IE from Pennsylvania State University in 2008 specializing in operations research under the advisement of Professor Tom Cavalier. Previously, he worked under Professors Russell Meller and Kimberly Ellis at Virginia Tech. During his time in graduate school, Dr. Wilck received the Spanco, Inc. Honor Scholarship from the Material Handling Industry of America for his work in material handling and vehicle routing.
+
+Dr. Wilck&apos;s research focuses on applying industrial engineering and operations research to solve problems from various industries and services. Currently, he is exploring effective vehicle routing when energy prices are volatile.</string>
+			<key>Title</key>
+			<string>Joseph Wilck, Ph.D., P.E.</string>
+			<key>Topic Title</key>
+			<string>The Institute of Industrial Engineers – How IIE Helps You Now and In the Future</string>
+			<key>Topic Info</key>
+			<string>Abstract: Today, more than ever, companies have a strong need for productivity and efficiency.  These are real strengths of the industrial engineer. The Institute of Industrial Engineers helps industrial engineers and IE types take advantage of these opportunities and be prepared to meet the challenge! The presentation will highlight IIE’s strategic initiatives and how the association is changing to better serve the needs of its membership.</string>
 		</dict>
 	</array>
 </dict>

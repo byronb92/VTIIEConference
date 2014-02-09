@@ -14,19 +14,17 @@
 
 @implementation SpeakerDetailViewController
 
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
-{
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self) {
-        // Custom initialization
-    }
-    return self;
-}
-
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view.
+    [self.speakerScrollView setScrollEnabled:YES];
+    [self.speakerScrollView setContentSize:CGSizeMake(320,3000)];
+    
+    self.title = [self.selectedSpeakerDictionary objectForKey:@"Speaker"];
+    self.speakerPhoto.image = [UIImage imageNamed:[self.selectedSpeakerDictionary objectForKey:@"Photo"]];
+    self.bioTextView.text = [self.selectedSpeakerDictionary objectForKey:@"Bio"];
+    self.talkTextView.text = [self.selectedSpeakerDictionary objectForKey:@"Topic Info"];
+    
 }
 
 - (void)didReceiveMemoryWarning

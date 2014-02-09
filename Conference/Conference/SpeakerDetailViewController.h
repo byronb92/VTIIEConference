@@ -9,5 +9,14 @@
 #import <UIKit/UIKit.h>
 
 @interface SpeakerDetailViewController : UIViewController
+@property (strong, nonatomic) NSDictionary *selectedSpeakerDictionary;
+@property (strong, nonatomic) IBOutlet UIScrollView *speakerScrollView;
 
+
+
+@property (strong, nonatomic) IBOutlet UIImageView *speakerPhoto;
+
+@property (strong, nonatomic) IBOutlet UITextView *bioTextView;
+
+@property (strong, nonatomic) IBOutlet UITextView *talkTextView;
 @end
