@@ -8,10 +8,12 @@
 
 #import "InterestViewController.h"
 #import "SpecificInterestViewController.h"
+#import "FoodDeliveryViewController.h"
 #define UIColorFromRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
 
 @interface InterestViewController ()
 @property (strong, nonatomic) NSArray *interestList;
+@property (strong, nonatomic) NSDictionary *selectedFoodDeliveryLocation;
 @property (strong, nonatomic) NSString *selectedInterest;
 @property (strong, nonatomic) NSString *selectedAddress;
 @property (strong, nonatomic) NSString *selectedCoordinates;
@@ -77,13 +79,20 @@
     // Once a cell is clicked, it's data must be obtained and passed to the next controller.
     self.selectedInterest = [self.interestList objectAtIndex:rowNumber];
     NSDictionary *currentInterestData = [self.interestData objectForKey:self.selectedInterest];
-    
-    self.selectedDescription = [currentInterestData objectForKey:@"Description"];
-    self.selectedAddress = [currentInterestData objectForKey:@"Address"];
-    self.selectedCoordinates = [currentInterestData objectForKey:@"Coordinates"];
-    self.selectedInterestImageName = [currentInterestData objectForKey:@"Image"];
-    
-    [self performSegueWithIdentifier:@"InterestInfo" sender:self];
+
+    if ([self.title isEqualToString:@"Food Delivery"])
+    {
+        self.selectedFoodDeliveryLocation = currentInterestData;
+        [self performSegueWithIdentifier:@"FoodDelivery" sender:self];
+    }
+    else
+    {
+        self.selectedDescription = [currentInterestData objectForKey:@"Description"];
+        self.selectedAddress = [currentInterestData objectForKey:@"Address"];
+        self.selectedCoordinates = [currentInterestData objectForKey:@"Coordinates"];
+        self.selectedInterestImageName = [currentInterestData objectForKey:@"Image"];
+        [self performSegueWithIdentifier:@"InterestInfo" sender:self];
+    }
     
 }
 
@@ -103,6 +112,14 @@
                                                                        style:UIBarButtonItemStyleDone target:nil action:nil];
         [[self navigationItem] setBackBarButtonItem:backButton];
     }
+    
+    if ([[segue identifier] isEqualToString:@"FoodDelivery"])
+    {
+        FoodDeliveryViewController *deliveryViewController = [segue destinationViewController];
+        deliveryViewController.deliveryList = self.selectedFoodDeliveryLocation;
+        deliveryViewController.title = self.selectedInterest;
+    }
+    
 }
 
 

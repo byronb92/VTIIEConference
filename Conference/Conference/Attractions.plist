@@ -62,17 +62,6 @@
 	</dict>
 	<key>Restaurants</key>
 	<dict>
-		<key>Cabo Fish Taco</key>
-		<dict>
-			<key>Address</key>
-			<string>117 S Main St, Blacksburg, Virginia 24060-4822</string>
-			<key>Description</key>
-			<string>Baja California Dining- great fish tacos and great margaritas.</string>
-			<key>Coordinates</key>
-			<string>37.228802,-80.4130928</string>
-			<key>Image</key>
-			<string>burruss.png</string>
-		</dict>
 		<key>Blacksburg Taphouse</key>
 		<dict>
 			<key>Address</key>
@@ -80,9 +69,20 @@
 			<key>Description</key>
 			<string>Premium food made from fresh, local products and 36 beers on tap.</string>
 			<key>Coordinates</key>
-			<string>37.2331999,-80.4187</string>
+			<string>37.23336,-80.41848</string>
 			<key>Image</key>
-			<string>burruss.png</string>
+			<string>blacksburg_taphouse.png</string>
+		</dict>
+		<key>Cabo Fish Taco</key>
+		<dict>
+			<key>Address</key>
+			<string>117 S Main St, Blacksburg, Virginia 24060-4822</string>
+			<key>Description</key>
+			<string>Baja California Dining- great fish tacos and great margaritas.</string>
+			<key>Coordinates</key>
+			<string>37.22879,-80.41314</string>
+			<key>Image</key>
+			<string>cabo_fish_taco.png</string>
 		</dict>
 		<key>El Rodeo</key>
 		<dict>
@@ -91,9 +91,9 @@
 			<key>Description</key>
 			<string>Typical Mexican dining but a local favorite.</string>
 			<key>Coordinates</key>
-			<string>37.2342,-80.4198</string>
+			<string>37.23403,-80.41961</string>
 			<key>Image</key>
-			<string>burruss.png</string>
+			<string>el_rodeo.png</string>
 		</dict>
 		<key>Green&apos;s Grill and Sushi Bar</key>
 		<dict>
@@ -104,7 +104,7 @@
 			<key>Coordinates</key>
 			<string>37.2303994,-80.4156004</string>
 			<key>Image</key>
-			<string>burruss.png</string>
+			<string>greens.png</string>
 		</dict>
 		<key>The Cellar</key>
 		<dict>
@@ -113,25 +113,25 @@
 			<key>Description</key>
 			<string>Here you can enjoy a relaxing night of great food, pick from a large beer list, and listen to music from local bands.</string>
 			<key>Coordinates</key>
-			<string>37.231,-80.4148</string>
+			<string>37.23093,-80.41498</string>
 			<key>Image</key>
-			<string>burruss.png</string>
+			<string>cellar.png</string>
 		</dict>
 	</dict>
 	<key>Food Delivery</key>
 	<dict>
-		<key>Jimmy John&apos;s Sandwiches</key>
+		<key>Benny&apos;s Pizza</key>
 		<dict>
 			<key>Number</key>
-			<string>(540) 951-2100</string>
+			<string>(540) 443-3949</string>
 			<key>Hours</key>
-			<string>11am-3am</string>
+			<string>11am – 3am</string>
 			<key>Description</key>
-			<string>One of the best place to go for sandwiches in Blacksburg.</string>
+			<string>Oversized slices of New York-style pizza served late-night.</string>
 			<key>Menu</key>
-			<string>https://www.jimmyjohns.com/menu/#/</string>
+			<string>https://www.grubhub.com/Blacksburg/benny-marzanos-blacksburg/</string>
 			<key>Image</key>
-			<string>burruss.png</string>
+			<string>bennys.png</string>
 		</dict>
 		<key>Campus Cookies</key>
 		<dict>
@@ -146,16 +146,16 @@
 			<key>Image</key>
 			<string>burruss.png</string>
 		</dict>
-		<key>Benny&apos;s Pizza</key>
+		<key>Jimmy John&apos;s Sandwiches</key>
 		<dict>
 			<key>Number</key>
-			<string>(540) 443-3949</string>
+			<string>(540) 951-2100</string>
 			<key>Hours</key>
-			<string>11am – 3am</string>
+			<string>11am-3am</string>
 			<key>Description</key>
-			<string>Oversized slices of New York-style pizza served late-night.</string>
+			<string>One of the best places to go for sandwiches in Blacksburg.</string>
 			<key>Menu</key>
-			<string>https://www.grubhub.com/Blacksburg/benny-marzanos-blacksburg/</string>
+			<string>https://www.jimmyjohns.com/menu/#/</string>
 			<key>Image</key>
 			<string>burruss.png</string>
 		</dict>
