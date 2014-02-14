@@ -12,6 +12,7 @@
 		F4164A23186F434B00B77B62 /* Attractions.plist in Resources */ = {isa = PBXBuildFile; fileRef = F4164A22186F434B00B77B62 /* Attractions.plist */; };
 		F418972E1872A4E5004ACE60 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F418972D1872A4E5004ACE60 /* CoreLocation.framework */; };
 		F41897311872A768004ACE60 /* SpecificInterestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F41897301872A768004ACE60 /* SpecificInterestViewController.m */; };
+		F433B52E18A8AB4C00C65EE2 /* SponsorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F433B52D18A8AB4C00C65EE2 /* SponsorViewController.m */; };
 		F43A87D5184EF45500B90690 /* ContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F43A87D4184EF45500B90690 /* ContactViewController.m */; };
 		F440BD461813519600858B37 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F440BD451813519600858B37 /* Foundation.framework */; };
 		F440BD481813519600858B37 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F440BD471813519600858B37 /* CoreGraphics.framework */; };
@@ -19,7 +20,6 @@
 		F440BD501813519600858B37 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F440BD4E1813519600858B37 /* InfoPlist.strings */; };
 		F440BD521813519600858B37 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F440BD511813519600858B37 /* main.m */; };
 		F440BD561813519600858B37 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F440BD551813519600858B37 /* AppDelegate.m */; };
-		F440BD591813519600858B37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F440BD571813519600858B37 /* Main.storyboard */; };
 		F440BD5E1813519600858B37 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F440BD5D1813519600858B37 /* Images.xcassets */; };
 		F440BD651813519600858B37 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F440BD641813519600858B37 /* XCTest.framework */; };
 		F440BD661813519600858B37 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F440BD451813519600858B37 /* Foundation.framework */; };
@@ -33,6 +33,8 @@
 		F47C3866187501C800116FA1 /* DirectionWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F47C3865187501C800116FA1 /* DirectionWebViewController.m */; };
 		F47C386918766B4100116FA1 /* EventDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F47C386818766B4100116FA1 /* EventDetailViewController.m */; };
 		F4981F3118768084009A0CAE /* NewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4981F3018768084009A0CAE /* NewsViewController.m */; };
+		F4B1C7E418AD892B00BDD2BB /* SponsorWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4B1C7E318AD892B00BDD2BB /* SponsorWebViewController.m */; };
+		F4B1C7E618AD89E400BDD2BB /* SponsorURLs.plist in Resources */ = {isa = PBXBuildFile; fileRef = F4B1C7E518AD89E400BDD2BB /* SponsorURLs.plist */; };
 		F4B61B5E186CA90900EEE0DD /* WeekendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4B61B5D186CA90900EEE0DD /* WeekendViewController.m */; };
 		F4B61B60186CA98500EEE0DD /* WeekendAgenda.plist in Resources */ = {isa = PBXBuildFile; fileRef = F4B61B5F186CA98500EEE0DD /* WeekendAgenda.plist */; };
 		F4B61B66186CAEEC00EEE0DD /* AgendaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4B61B65186CAEEC00EEE0DD /* AgendaViewController.m */; };
@@ -62,6 +64,9 @@
 		F418972D1872A4E5004ACE60 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		F418972F1872A768004ACE60 /* SpecificInterestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpecificInterestViewController.h; sourceTree = "<group>"; };
 		F41897301872A768004ACE60 /* SpecificInterestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpecificInterestViewController.m; sourceTree = "<group>"; };
+		F42AE94518ADAF43007EE1BB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Conference/Images.xcassets; sourceTree = "<group>"; };
+		F433B52C18A8AB4C00C65EE2 /* SponsorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SponsorViewController.h; sourceTree = "<group>"; };
+		F433B52D18A8AB4C00C65EE2 /* SponsorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SponsorViewController.m; sourceTree = "<group>"; };
 		F43A87D3184EF45500B90690 /* ContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactViewController.h; sourceTree = "<group>"; };
 		F43A87D4184EF45500B90690 /* ContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactViewController.m; sourceTree = "<group>"; };
 		F440BD421813519600858B37 /* Conference.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Conference.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -95,6 +100,9 @@
 		F47C386818766B4100116FA1 /* EventDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventDetailViewController.m; sourceTree = "<group>"; };
 		F4981F2F18768084009A0CAE /* NewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsViewController.h; sourceTree = "<group>"; };
 		F4981F3018768084009A0CAE /* NewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsViewController.m; sourceTree = "<group>"; };
+		F4B1C7E218AD892B00BDD2BB /* SponsorWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SponsorWebViewController.h; sourceTree = "<group>"; };
+		F4B1C7E318AD892B00BDD2BB /* SponsorWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SponsorWebViewController.m; sourceTree = "<group>"; };
+		F4B1C7E518AD89E400BDD2BB /* SponsorURLs.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SponsorURLs.plist; sourceTree = "<group>"; };
 		F4B61B5C186CA90900EEE0DD /* WeekendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeekendViewController.h; sourceTree = "<group>"; };
 		F4B61B5D186CA90900EEE0DD /* WeekendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeekendViewController.m; sourceTree = "<group>"; };
 		F4B61B5F186CA98500EEE0DD /* WeekendAgenda.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = WeekendAgenda.plist; sourceTree = "<group>"; };
@@ -139,6 +147,7 @@
 		F440BD391813519600858B37 = {
 			isa = PBXGroup;
 			children = (
+				F42AE94518ADAF43007EE1BB /* Images.xcassets */,
 				F440BD4B1813519600858B37 /* Conference */,
 				F440BD6A1813519600858B37 /* ConferenceTests */,
 				F440BD441813519600858B37 /* Frameworks */,
@@ -220,6 +229,11 @@
 		F46B859118A739A9005606AC /* Sponsors */ = {
 			isa = PBXGroup;
 			children = (
+				F433B52C18A8AB4C00C65EE2 /* SponsorViewController.h */,
+				F433B52D18A8AB4C00C65EE2 /* SponsorViewController.m */,
+				F4B1C7E218AD892B00BDD2BB /* SponsorWebViewController.h */,
+				F4B1C7E318AD892B00BDD2BB /* SponsorWebViewController.m */,
+				F4B1C7E518AD89E400BDD2BB /* SponsorURLs.plist */,
 			);
 			name = Sponsors;
 			sourceTree = "<group>";
@@ -324,6 +338,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Byron Becker";
 				TargetAttributes = {
+					F440BD411813519600858B37 = {
+						DevelopmentTeam = GMQLP4T7X4;
+					};
 					F440BD621813519600858B37 = {
 						TestTargetID = F440BD411813519600858B37;
 					};
@@ -353,13 +370,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F440BD5E1813519600858B37 /* Images.xcassets in Resources */,
 				F4164A23186F434B00B77B62 /* Attractions.plist in Resources */,
 				F4164A21186D8D0200B77B62 /* maps.html in Resources */,
 				F4C876F518695C4C00065E2F /* ios6.storyboard in Resources */,
-				F440BD5E1813519600858B37 /* Images.xcassets in Resources */,
+				F4B1C7E618AD89E400BDD2BB /* SponsorURLs.plist in Resources */,
 				F4B61B60186CA98500EEE0DD /* WeekendAgenda.plist in Resources */,
 				F440BD501813519600858B37 /* InfoPlist.strings in Resources */,
-				F440BD591813519600858B37 /* Main.storyboard in Resources */,
 				F4ECCB861865519E00B29D49 /* Contacts.plist in Resources */,
 				F4EAC0D41898752200C2DA05 /* Speakers.plist in Resources */,
 			);
@@ -385,11 +402,13 @@
 				F47C3866187501C800116FA1 /* DirectionWebViewController.m in Sources */,
 				F46B859418A73CCF005606AC /* FoodDeliveryWebViewController.m in Sources */,
 				F4B61B5E186CA90900EEE0DD /* WeekendViewController.m in Sources */,
+				F433B52E18A8AB4C00C65EE2 /* SponsorViewController.m in Sources */,
 				F440BD561813519600858B37 /* AppDelegate.m in Sources */,
 				F43A87D5184EF45500B90690 /* ContactViewController.m in Sources */,
 				F4EAC0CE18986EEE00C2DA05 /* SpeakerViewController.m in Sources */,
 				F46B859C18A73E45005606AC /* FoodDeliveryViewController.m in Sources */,
 				F4981F3118768084009A0CAE /* NewsViewController.m in Sources */,
+				F4B1C7E418AD892B00BDD2BB /* SponsorWebViewController.m in Sources */,
 				F47C386918766B4100116FA1 /* EventDetailViewController.m in Sources */,
 				F4164A1F186D876900B77B62 /* InterestViewController.m in Sources */,
 				F4ECCB8918662EA800B29D49 /* ContactCustomCell.m in Sources */,
@@ -519,11 +538,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Conference/Conference-Prefix.pch";
 				INFOPLIST_FILE = "Conference/Conference-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -533,11 +555,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Conference/Conference-Prefix.pch";
 				INFOPLIST_FILE = "Conference/Conference-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

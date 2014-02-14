@@ -190,9 +190,9 @@
         
         else
         {
-            NSString *offCampus = @"Other";
+            NSString *offCampus = @"Others";
             self.interestData = [self.pointsOfInterestDict objectForKey:offCampus];
-            [self performSegueWithIdentifier:@"Other" sender:self];
+            [self performSegueWithIdentifier:@"Others" sender:self];
         }
     }
 }

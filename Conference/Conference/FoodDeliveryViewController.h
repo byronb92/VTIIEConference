@@ -12,9 +12,9 @@
 @property (strong, nonatomic) NSDictionary *deliveryList;
 
 @property (strong, nonatomic) IBOutlet UIImageView *foodDeliveryImageView;
-@property (strong, nonatomic) IBOutlet UITextView *foodDeliveryTextView;
-@property (strong, nonatomic) IBOutlet UILabel *hourLabel;
-@property (strong, nonatomic) IBOutlet UILabel *phoneLabel;
+@property (strong, nonatomic) IBOutlet UILabel *foodDeliveryTextView;
+@property (strong, nonatomic) IBOutlet UITextView *hourLabel;
+@property (strong, nonatomic) IBOutlet UITextView *phoneLabel;
 @property (strong, nonatomic) IBOutlet UIButton *viewMenuButton;
 - (IBAction)showMenu:(UIButton *)sender;
 

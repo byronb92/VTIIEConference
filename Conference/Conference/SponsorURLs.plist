@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Lowes</key>
+	<string>http://careers.lowes.com/</string>
+	<key>UPS</key>
+	<string>https://ups.managehr.com/Home.htm</string>
+	<key>Pepsico</key>
+	<string>http://www.pepsicojobs.com/en</string>
+	<key>Deloitte</key>
+	<string>http://mycareer.deloitte.com/us/en</string>
+	<key>Newport News</key>
+	<string>http://www.huntingtoningalls.com/careers/search</string>
+</dict>
+</plist>

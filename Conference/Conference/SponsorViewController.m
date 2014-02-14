@@ -1,0 +1,53 @@
+//
+//  SponsorViewController.m
+//  Conference
+//
+//  Created by Byron Becker on 2/10/14.
+//  Copyright (c) 2014 Byron Becker. All rights reserved.
+//
+
+#import "SponsorViewController.h"
+#import "SponsorWebViewController.h"
+
+@interface SponsorViewController ()
+@property (strong, atomic) NSMutableDictionary *sponsorUrls;
+@end
+
+@implementation SponsorViewController
+
+- (void)viewDidLoad
+{
+    [self.sponsorScrollViw setScrollEnabled:YES];
+    [self.sponsorScrollViw setContentSize:CGSizeMake(320,3000)];
+    NSString *filePath = [[NSBundle mainBundle] pathForResource:@"SponsorURLs" ofType:@"plist"];
+    self.sponsorUrls = [[NSMutableDictionary alloc] initWithContentsOfFile:filePath];
+    [super viewDidLoad];
+	// Do any additional setup after loading the view.
+}
+
+- (void)didReceiveMemoryWarning
+{
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
+}
+
+- (IBAction)upsButtonClicked:(UIButton *)sender {
+    [self performSegueWithIdentifier:@"UPSWebView" sender:self];
+}
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    if ([[segue identifier] isEqualToString:@"UPSWebView"])
+    {
+        SponsorWebViewController *sponsorWebViewController = [segue destinationViewController];
+        sponsorWebViewController.urlToLoad = [self.sponsorUrls objectForKey:@"UPS"];
+    }
+    
+//    if ([sender isEqualToString:@"UPSWebView"])
+//    {
+//        SponsorWebViewController *sponsorWebViewController = [segue destinationViewController];
+//        sponsorWebViewController.urlToLoad = @"https://ups.managehr.com/Home.htm";
+//    }
+}
+
+@end

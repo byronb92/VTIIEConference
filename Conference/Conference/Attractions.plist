@@ -144,7 +144,7 @@
 			<key>Menu</key>
 			<string>http://www.allmenus.com/va/blacksburg/294218-campus-cookies/menu/</string>
 			<key>Image</key>
-			<string>burruss.png</string>
+			<string>campus_cookies.png</string>
 		</dict>
 		<key>Jimmy John&apos;s Sandwiches</key>
 		<dict>
@@ -157,20 +157,20 @@
 			<key>Menu</key>
 			<string>https://www.jimmyjohns.com/menu/#/</string>
 			<key>Image</key>
-			<string>burruss.png</string>
+			<string>jimmy-johns.png</string>
 		</dict>
 		<key>Domino&apos;s Pizza</key>
 		<dict>
 			<key>Number</key>
 			<string>(540) 953-4600</string>
 			<key>Hours</key>
-			<string>10am - 4am</string>
+			<string>10am-4am</string>
 			<key>Description</key>
 			<string>Good ol&apos; Dominos!</string>
 			<key>Menu</key>
 			<string>https://order.dominos.com/en/pages/order/menu.jsp#/menu/category/all/</string>
 			<key>Image</key>
-			<string>burruss.png</string>
+			<string>dominos.png</string>
 		</dict>
 	</dict>
 	<key>Others</key>

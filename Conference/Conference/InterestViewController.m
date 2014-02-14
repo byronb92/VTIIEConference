@@ -63,11 +63,20 @@
     // Obtain the current event's data.
     NSString *currentInterest = [self.interestList objectAtIndex:currentRow];
     NSDictionary *currentInterestData = [self.interestData objectForKey:currentInterest];
-    NSString *currentInterestAddress = [currentInterestData objectForKey:@"Address"];
+    NSString *currentInterestAddressOrNumber;
+    if ([self.title isEqualToString:@"Food Delivery"])
+    {
+        currentInterestAddressOrNumber = [currentInterestData objectForKey:@"Number"];
+    }
+    else
+    {
+        currentInterestAddressOrNumber = [currentInterestData objectForKey:@"Address"];
+    }
+
     
     // Set the current cell to match with the current event.
     cell.textLabel.text = currentInterest;
-    cell.detailTextLabel.text = currentInterestAddress;
+    cell.detailTextLabel.text = currentInterestAddressOrNumber;
     cell.detailTextLabel.textColor = UIColorFromRGB(0x660000);
     
     return cell;
