@@ -1,5 +1,5 @@
 //
-//  OnCampusViewController.m
+//  WeekendViewController.m
 //  Conference
 //
 //  Created by Byron Becker on 12/26/13.
@@ -9,6 +9,7 @@
 #import "WeekendViewController.h"
 #import "EventDetailViewController.h"
 #import "AppDelegate.h"
+
 #define UIColorFromRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
 
 
@@ -22,7 +23,7 @@
 
 - (void)viewDidLoad
 {
-    // The current day selected will be passed from the AgendaViewController.
+    // The current day selected will be passed from the EventViewController.
     // Since we have the current day dictionary, we need to sort the events by key.
     // The keys are sorted in numerical order, starting from 0.
     self.sortedAgenda = [[self.currentDayAgenda allKeys] sortedArrayUsingSelector:@selector(compare:)];

@@ -1,5 +1,5 @@
 //
-//  OnCampusViewController.h
+//  WeekendViewController.h
 //  Conference
 //
 //  Created by Byron Becker on 12/26/13.

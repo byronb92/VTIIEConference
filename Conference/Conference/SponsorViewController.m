@@ -31,8 +31,24 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)lowesButtonClicked:(UIButton *)sender {
+    [self performSegueWithIdentifier:@"LowesWebView" sender:self];
+}
+
 - (IBAction)upsButtonClicked:(UIButton *)sender {
     [self performSegueWithIdentifier:@"UPSWebView" sender:self];
+}
+
+- (IBAction)pepsicoButtonClicked:(UIButton *)sender {
+        [self performSegueWithIdentifier:@"PepsicoWebView" sender:self];
+}
+
+- (IBAction)deloitteButtonClicked:(UIButton *)sender {
+        [self performSegueWithIdentifier:@"DeloitteWebView" sender:self];
+}
+
+- (IBAction)newportNewsButtonClicked:(UIButton *)sender {
+            [self performSegueWithIdentifier:@"NewportNewsWebView" sender:self];
 }
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
@@ -41,13 +57,36 @@
     {
         SponsorWebViewController *sponsorWebViewController = [segue destinationViewController];
         sponsorWebViewController.urlToLoad = [self.sponsorUrls objectForKey:@"UPS"];
+        sponsorWebViewController.title = @"UPS";
     }
     
-//    if ([sender isEqualToString:@"UPSWebView"])
-//    {
-//        SponsorWebViewController *sponsorWebViewController = [segue destinationViewController];
-//        sponsorWebViewController.urlToLoad = @"https://ups.managehr.com/Home.htm";
-//    }
+    if ([[segue identifier] isEqualToString:@"LowesWebView"])
+    {
+        SponsorWebViewController *sponsorWebViewController = [segue destinationViewController];
+        sponsorWebViewController.urlToLoad = [self.sponsorUrls objectForKey:@"Lowes"];
+        sponsorWebViewController.title = @"Lowes";
+    }
+    
+    if ([[segue identifier] isEqualToString:@"PepsicoWebView"])
+    {
+        SponsorWebViewController *sponsorWebViewController = [segue destinationViewController];
+        sponsorWebViewController.urlToLoad = [self.sponsorUrls objectForKey:@"Pepsico"];
+        sponsorWebViewController.title = @"Pepsico";
+    }
+    
+    if ([[segue identifier] isEqualToString:@"DeloitteWebView"])
+    {
+        SponsorWebViewController *sponsorWebViewController = [segue destinationViewController];
+        sponsorWebViewController.urlToLoad = [self.sponsorUrls objectForKey:@"Deloitte"];
+        sponsorWebViewController.title = @"Deloitte";
+    }
+    
+    if ([[segue identifier] isEqualToString:@"NewportNewsWebView"])
+    {
+        SponsorWebViewController *sponsorWebViewController = [segue destinationViewController];
+        sponsorWebViewController.urlToLoad = [self.sponsorUrls objectForKey:@"Newport News"];
+        sponsorWebViewController.title = @"Newport News Publishing";
+    }
 }
 
 @end

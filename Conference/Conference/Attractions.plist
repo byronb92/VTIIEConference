@@ -13,7 +13,7 @@
 			<key>Coordinates</key>
 			<string>37.229822,-80.416526</string>
 			<key>Image</key>
-			<string>TOTS.png</string>
+			<string>TopOTS.png</string>
 		</dict>
 		<key>Hokie House</key>
 		<dict>
@@ -24,7 +24,7 @@
 			<key>Coordinates</key>
 			<string>37.23132,-80.41560</string>
 			<key>Image</key>
-			<string>hokie_house.png</string>
+			<string>hok_house.png</string>
 		</dict>
 		<key>Big Al&apos;s</key>
 		<dict>
@@ -35,7 +35,7 @@
 			<key>Coordinates</key>
 			<string>37.23011,-80.41485</string>
 			<key>Image</key>
-			<string>big_als.png</string>
+			<string>big-als.png</string>
 		</dict>
 		<key>Sharkeys</key>
 		<dict>
@@ -46,7 +46,7 @@
 			<key>Coordinates</key>
 			<string>37.23060,-80.41525</string>
 			<key>Image</key>
-			<string>sharkeys.png</string>
+			<string>sharks.png</string>
 		</dict>
 		<key>River Mill</key>
 		<dict>
@@ -57,7 +57,7 @@
 			<key>Coordinates</key>
 			<string>37.22984,-80.41607</string>
 			<key>Image</key>
-			<string>rivermill.png</string>
+			<string>r-mill.png</string>
 		</dict>
 	</dict>
 	<key>Restaurants</key>
@@ -71,7 +71,7 @@
 			<key>Coordinates</key>
 			<string>37.23336,-80.41848</string>
 			<key>Image</key>
-			<string>blacksburg_taphouse.png</string>
+			<string>bburg_taphouse.png</string>
 		</dict>
 		<key>Cabo Fish Taco</key>
 		<dict>
@@ -82,7 +82,7 @@
 			<key>Coordinates</key>
 			<string>37.22879,-80.41314</string>
 			<key>Image</key>
-			<string>cabo_fish_taco.png</string>
+			<string>cabo_fish.png</string>
 		</dict>
 		<key>El Rodeo</key>
 		<dict>
@@ -104,7 +104,7 @@
 			<key>Coordinates</key>
 			<string>37.2303994,-80.4156004</string>
 			<key>Image</key>
-			<string>greens.png</string>
+			<string>green.png</string>
 		</dict>
 		<key>The Cellar</key>
 		<dict>
@@ -189,15 +189,13 @@
 		<key>BreakZone</key>
 		<dict>
 			<key>Description</key>
-			<string>From billiards, bowling, and table tennis, to foosball, darts, and video games, you can find just
-
-about anything to have fun with at BreakZONE.</string>
+			<string>From billiards, bowling, and table tennis, to foosball, darts, and video games, you can find just about anything to have fun with at BreakZONE.</string>
 			<key>Address</key>
 			<string>290 College Ave #225 Blacksburg, VA</string>
 			<key>Coordinates</key>
 			<string>37.220314,-80.426460</string>
 			<key>Image</key>
-			<string>burruss.png</string>
+			<string>Squires.png</string>
 		</dict>
 	</dict>
 </dict>

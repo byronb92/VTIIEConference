@@ -20,44 +20,39 @@
 			<key>Event</key>
 			<string>Networking Reception</string>
 			<key>Time</key>
-			<string>6:00pm - 6:30pm</string>
+			<string>6:00pm - 7:00pm</string>
 			<key>Description</key>
 			<string>Students and other attendees from all schools and companies are invited to socialize in the ballroom of The Inn at Virginia Tech.</string>
 			<key>Location</key>
 			<string>Atrium Outside of Latham Ballroom, The Inn at Virginia Tech</string>
+			<key>Sponsor</key>
+			<string>Deloitte</string>
 		</dict>
 		<key>2</key>
 		<dict>
 			<key>Event</key>
-			<string>Icebreaker</string>
+			<string>Dinner</string>
 			<key>Time</key>
-			<string>6:30pm - 7:00pm</string>
+			<string>7:00pm - 8:30pm</string>
 			<key>Description</key>
 			<string>An event will be carried out to get students acclimated to each other and encourage networking.</string>
 			<key>Location</key>
 			<string>Atrium Outside of Latham Ballroom, The Inn at Virginia Tech</string>
+			<key>Sponsor</key>
+			<string>UPS</string>
 		</dict>
 		<key>3</key>
-		<dict>
-			<key>Event</key>
-			<string>Dinner</string>
-			<key>Time</key>
-			<string>7:00pm-8:30pm</string>
-			<key>Description</key>
-			<string>A meal will be catered by The Inn at Virginia Tech and will last about an hour.</string>
-			<key>Location</key>
-			<string>Latham A,B,C, The Inn at Virginia Tech</string>
-		</dict>
-		<key>4</key>
 		<dict>
 			<key>Event</key>
 			<string>Keynote Speaker</string>
 			<key>Time</key>
 			<string>8:30pm - 9:30pm</string>
 			<key>Description</key>
-			<string>An hour block is set aside for a speaker to introduce students to the conference and set the tone for the weekend. </string>
+			<string>A meal will be catered by The Inn at Virginia Tech and will last about an hour.</string>
 			<key>Location</key>
 			<string>Latham A,B,C, The Inn at Virginia Tech</string>
+			<key>Sponsor</key>
+			<string>UPS</string>
 		</dict>
 	</dict>
 	<key>Saturday</key>
@@ -71,7 +66,9 @@
 			<key>Description</key>
 			<string>A meal will be catered by The Inn at Virginia Tech and will last about an hour.</string>
 			<key>Location</key>
-			<string>The Inn At Virginia Tech</string>
+			<string>Latham A, B, C, The Inn At Virginia Tech</string>
+			<key>Sponsor</key>
+			<string>Lowes</string>
 		</dict>
 		<key>1</key>
 		<dict>
@@ -82,7 +79,9 @@
 			<key>Description</key>
 			<string>Students are invited to submit and present their IE-related research papers.</string>
 			<key>Location</key>
-			<string>The Inn At Virginia Tech</string>
+			<string>Latham A,B,C, The Inn at Virginia Tech</string>
+			<key>Sponsor</key>
+			<string>None</string>
 		</dict>
 		<key>2</key>
 		<dict>
@@ -91,9 +90,12 @@
 			<key>Time</key>
 			<string>10:40am - 11:40am</string>
 			<key>Description</key>
-			<string>Break-Out Sessions will commence and be carried out according to the student’s preferences. Panels of company representatives, IE alumni, and other post-graduates will gather to speak about IE as a profession, graduate school, and post-graduate life.  Six Sigma information session about its meaning and the steps necessary to acquiring certifications</string>
+			<string>Break-Out Sessions will commence and be carried out according to the student’s preferences.
+ Panels of company representatives, IE alumni, and other post-graduates will gather to speak about IE as a profession, graduate school, and post-graduate life.  Six Sigma information session about its meaning and the steps necessary to acquiring certifications</string>
 			<key>Location</key>
-			<string>Virginia Tech... duh</string>
+			<string>Holtzman Alumni Assembly Center: Holtzman Alumni Hall - PepsiCoSmithfield, The Inn at Virginia Tech - IIESolitude, The Inn at Virginia Tech - Lowe&apos;sCascades A&amp;B, The Inn at Virginia Tech - McKinsey</string>
+			<key>Sponsor</key>
+			<string>IIE PepsiCo Lowe&apos;s McKinsey</string>
 		</dict>
 		<key>3</key>
 		<dict>
@@ -102,9 +104,15 @@
 			<key>Time</key>
 			<string>11:45am - 12:45pm</string>
 			<key>Description</key>
-			<string>Break-Out Sessions will commence and be carried out according to the student’s preferences.Panels of company representatives, IE alumni, and other post-graduates will gather to speak about IE as a profession, graduate school, and post-graduate life. Six Sigma information session about its meaning and the steps necessary to acquiring certifications</string>
+			<string>Break-Out Sessions will commence and be carried out according to the student’s preferences.
+Panels of company representatives, IE alumni, and other post-graduates will gather to speak about IE as a profession, graduate school, and post-graduate life. Six Sigma information session about its meaning and the steps necessary to acquiring certifications</string>
 			<key>Location</key>
-			<string>Virginia Tech... duh</string>
+			<string>Holtzman Alumni Assembly Center: Holtzman Alumni Hall - PepsiCo
+Smithfield, The Inn at Virginia Tech - IIE
+Solitude, The Inn at Virginia Tech - Lowe&apos;s
+Cascades A&amp;B, The Inn at Virginia Tech - McKinsey</string>
+			<key>Sponsor</key>
+			<string>IIE PepsiCo Lowe&apos;s McKinsey</string>
 		</dict>
 		<key>4</key>
 		<dict>
@@ -113,12 +121,11 @@
 			<key>Time</key>
 			<string>12:50pm - 1:50pm</string>
 			<key>Description</key>
-			<string>1 or 3 sections that will include:
-1. Break-out Sessions that will commence and be carried out according to the student&apos;s preferences. 
-2. Panels of company representatives, IE alumni, and other post-graduates will gather to speak about IE as a profession, graduate school, and post-graduate life. 
-3. Six Sigma information session about its meaning and the steps necessary to acquiring certifications. 1. Break-out Sessions that will commence and be carried out according to the student&apos;s preferences. </string>
+			<string>A meal will be catered by the Inn at Virginia Tech and will last about an hour.</string>
 			<key>Location</key>
-			<string>Virginia Tech... duh</string>
+			<string>Latham A, B, C. The Inn at Virginia Tech</string>
+			<key>Sponsor</key>
+			<string>Newport News Shipbuilding</string>
 		</dict>
 		<key>5</key>
 		<dict>
@@ -127,9 +134,15 @@
 			<key>Time</key>
 			<string>2:00pm - 3:00pm</string>
 			<key>Description</key>
-			<string>Break-Out Sessions will commence and be carried out according to the student’s preferences.Panels of company representatives, IE alumni, and other post-graduates will gather to speak about IE as a profession, graduate school, and post-graduate life. Six Sigma information session about its meaning and the steps necessary to acquiring certifications</string>
+			<string>Break-Out Sessions will commence and be carried out according to the student’s preferences.
+Panels of company representatives, IE alumni, and other post-graduates will gather to speak about IE as a profession, graduate school, and post-graduate life. Six Sigma information session about its meaning and the steps necessary to acquiring certifications</string>
 			<key>Location</key>
-			<string>Virginia Tech... duh</string>
+			<string>Holtzman Alumni Assembly Center: Holtzman Alumni Hall - PepsiCo
+Smithfield, The Inn at Virginia Tech - IIE
+Solitude, The Inn at Virginia Tech - Lowe&apos;s
+Cascades A&amp;B, The Inn at Virginia Tech - McKinsey</string>
+			<key>Sponsor</key>
+			<string>IIE PepsiCo Lowe&apos;s McKinsey</string>
 		</dict>
 		<key>6</key>
 		<dict>
@@ -140,7 +153,9 @@
 			<key>Description</key>
 			<string>Sponsors will be assigned a table or two at which company representatives will be stationed to talk to students in incremental time periods. This event is meant to act as a casual career fair for companies to assess the students that they have deemed interesting either from previous encounters or analysis of the resume book provided.</string>
 			<key>Location</key>
-			<string>Virginia Tech... duh</string>
+			<string>Latham D,E,F, The Inn at Virginia Tech</string>
+			<key>Sponsor</key>
+			<string>Newport News Shipbuilding,PepsiCo,Deloitte,Lowe&apos;sWalmartMcKinsey</string>
 		</dict>
 		<key>7</key>
 		<dict>
@@ -149,20 +164,24 @@
 			<key>Time</key>
 			<string>4:00pm - 6:00pm</string>
 			<key>Description</key>
-			<string>Placeholder text blah blah blah description will be inserted here.</string>
+			<string>The sponsor will host the case competition by providing the case and judging the teams of participants.</string>
 			<key>Location</key>
-			<string>Virginia Tech... duh</string>
+			<string>Cascades Hall, The Inn at Virginia Tech</string>
+			<key>Sponsor</key>
+			<string>Consulting Club at Virginia Tech</string>
 		</dict>
 		<key>8</key>
 		<dict>
 			<key>Event</key>
-			<string>Resume Workshop and Career Services</string>
+			<string>1. Career Clinic and 2. ISE Graduate School Department</string>
 			<key>Time</key>
 			<string>4:45pm - 6:00pm</string>
 			<key>Description</key>
-			<string>Sponsor will have the choice of event for the team building event and will have strategic marketing opportunities during the event. </string>
+			<string>Career Services at Virginia Tech will give a presentation on how to be successful in an interview, how to prepare a professional resume, and how to approach a recruiter professionally.The ISE Graduate School presentation will have a panel of graduate students from different fields within Industrial and Systems Engineering talking about their experiences and answering questions from the audience.</string>
 			<key>Location</key>
-			<string>Solitude, The Inn at Virginia Tech</string>
+			<string>Solitude, The Inn at Virginia Tech - Career Clinic, Assembly Hall - Grad School</string>
+			<key>Sponsor</key>
+			<string>1. Career Services2. VT ISE Graduate Department</string>
 		</dict>
 		<key>9</key>
 		<dict>
@@ -174,6 +193,8 @@
 			<string>Overview presentation of IIE presented by Joe Wilck.</string>
 			<key>Location</key>
 			<string>Owens Banquet Hall, Virginia Tech Campus</string>
+			<key>Sponsor</key>
+			<string>IIE</string>
 		</dict>
 		<key>10</key>
 		<dict>
@@ -185,6 +206,8 @@
 			<string>A meal will be catered by the Inn at Virginia Tech and will last about an hour.</string>
 			<key>Location</key>
 			<string>Owens Banquet Hall, Virginia Tech Campus</string>
+			<key>Sponsor</key>
+			<string>McKinsey</string>
 		</dict>
 		<key>11</key>
 		<dict>
@@ -196,6 +219,8 @@
 			<string>An hour block is set aside for a speaker to review the days events and present information about their experiences that are relevant to Industrial Engineering.</string>
 			<key>Location</key>
 			<string>Owens Banquet Hall, Virginia Tech Campus</string>
+			<key>Sponsor</key>
+			<string>McKinsey</string>
 		</dict>
 		<key>12</key>
 		<dict>
@@ -207,6 +232,8 @@
 			<string>Awards for the Technical Paper Competition and other IIE honors will be given out by the keynote speaker and others.</string>
 			<key>Location</key>
 			<string>Owens Banquet Hall, Virginia Tech Campus</string>
+			<key>Sponsor</key>
+			<string>McKinsey</string>
 		</dict>
 	</dict>
 	<key>Sunday</key>
@@ -222,7 +249,7 @@
 			<key>Location</key>
 			<string>The Atrium outside of Latham Ballroom, The Inn at Virginia Tech</string>
 		</dict>
-		<key>2</key>
+		<key>1</key>
 		<dict>
 			<key>Event</key>
 			<string>Plant Tour</string>
@@ -232,6 +259,8 @@
 			<string>The plant tour will expose students to real life implementation of industrial and systems engineering.</string>
 			<key>Location</key>
 			<string>Virginia Tech Transportation Institute, Blacksburg VA</string>
+			<key>Sponsor</key>
+			<string>VTTI</string>
 		</dict>
 	</dict>
 </dict>

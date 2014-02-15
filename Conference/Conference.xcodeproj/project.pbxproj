@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F41321DC18AE9BDF00F4F97C /* InfoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F41321DB18AE9BDF00F4F97C /* InfoTableViewController.m */; };
 		F4164A1F186D876900B77B62 /* InterestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4164A1E186D876900B77B62 /* InterestViewController.m */; };
 		F4164A21186D8D0200B77B62 /* maps.html in Resources */ = {isa = PBXBuildFile; fileRef = F4164A20186D8D0200B77B62 /* maps.html */; };
 		F4164A23186F434B00B77B62 /* Attractions.plist in Resources */ = {isa = PBXBuildFile; fileRef = F4164A22186F434B00B77B62 /* Attractions.plist */; };
@@ -37,8 +38,10 @@
 		F4B1C7E618AD89E400BDD2BB /* SponsorURLs.plist in Resources */ = {isa = PBXBuildFile; fileRef = F4B1C7E518AD89E400BDD2BB /* SponsorURLs.plist */; };
 		F4B61B5E186CA90900EEE0DD /* WeekendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4B61B5D186CA90900EEE0DD /* WeekendViewController.m */; };
 		F4B61B60186CA98500EEE0DD /* WeekendAgenda.plist in Resources */ = {isa = PBXBuildFile; fileRef = F4B61B5F186CA98500EEE0DD /* WeekendAgenda.plist */; };
-		F4B61B66186CAEEC00EEE0DD /* AgendaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4B61B65186CAEEC00EEE0DD /* AgendaViewController.m */; };
+		F4B61B66186CAEEC00EEE0DD /* EventViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4B61B65186CAEEC00EEE0DD /* EventViewController.m */; };
+		F4BE332318AEFF8A00C661EA /* WeatherWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4BE332218AEFF8A00C661EA /* WeatherWebViewController.m */; };
 		F4C876F518695C4C00065E2F /* ios6.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4C876F418695C4B00065E2F /* ios6.storyboard */; };
+		F4E0A85218ADE1250072380F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4E0A85118ADE1250072380F /* Main.storyboard */; };
 		F4EAC0CE18986EEE00C2DA05 /* SpeakerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4EAC0CD18986EEE00C2DA05 /* SpeakerViewController.m */; };
 		F4EAC0D1189871D000C2DA05 /* SpeakerDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4EAC0D0189871D000C2DA05 /* SpeakerDetailViewController.m */; };
 		F4EAC0D41898752200C2DA05 /* Speakers.plist in Resources */ = {isa = PBXBuildFile; fileRef = F4EAC0D31898752200C2DA05 /* Speakers.plist */; };
@@ -57,6 +60,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F41321DA18AE9BDF00F4F97C /* InfoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoTableViewController.h; sourceTree = "<group>"; };
+		F41321DB18AE9BDF00F4F97C /* InfoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoTableViewController.m; sourceTree = "<group>"; };
 		F4164A1D186D876900B77B62 /* InterestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InterestViewController.h; sourceTree = "<group>"; };
 		F4164A1E186D876900B77B62 /* InterestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InterestViewController.m; sourceTree = "<group>"; };
 		F4164A20186D8D0200B77B62 /* maps.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = maps.html; sourceTree = "<group>"; };
@@ -79,7 +84,6 @@
 		F440BD531813519600858B37 /* Conference-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Conference-Prefix.pch"; sourceTree = "<group>"; };
 		F440BD541813519600858B37 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F440BD551813519600858B37 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F440BD581813519600858B37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F440BD5D1813519600858B37 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F440BD631813519600858B37 /* ConferenceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConferenceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F440BD641813519600858B37 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -106,9 +110,11 @@
 		F4B61B5C186CA90900EEE0DD /* WeekendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeekendViewController.h; sourceTree = "<group>"; };
 		F4B61B5D186CA90900EEE0DD /* WeekendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeekendViewController.m; sourceTree = "<group>"; };
 		F4B61B5F186CA98500EEE0DD /* WeekendAgenda.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = WeekendAgenda.plist; sourceTree = "<group>"; };
-		F4B61B64186CAEEC00EEE0DD /* AgendaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AgendaViewController.h; sourceTree = "<group>"; };
-		F4B61B65186CAEEC00EEE0DD /* AgendaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AgendaViewController.m; sourceTree = "<group>"; };
+		F4B61B65186CAEEC00EEE0DD /* EventViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventViewController.m; sourceTree = "<group>"; };
+		F4BE332118AEFF8A00C661EA /* WeatherWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherWebViewController.h; sourceTree = "<group>"; };
+		F4BE332218AEFF8A00C661EA /* WeatherWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherWebViewController.m; sourceTree = "<group>"; };
 		F4C876F418695C4B00065E2F /* ios6.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ios6.storyboard; sourceTree = "<group>"; };
+		F4E0A85118ADE1250072380F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		F4EAC0CC18986EEE00C2DA05 /* SpeakerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpeakerViewController.h; sourceTree = "<group>"; };
 		F4EAC0CD18986EEE00C2DA05 /* SpeakerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpeakerViewController.m; sourceTree = "<group>"; };
 		F4EAC0CF189871D000C2DA05 /* SpeakerDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SpeakerDetailViewController.h; path = Conference/SpeakerDetailViewController.h; sourceTree = "<group>"; };
@@ -117,6 +123,7 @@
 		F4ECCB851865519E00B29D49 /* Contacts.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Contacts.plist; sourceTree = "<group>"; };
 		F4ECCB8718662EA800B29D49 /* ContactCustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactCustomCell.h; sourceTree = "<group>"; };
 		F4ECCB8818662EA800B29D49 /* ContactCustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactCustomCell.m; sourceTree = "<group>"; };
+		F4F1339B18ADE9F000E6BB04 /* EventViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -185,10 +192,11 @@
 				F4981F3018768084009A0CAE /* NewsViewController.m */,
 				F440BD541813519600858B37 /* AppDelegate.h */,
 				F440BD551813519600858B37 /* AppDelegate.m */,
-				F440BD571813519600858B37 /* Main.storyboard */,
+				F4E0A85118ADE1250072380F /* Main.storyboard */,
 				F4C876F418695C4B00065E2F /* ios6.storyboard */,
 				F440BD5D1813519600858B37 /* Images.xcassets */,
-				F4B61B5B186CA8F600EEE0DD /* Agenda */,
+				F4FE395518AE9344009B8DBD /* Info */,
+				F4B61B5B186CA8F600EEE0DD /* Events */,
 				F4EAC0D2189874C500C2DA05 /* Speakers */,
 				F4B61B5A186CA8CF00EEE0DD /* Contacts */,
 				F46B859118A739A9005606AC /* Sponsors */,
@@ -252,12 +260,12 @@
 			name = Contacts;
 			sourceTree = "<group>";
 		};
-		F4B61B5B186CA8F600EEE0DD /* Agenda */ = {
+		F4B61B5B186CA8F600EEE0DD /* Events */ = {
 			isa = PBXGroup;
 			children = (
 				F4B61B5F186CA98500EEE0DD /* WeekendAgenda.plist */,
-				F4B61B64186CAEEC00EEE0DD /* AgendaViewController.h */,
-				F4B61B65186CAEEC00EEE0DD /* AgendaViewController.m */,
+				F4F1339B18ADE9F000E6BB04 /* EventViewController.h */,
+				F4B61B65186CAEEC00EEE0DD /* EventViewController.m */,
 				F4B61B5C186CA90900EEE0DD /* WeekendViewController.h */,
 				F4B61B5D186CA90900EEE0DD /* WeekendViewController.m */,
 				F47C386718766B4100116FA1 /* EventDetailViewController.h */,
@@ -275,7 +283,7 @@
 				F46B859218A73CCF005606AC /* FoodDeliveryWebViewController.h */,
 				F46B859318A73CCF005606AC /* FoodDeliveryWebViewController.m */,
 			);
-			name = Agenda;
+			name = Events;
 			sourceTree = "<group>";
 		};
 		F4EAC0D2189874C500C2DA05 /* Speakers */ = {
@@ -289,6 +297,17 @@
 			);
 			name = Speakers;
 			path = ..;
+			sourceTree = "<group>";
+		};
+		F4FE395518AE9344009B8DBD /* Info */ = {
+			isa = PBXGroup;
+			children = (
+				F41321DA18AE9BDF00F4F97C /* InfoTableViewController.h */,
+				F41321DB18AE9BDF00F4F97C /* InfoTableViewController.m */,
+				F4BE332118AEFF8A00C661EA /* WeatherWebViewController.h */,
+				F4BE332218AEFF8A00C661EA /* WeatherWebViewController.m */,
+			);
+			name = Info;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -371,6 +390,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F440BD5E1813519600858B37 /* Images.xcassets in Resources */,
+				F4E0A85218ADE1250072380F /* Main.storyboard in Resources */,
 				F4164A23186F434B00B77B62 /* Attractions.plist in Resources */,
 				F4164A21186D8D0200B77B62 /* maps.html in Resources */,
 				F4C876F518695C4C00065E2F /* ios6.storyboard in Resources */,
@@ -397,7 +417,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4B61B66186CAEEC00EEE0DD /* AgendaViewController.m in Sources */,
+				F4B61B66186CAEEC00EEE0DD /* EventViewController.m in Sources */,
 				F47C08BF1866939D009CEF28 /* ContactDetailViewController.m in Sources */,
 				F47C3866187501C800116FA1 /* DirectionWebViewController.m in Sources */,
 				F46B859418A73CCF005606AC /* FoodDeliveryWebViewController.m in Sources */,
@@ -415,7 +435,9 @@
 				F4EAC0D1189871D000C2DA05 /* SpeakerDetailViewController.m in Sources */,
 				F440BD521813519600858B37 /* main.m in Sources */,
 				F41897311872A768004ACE60 /* SpecificInterestViewController.m in Sources */,
+				F41321DC18AE9BDF00F4F97C /* InfoTableViewController.m in Sources */,
 				F440BD7C1813599400858B37 /* HomeViewController.m in Sources */,
+				F4BE332318AEFF8A00C661EA /* WeatherWebViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -446,14 +468,6 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		F440BD571813519600858B37 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F440BD581813519600858B37 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F440BD6D1813519600858B37 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -481,6 +495,7 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Byron Becker (MA2RHH8K4H)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -496,8 +511,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "FBE1ED88-0A95-4E86-B751-801D1A43E3BC";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -518,6 +534,7 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Byron Becker (MA2RHH8K4H)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
@@ -527,7 +544,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PROVISIONING_PROFILE = "FBE1ED88-0A95-4E86-B751-801D1A43E3BC";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -545,7 +563,7 @@
 				INFOPLIST_FILE = "Conference/Conference-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "FBE1ED88-0A95-4E86-B751-801D1A43E3BC";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -562,7 +580,7 @@
 				INFOPLIST_FILE = "Conference/Conference-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "FBE1ED88-0A95-4E86-B751-801D1A43E3BC";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

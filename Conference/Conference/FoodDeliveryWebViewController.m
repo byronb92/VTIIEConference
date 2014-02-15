@@ -20,6 +20,12 @@
     [super viewDidLoad];
 }
 
+- (void)viewDidDisappear:(BOOL)animated
+{
+    [UIApplication sharedApplication].networkActivityIndicatorVisible = NO;
+    [super viewDidDisappear:animated];
+}
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];

@@ -21,7 +21,7 @@
     self.title = self.selectedInterest;
     self.descriptionTextView.text = self.selectedDescription;
     self.interestImageView.image =  [UIImage imageNamed:self.selectedInterestImageName];
-    self.interestImageView.contentMode = UIViewContentModeScaleAspectFill;
+    //self.interestImageView.contentMode = UIViewContentModeScaleAspectFill;
 
     // Obtain path to the Google Maps page saved locally.
     NSURL *mapsHtmlRelativeFilePath = [[NSBundle mainBundle] URLForResource:@"maps" withExtension:@"html"];

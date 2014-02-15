@@ -10,6 +10,16 @@
 
 @interface SponsorViewController : UIViewController
 @property (strong, nonatomic) IBOutlet UIScrollView *sponsorScrollViw;
+
+- (IBAction)lowesButtonClicked:(UIButton *)sender;
+
 - (IBAction)upsButtonClicked:(UIButton *)sender;
+
+- (IBAction)pepsicoButtonClicked:(UIButton *)sender;
+
+- (IBAction)deloitteButtonClicked:(UIButton *)sender;
+
+- (IBAction)newportNewsButtonClicked:(UIButton *)sender;
+
 
 @end
