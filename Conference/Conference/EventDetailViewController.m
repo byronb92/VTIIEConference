@@ -7,6 +7,8 @@
 //
 
 #import "EventDetailViewController.h"
+#import "SessionViewController.h"
+
 #define UIColorFromRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
 @interface EventDetailViewController ()
 @end
@@ -20,11 +22,32 @@
     self.timeLabel.text = [self.currentEventData objectForKey:@"Time"];
     self.timeLabel.textColor = UIColorFromRGB(0x660000);
     
-    self.locationLabel.text = [self.currentEventData objectForKey:@"Location"];
-    self.locationLabel.numberOfLines = 5;
-    self.locationLabel.textColor = UIColorFromRGB(0x660000);
+    self.locationTextView.text = [self.currentEventData objectForKey:@"Location"];
+    self.locationTextView.textColor = UIColorFromRGB(0x660000);
     
-    // TODO: If event session is Session 1, 2, or 3... provide a directions page.
+    
+    // If there is no Sponsor, the sponsor labels should be hidden.
+    if (![[self.currentEventData objectForKey:@"Sponsor"] isEqualToString:@"No Sponsor"])
+    {
+        self.sponsorLabel.hidden = NO;
+        self.sponsorTextView.hidden = NO;
+        self.sponsorTextView.text = [self.currentEventData objectForKey:@"Sponsor"];
+        self.sponsorTextView.textColor = UIColorFromRGB(0x660000);
+    }
+    else
+    {
+        self.sponsorLabel.hidden = YES;
+        self.sponsorTextView.hidden = YES;
+    }
+    
+    // Enable a button to be pressed to display Session Details if a Session event is selected.
+    if ([self.title isEqualToString:@"Session 1"] || [self.title isEqualToString:@"Session 2"] ||
+        [self.title isEqualToString:@"Session 3"])
+    {
+        self.sponsorDetailButton.hidden = NO;
+    }
+    else { self.sponsorDetailButton.hidden = YES; }
+    
     [super viewDidLoad];
 }
 
@@ -33,4 +56,19 @@
     [super didReceiveMemoryWarning];
 }
 
+- (IBAction)sponsorButtonClicked:(UIButton *)sender {
+    [self performSegueWithIdentifier:@"Session Details" sender:self];
+    
+}
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    if ([[segue identifier] isEqualToString:@"Session Details"])
+    {
+        SessionViewController *sessionViewController = [segue destinationViewController];
+        sessionViewController.sessionText = [self.currentEventData objectForKey:@"Session"];
+        sessionViewController.title = [self.currentEventData objectForKey:@"Event"];
+    }
+    
+}
 @end

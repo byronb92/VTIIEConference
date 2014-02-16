@@ -51,12 +51,13 @@
     // Iterate through the plist with the rowNumber as the index.
     NSUInteger rowNumber = [indexPath row];
     
-    // We use the name of the contact as the key to obtain that contact's data.
-    NSString *currentContactKey = [self.contactNames objectAtIndex:rowNumber];
-    NSDictionary *currentContactDictionary = [self.contactDictionaries objectForKey:currentContactKey];
+    // We give each person a "priority" based on their position.
+    // e.g President is 0, Vice President is 1... etc
+    NSString *priorityLevel = [self.contactNames objectAtIndex:rowNumber];
+    NSDictionary *currentContactDictionary = [self.contactDictionaries objectForKey:priorityLevel];
     
-    // Each contact dictionary has 4 keys: Photo, Position, Email, and Phone.
-    cell.nameLabel.text = currentContactKey;
+    // Each contact dictionary has 5 keys: Name, Photo, Position, Email, and Phone.
+    cell.nameLabel.text = [currentContactDictionary objectForKey:@"Name"];
     cell.positionLabel.text = [currentContactDictionary objectForKey:@"Position"];
     cell.positionLabel.textColor = UIColorFromRGB(0x660000);
     cell.photoImageView.image = [UIImage imageNamed:[currentContactDictionary objectForKey:@"Photo"]];

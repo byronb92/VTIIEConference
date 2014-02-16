@@ -2,7 +2,7 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>Malone, James</key>
+	<key>01</key>
 	<dict>
 		<key>Photo</key>
 		<string>malone-james.png</string>
@@ -12,8 +12,10 @@
 		<string>jamesm27@vt.edu</string>
 		<key>Phone</key>
 		<string>(703) 509-1259</string>
+		<key>Name</key>
+		<string>Malone, James</string>
 	</dict>
-	<key>Rubright, Colin</key>
+	<key>02</key>
 	<dict>
 		<key>Photo</key>
 		<string>rubright-colin.png</string>
@@ -23,19 +25,10 @@
 		<string>cmr27@vt.edu</string>
 		<key>Phone</key>
 		<string>(443) 878-8495</string>
+		<key>Name</key>
+		<string>Rubright, Colin</string>
 	</dict>
-	<key>Ekasi-Otu, Edi</key>
-	<dict>
-		<key>Photo</key>
-		<string>ekasi-otu-edi.png</string>
-		<key>Position</key>
-		<string>Secretary</string>
-		<key>Email</key>
-		<string>ediotu@vt.edu</string>
-		<key>Phone</key>
-		<string>(571) 388-0071</string>
-	</dict>
-	<key>Monahan, Alex</key>
+	<key>03</key>
 	<dict>
 		<key>Photo</key>
 		<string>monahan-alex.png</string>
@@ -45,8 +38,23 @@
 		<string>alexm91@vt.edu</string>
 		<key>Phone</key>
 		<string>(540) 850-1101</string>
+		<key>Name</key>
+		<string>Monahan, Alex</string>
 	</dict>
-	<key>Fearing, Brandon</key>
+	<key>04</key>
+	<dict>
+		<key>Photo</key>
+		<string>ekasi-otu-edi.png</string>
+		<key>Position</key>
+		<string>Secretary</string>
+		<key>Email</key>
+		<string>ediotu@vt.edu</string>
+		<key>Phone</key>
+		<string>(571) 388-0071</string>
+		<key>Name</key>
+		<string>Ekasi-Otu, Edi</string>
+	</dict>
+	<key>05</key>
 	<dict>
 		<key>Photo</key>
 		<string>fearing-brandon.png</string>
@@ -56,8 +64,10 @@
 		<string>bfearing@vt.edu</string>
 		<key>Phone</key>
 		<string>(757) 390-0856</string>
+		<key>Name</key>
+		<string>Fearing, Brandon</string>
 	</dict>
-	<key>Baylis, Zander</key>
+	<key>06</key>
 	<dict>
 		<key>Photo</key>
 		<string>baylis-alexander.png</string>
@@ -67,19 +77,10 @@
 		<string>zander@vt.edu</string>
 		<key>Phone</key>
 		<string>(302) 893-6572</string>
+		<key>Name</key>
+		<string>Baylis, Zander</string>
 	</dict>
-	<key>Shutt, Matthew</key>
-	<dict>
-		<key>Photo</key>
-		<string>shutt-matthew.png</string>
-		<key>Position</key>
-		<string>Director of Student Relations</string>
-		<key>Email</key>
-		<string>mpshutt@vt.edu</string>
-		<key>Phone</key>
-		<string>(804) 385-2177</string>
-	</dict>
-	<key>Alexander, Cory</key>
+	<key>07</key>
 	<dict>
 		<key>Photo</key>
 		<string>alexander-cory.png</string>
@@ -89,19 +90,23 @@
 		<string>corya92@vt.edu</string>
 		<key>Phone</key>
 		<string>(757) 927-6714</string>
+		<key>Name</key>
+		<string>Alexander, Cory</string>
 	</dict>
-	<key>Cindrich, Zvonko</key>
+	<key>08</key>
 	<dict>
 		<key>Photo</key>
-		<string>cindrich-zvonko.png</string>
+		<string>shutt-matthew.png</string>
 		<key>Position</key>
-		<string>Conference Chair</string>
+		<string>Director of Student Relations</string>
 		<key>Email</key>
-		<string>zzvonko@vt.edu</string>
+		<string>mpshutt@vt.edu</string>
 		<key>Phone</key>
-		<string>(540) 553-2207</string>
+		<string>(804) 385-2177</string>
+		<key>Name</key>
+		<string>Shutt, Matthew</string>
 	</dict>
-	<key>Downs, Carla</key>
+	<key>09</key>
 	<dict>
 		<key>Photo</key>
 		<string>downs-carla.png</string>
@@ -111,6 +116,21 @@
 		<string>carlad11@vt.edu</string>
 		<key>Phone</key>
 		<string>(540) 846-6815</string>
+		<key>Name</key>
+		<string>Downs, Carla</string>
+	</dict>
+	<key>10</key>
+	<dict>
+		<key>Photo</key>
+		<string>cindrich-zvonko.png</string>
+		<key>Position</key>
+		<string>Conference Chair</string>
+		<key>Email</key>
+		<string>zzvonko@vt.edu</string>
+		<key>Phone</key>
+		<string>(540) 553-2207</string>
+		<key>Name</key>
+		<string>Cindrich, Zvonko</string>
 	</dict>
 	<key>Dalipi, Halil</key>
 	<dict>
@@ -122,6 +142,8 @@
 		<string>hdalipi@vt.edu</string>
 		<key>Phone</key>
 		<string>(540) 314-5126</string>
+		<key>Name</key>
+		<string>Dalipi, Halil</string>
 	</dict>
 	<key>Jones, Carley</key>
 	<dict>
@@ -133,6 +155,8 @@
 		<string>cjones6@vt.edu</string>
 		<key>Phone</key>
 		<string>(540) 229-7193</string>
+		<key>Name</key>
+		<string>Jones, Carley</string>
 	</dict>
 	<key>Bartholomew, Paul</key>
 	<dict>
@@ -144,6 +168,8 @@
 		<string>prbart93@vt.edu</string>
 		<key>Phone</key>
 		<string>(703) 554-5879</string>
+		<key>Name</key>
+		<string>Bartholomew, Paul</string>
 	</dict>
 	<key>Fenninger, John</key>
 	<dict>
@@ -155,6 +181,8 @@
 		<string>johnf7@vt.edu</string>
 		<key>Phone</key>
 		<string>(703) 785-9698</string>
+		<key>Name</key>
+		<string>Fenninger, John</string>
 	</dict>
 	<key>Foster, John</key>
 	<dict>
@@ -166,6 +194,8 @@
 		<string>jmfoster@vt.edu</string>
 		<key>Phone</key>
 		<string>(484) 798-7920</string>
+		<key>Name</key>
+		<string>Foster, John</string>
 	</dict>
 </dict>
 </plist>

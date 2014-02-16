@@ -150,6 +150,11 @@
         {
             [self performSegueWithIdentifier:@"Transportation" sender:self];
         }
+        else
+        {
+            [self performSegueWithIdentifier:@"Weather" sender:self];
+        }
+
     }
     
 

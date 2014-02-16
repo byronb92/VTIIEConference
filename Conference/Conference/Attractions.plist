@@ -175,17 +175,6 @@
 	</dict>
 	<key>Others</key>
 	<dict>
-		<key>Duck Pond</key>
-		<dict>
-			<key>Description</key>
-			<string>Ducks and stuff!</string>
-			<key>Address</key>
-			<string>Duckpond Rd. Blacksburg, Virginia 24061</string>
-			<key>Coordinates</key>
-			<string>37.220314,-80.426460</string>
-			<key>Image</key>
-			<string>burruss.png</string>
-		</dict>
 		<key>BreakZone</key>
 		<dict>
 			<key>Description</key>
@@ -196,6 +185,17 @@
 			<string>37.220314,-80.426460</string>
 			<key>Image</key>
 			<string>Squires.png</string>
+		</dict>
+		<key>Owens Banquet Hall</key>
+		<dict>
+			<key>Description</key>
+			<string>Owens Dining Center is the home of Owens Food Court and Owens Banquet Hall, which consists of 12 specialty shops serving international and American favorites. The building also contains Hokie Grill &amp; Co., home to Pizza Hut®, Chick-fil-A®, Blue Ridge Barbecue, and Dunkin Donuts. A soup, salad, and fruit bar are offered along with deli sandwiches and bakery-style cookies.</string>
+			<key>Address</key>
+			<string>150 Kent St, Blacksburg, VA</string>
+			<key>Coordinates</key>
+			<string>37.22671,-80.41889</string>
+			<key>Image</key>
+			<string>owens.png</string>
 		</dict>
 	</dict>
 </dict>

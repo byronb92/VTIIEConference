@@ -6,261 +6,356 @@
 	<dict>
 		<key>0</key>
 		<dict>
-			<key>Event</key>
-			<string>Registration</string>
-			<key>Time</key>
-			<string>3:00pm - 6:00pm</string>
 			<key>Description</key>
 			<string>Students and company representatives will check-in and receive all necessary paperwork and gifts.</string>
+			<key>Event</key>
+			<string>Registration</string>
 			<key>Location</key>
 			<string>Lobby, The Inn at Virginia Tech</string>
+			<key>Sponsor</key>
+			<string>No Sponsor</string>
+			<key>Time</key>
+			<string>3:00pm - 6:00pm</string>
 		</dict>
 		<key>1</key>
 		<dict>
-			<key>Event</key>
-			<string>Networking Reception</string>
-			<key>Time</key>
-			<string>6:00pm - 7:00pm</string>
 			<key>Description</key>
 			<string>Students and other attendees from all schools and companies are invited to socialize in the ballroom of The Inn at Virginia Tech.</string>
+			<key>Event</key>
+			<string>Networking Reception</string>
 			<key>Location</key>
 			<string>Atrium Outside of Latham Ballroom, The Inn at Virginia Tech</string>
 			<key>Sponsor</key>
 			<string>Deloitte</string>
+			<key>Time</key>
+			<string>6:00pm - 7:00pm</string>
 		</dict>
 		<key>2</key>
 		<dict>
+			<key>Description</key>
+			<string>A meal will be catered by The Inn at Virginia Tech and will last about an hour.</string>
 			<key>Event</key>
 			<string>Dinner</string>
-			<key>Time</key>
-			<string>7:00pm - 8:30pm</string>
-			<key>Description</key>
-			<string>An event will be carried out to get students acclimated to each other and encourage networking.</string>
 			<key>Location</key>
-			<string>Atrium Outside of Latham Ballroom, The Inn at Virginia Tech</string>
+			<string>Latham A,B,C, The Inn At Virginia Tech</string>
 			<key>Sponsor</key>
 			<string>UPS</string>
+			<key>Time</key>
+			<string>7:00pm - 8:30pm</string>
 		</dict>
 		<key>3</key>
 		<dict>
+			<key>Description</key>
+			<string>An hour block is set aside for a speaker to introduce students to the conference and set the tone for the weekend.</string>
 			<key>Event</key>
 			<string>Keynote Speaker</string>
-			<key>Time</key>
-			<string>8:30pm - 9:30pm</string>
-			<key>Description</key>
-			<string>A meal will be catered by The Inn at Virginia Tech and will last about an hour.</string>
 			<key>Location</key>
 			<string>Latham A,B,C, The Inn at Virginia Tech</string>
 			<key>Sponsor</key>
 			<string>UPS</string>
+			<key>Time</key>
+			<string>8:30pm - 9:30pm</string>
 		</dict>
 	</dict>
 	<key>Saturday</key>
 	<dict>
-		<key>0</key>
+		<key>00</key>
 		<dict>
-			<key>Event</key>
-			<string>Breakfast</string>
-			<key>Time</key>
-			<string>8:00am - 9:00am</string>
 			<key>Description</key>
 			<string>A meal will be catered by The Inn at Virginia Tech and will last about an hour.</string>
+			<key>Event</key>
+			<string>Breakfast</string>
 			<key>Location</key>
 			<string>Latham A, B, C, The Inn At Virginia Tech</string>
 			<key>Sponsor</key>
-			<string>Lowes</string>
-		</dict>
-		<key>1</key>
-		<dict>
-			<key>Event</key>
-			<string>Technical Paper Competition</string>
+			<string>Lowe&apos;s</string>
 			<key>Time</key>
-			<string>9:00am - 10:30am</string>
+			<string>8:00am - 9:00am</string>
+		</dict>
+		<key>01</key>
+		<dict>
 			<key>Description</key>
 			<string>Students are invited to submit and present their IE-related research papers.</string>
+			<key>Event</key>
+			<string>Technical Paper Competition</string>
 			<key>Location</key>
 			<string>Latham A,B,C, The Inn at Virginia Tech</string>
 			<key>Sponsor</key>
-			<string>None</string>
+			<string>No Sponsor</string>
+			<key>Time</key>
+			<string>9:00am - 10:30am</string>
 		</dict>
-		<key>2</key>
+		<key>02</key>
 		<dict>
+			<key>Description</key>
+			<string>There will be three session blocks Saturday that will include:  1. Break-Out Sessions will commence and be carried out according to the student’s preferences.
+ 2. Panels of company representatives, IE alumni, and other post-graduates will gather to speak about IE as a profession, graduate school, and post-graduate life.  3. Six Sigma information session about its meaning and the steps necessary to acquiring certifications</string>
 			<key>Event</key>
 			<string>Session 1</string>
-			<key>Time</key>
-			<string>10:40am - 11:40am</string>
-			<key>Description</key>
-			<string>Break-Out Sessions will commence and be carried out according to the student’s preferences.
- Panels of company representatives, IE alumni, and other post-graduates will gather to speak about IE as a profession, graduate school, and post-graduate life.  Six Sigma information session about its meaning and the steps necessary to acquiring certifications</string>
 			<key>Location</key>
-			<string>Holtzman Alumni Assembly Center: Holtzman Alumni Hall - PepsiCoSmithfield, The Inn at Virginia Tech - IIESolitude, The Inn at Virginia Tech - Lowe&apos;sCascades A&amp;B, The Inn at Virginia Tech - McKinsey</string>
+			<string>Holtzman Alumni  Assembly Center:  Holtzman Alumni Hall -  PepsiCo   Smithfield,  The Inn at Virginia Tech -  IIE 
+Solitude, The Inn at Virginia Tech - Lowe&apos;s 
+Cascades A&amp;B,  The Inn at Virginia Tech - McKinsey</string>
+			<key>Session</key>
+			<string>IIE
+Why IIE Training Center
+Whether you need a one-day on-site training session for your IIE student chapter, your engineering and technical staff or you need coaching and training for a major organizational development project such as lean, Six Sigma, or lean Six Sigma, the IIE Training Center can help. IIE provides comprehensive training, speaking, coaching, and mentoring services for organizations worldwide. Come to Dr. Joe Wilck’s presentation in order to find out about more opportunities provided by IIE. 
+
+
+PepsiCo
+An Industrial Engineer’s Career Journey at PepsiCo
+Industrial &amp; Systems Engineers are a perfect fit for many roles within the PepsiCo organization.  As an engineer you are trained to solve problems and have been prepared to solve many problems that involve multiple facets of engineering.  PepsiCo looks for highly skilled and versatile people who optimize and strive to make the best product for our consumers at a competitive cost.  Industrial &amp; System Engineers fit in our organization because optimization, improvement and balance are your middle names!  Come join us on a journey through an Industrial Engineer’s career at PepsiCo! 
+
+
+Lowe’s
+Lean Six Sigma at Lowe’s
+Come join Lowe’s representatives as they review the journey Lowe’s has embarked on towards introduction and execution of Lean Six Sigma within its Distribution Centers. Learn what roles the IE’s play in the engagement and support of Kaizen to the pursuit of Green Belt certification. Topics include: Initial Kaizen events, Lessons Learned when engaging Team Members, Practical application of Lean Six Sigma theories and techniques.
+
+
+McKinsey &amp; Company
+The success you have achieved makes you fortunate enough to have multiple opportunities. McKinsey hopes you will give serious consideration to the possibilities that await you at this company. Come meet Patricio Ibañez, who is one of the people who make McKinsey unique, and listen to who McKinsey &amp; Company is, what type of work they do, what the McKinsey Operation Academy is, what opportunities they have for engineers, and his personal stories to learn why he joined and what inspires him. 
+</string>
 			<key>Sponsor</key>
 			<string>IIE PepsiCo Lowe&apos;s McKinsey</string>
+			<key>Time</key>
+			<string>10:40am - 11:40am</string>
 		</dict>
-		<key>3</key>
+		<key>03</key>
 		<dict>
+			<key>Description</key>
+			<string>There will be three session blocks Saturday that will include:  1. Break-Out Sessions will commence and be carried out according to the student’s preferences.
+ 2. Panels of company representatives, IE alumni, and other post-graduates will gather to speak about IE as a profession, graduate school, and post-graduate life.  3. Six Sigma information session about its meaning and the steps necessary to acquiring certifications</string>
 			<key>Event</key>
 			<string>Session 2</string>
-			<key>Time</key>
-			<string>11:45am - 12:45pm</string>
-			<key>Description</key>
-			<string>Break-Out Sessions will commence and be carried out according to the student’s preferences.
-Panels of company representatives, IE alumni, and other post-graduates will gather to speak about IE as a profession, graduate school, and post-graduate life. Six Sigma information session about its meaning and the steps necessary to acquiring certifications</string>
 			<key>Location</key>
 			<string>Holtzman Alumni Assembly Center: Holtzman Alumni Hall - PepsiCo
 Smithfield, The Inn at Virginia Tech - IIE
 Solitude, The Inn at Virginia Tech - Lowe&apos;s
 Cascades A&amp;B, The Inn at Virginia Tech - McKinsey</string>
+			<key>Session</key>
+			<string>IIE
+Why IIE Training Center
+Whether you need a one-day on-site training session for your IIE student chapter, your engineering and technical staff or you need coaching and training for a major organizational development project such as lean, Six Sigma, or lean Six Sigma, the IIE Training Center can help. IIE provides comprehensive training, speaking, coaching, and mentoring services for organizations worldwide. Come to Dr. Joe Wilck’s presentation in order to find out about more opportunities provided by IIE. 
+
+
+PepsiCo
+An Industrial Engineer’s Career Journey at PepsiCo
+Industrial &amp; Systems Engineers are a perfect fit for many roles within the PepsiCo organization.  As an engineer you are trained to solve problems and have been prepared to solve many problems that involve multiple facets of engineering.  PepsiCo looks for highly skilled and versatile people who optimize and strive to make the best product for our consumers at a competitive cost.  Industrial &amp; System Engineers fit in our organization because optimization, improvement and balance are your middle names!  Come join us on a journey through an Industrial Engineer’s career at PepsiCo! 
+
+
+Lowe’s
+Lean Six Sigma at Lowe’s
+Come join Lowe’s representatives as they review the journey Lowe’s has embarked on towards introduction and execution of Lean Six Sigma within its Distribution Centers. Learn what roles the IE’s play in the engagement and support of Kaizen to the pursuit of Green Belt certification. Topics include: Initial Kaizen events, Lessons Learned when engaging Team Members, Practical application of Lean Six Sigma theories and techniques.
+
+
+McKinsey &amp; Company
+The success you have achieved makes you fortunate enough to have multiple opportunities. McKinsey hopes you will give serious consideration to the possibilities that await you at this company. Come meet Patricio Ibañez, who is one of the people who make McKinsey unique, and listen to who McKinsey &amp; Company is, what type of work they do, what the McKinsey Operation Academy is, what opportunities they have for engineers, and his personal stories to learn why he joined and what inspires him. 
+</string>
 			<key>Sponsor</key>
 			<string>IIE PepsiCo Lowe&apos;s McKinsey</string>
-		</dict>
-		<key>4</key>
-		<dict>
-			<key>Event</key>
-			<string>Lunch</string>
 			<key>Time</key>
-			<string>12:50pm - 1:50pm</string>
+			<string>11:45am - 12:45pm</string>
+		</dict>
+		<key>04</key>
+		<dict>
 			<key>Description</key>
 			<string>A meal will be catered by the Inn at Virginia Tech and will last about an hour.</string>
+			<key>Event</key>
+			<string>Lunch</string>
 			<key>Location</key>
 			<string>Latham A, B, C. The Inn at Virginia Tech</string>
 			<key>Sponsor</key>
 			<string>Newport News Shipbuilding</string>
+			<key>Time</key>
+			<string>12:50pm - 1:50pm</string>
 		</dict>
-		<key>5</key>
+		<key>05</key>
 		<dict>
+			<key>Description</key>
+			<string>There will be three session blocks Saturday that will include:  1. Break-Out Sessions will commence and be carried out according to the student’s preferences.
+ 2. Panels of company representatives, IE alumni, and other post-graduates will gather to speak about IE as a profession, graduate school, and post-graduate life.  3. Six Sigma information session about its meaning and the steps necessary to acquiring certifications</string>
 			<key>Event</key>
 			<string>Session 3</string>
-			<key>Time</key>
-			<string>2:00pm - 3:00pm</string>
-			<key>Description</key>
-			<string>Break-Out Sessions will commence and be carried out according to the student’s preferences.
-Panels of company representatives, IE alumni, and other post-graduates will gather to speak about IE as a profession, graduate school, and post-graduate life. Six Sigma information session about its meaning and the steps necessary to acquiring certifications</string>
 			<key>Location</key>
 			<string>Holtzman Alumni Assembly Center: Holtzman Alumni Hall - PepsiCo
 Smithfield, The Inn at Virginia Tech - IIE
 Solitude, The Inn at Virginia Tech - Lowe&apos;s
 Cascades A&amp;B, The Inn at Virginia Tech - McKinsey</string>
+			<key>Session</key>
+			<string>IIE
+Why IIE Training Center
+Whether you need a one-day on-site training session for your IIE student chapter, your engineering and technical staff or you need coaching and training for a major organizational development project such as lean, Six Sigma, or lean Six Sigma, the IIE Training Center can help. IIE provides comprehensive training, speaking, coaching, and mentoring services for organizations worldwide. Come to Dr. Joe Wilck’s presentation in order to find out about more opportunities provided by IIE. 
+
+
+PepsiCo
+An Industrial Engineer’s Career Journey at PepsiCo
+Industrial &amp; Systems Engineers are a perfect fit for many roles within the PepsiCo organization.  As an engineer you are trained to solve problems and have been prepared to solve many problems that involve multiple facets of engineering.  PepsiCo looks for highly skilled and versatile people who optimize and strive to make the best product for our consumers at a competitive cost.  Industrial &amp; System Engineers fit in our organization because optimization, improvement and balance are your middle names!  Come join us on a journey through an Industrial Engineer’s career at PepsiCo! 
+
+
+Lowe’s
+Lean Six Sigma at Lowe’s
+Come join Lowe’s representatives as they review the journey Lowe’s has embarked on towards introduction and execution of Lean Six Sigma within its Distribution Centers. Learn what roles the IE’s play in the engagement and support of Kaizen to the pursuit of Green Belt certification. Topics include: Initial Kaizen events, Lessons Learned when engaging Team Members, Practical application of Lean Six Sigma theories and techniques.
+
+
+McKinsey &amp; Company
+The success you have achieved makes you fortunate enough to have multiple opportunities. McKinsey hopes you will give serious consideration to the possibilities that await you at this company. Come meet Patricio Ibañez, who is one of the people who make McKinsey unique, and listen to who McKinsey &amp; Company is, what type of work they do, what the McKinsey Operation Academy is, what opportunities they have for engineers, and his personal stories to learn why he joined and what inspires him. 
+</string>
 			<key>Sponsor</key>
 			<string>IIE PepsiCo Lowe&apos;s McKinsey</string>
-		</dict>
-		<key>6</key>
-		<dict>
-			<key>Event</key>
-			<string>Speed Networking</string>
 			<key>Time</key>
-			<string>3:15pm - 4:30pm</string>
+			<string>2:00pm - 3:00pm</string>
+		</dict>
+		<key>06</key>
+		<dict>
 			<key>Description</key>
 			<string>Sponsors will be assigned a table or two at which company representatives will be stationed to talk to students in incremental time periods. This event is meant to act as a casual career fair for companies to assess the students that they have deemed interesting either from previous encounters or analysis of the resume book provided.</string>
+			<key>Event</key>
+			<string>Speed Networking</string>
 			<key>Location</key>
 			<string>Latham D,E,F, The Inn at Virginia Tech</string>
 			<key>Sponsor</key>
-			<string>Newport News Shipbuilding,PepsiCo,Deloitte,Lowe&apos;sWalmartMcKinsey</string>
-		</dict>
-		<key>7</key>
-		<dict>
-			<key>Event</key>
-			<string>Case Competition </string>
+			<string>Newport News Shipbuilding,
+PepsiCo,
+Deloitte,
+Lowe&apos;s
+Walmart
+McKinsey</string>
 			<key>Time</key>
-			<string>4:00pm - 6:00pm</string>
+			<string>3:15pm - 4:30pm</string>
+		</dict>
+		<key>07</key>
+		<dict>
 			<key>Description</key>
 			<string>The sponsor will host the case competition by providing the case and judging the teams of participants.</string>
+			<key>Event</key>
+			<string>Case Competition </string>
 			<key>Location</key>
 			<string>Cascades Hall, The Inn at Virginia Tech</string>
 			<key>Sponsor</key>
 			<string>Consulting Club at Virginia Tech</string>
+			<key>Time</key>
+			<string>4:00pm - 6:00pm</string>
 		</dict>
-		<key>8</key>
+		<key>08</key>
 		<dict>
+			<key>Description</key>
+			<string>Career Services at Virginia Tech will give a presentation on how to be successful in an interview, how to prepare a professional resume, and how to approach a recruiter professionally.
+</string>
 			<key>Event</key>
-			<string>1. Career Clinic and 2. ISE Graduate School Department</string>
+			<string>Career Clinic </string>
+			<key>Location</key>
+			<string>Solitude, The Inn at Virginia Tech - Career Clinic</string>
+			<key>Sponsor</key>
+			<string>Career Services at Virginia Tech</string>
 			<key>Time</key>
 			<string>4:45pm - 6:00pm</string>
-			<key>Description</key>
-			<string>Career Services at Virginia Tech will give a presentation on how to be successful in an interview, how to prepare a professional resume, and how to approach a recruiter professionally.The ISE Graduate School presentation will have a panel of graduate students from different fields within Industrial and Systems Engineering talking about their experiences and answering questions from the audience.</string>
-			<key>Location</key>
-			<string>Solitude, The Inn at Virginia Tech - Career Clinic, Assembly Hall - Grad School</string>
-			<key>Sponsor</key>
-			<string>1. Career Services2. VT ISE Graduate Department</string>
 		</dict>
-		<key>9</key>
+		<key>09</key>
 		<dict>
+			<key>Description</key>
+			<string>The ISE Graduate School presentation will have a panel of graduate students from different fields within Industrial and Systems Engineering talking about their experiences and answering questions from the audience.</string>
 			<key>Event</key>
-			<string>IIE&apos;s Board of Trustees Presentation</string>
+			<string>ISE Graduate School Department</string>
+			<key>Location</key>
+			<string>Assembly Hall</string>
+			<key>Sponsor</key>
+			<string>VT ISE Graduate Department</string>
 			<key>Time</key>
-			<string>6:30pm - 7:00pm</string>
+			<string>4:45pm - 6:00pm</string>
+		</dict>
+		<key>091</key>
+		<dict>
+			<key>Description</key>
+			<string>Main officers from all student officers will meet in order to talk about the 2015 IIE Mid-Atlantic  Regional Conference Details</string>
+			<key>Event</key>
+			<string>IIE Student Chapters Officers Meeting</string>
+			<key>Location</key>
+			<string>Smithfield, The Inn At Virginia Tech</string>
+			<key>Sponsor</key>
+			<string>No Sponsor</string>
+			<key>Time</key>
+			<string>5:30pm - 6:00pm</string>
+		</dict>
+		<key>10</key>
+		<dict>
 			<key>Description</key>
 			<string>Overview presentation of IIE presented by Joe Wilck.</string>
+			<key>Event</key>
+			<string>IIE Board of Trustees Pres</string>
 			<key>Location</key>
 			<string>Owens Banquet Hall, Virginia Tech Campus</string>
 			<key>Sponsor</key>
 			<string>IIE</string>
-		</dict>
-		<key>10</key>
-		<dict>
-			<key>Event</key>
-			<string>Dinner</string>
 			<key>Time</key>
-			<string>7:00pm - 8:00pm</string>
-			<key>Description</key>
-			<string>A meal will be catered by the Inn at Virginia Tech and will last about an hour.</string>
-			<key>Location</key>
-			<string>Owens Banquet Hall, Virginia Tech Campus</string>
-			<key>Sponsor</key>
-			<string>McKinsey</string>
+			<string>6:30pm - 7:00pm</string>
 		</dict>
 		<key>11</key>
 		<dict>
-			<key>Event</key>
-			<string>Keynote Speaker</string>
-			<key>Time</key>
-			<string>8:00pm - 9:00pm</string>
 			<key>Description</key>
-			<string>An hour block is set aside for a speaker to review the days events and present information about their experiences that are relevant to Industrial Engineering.</string>
+			<string>A meal will be catered by the Personal Touch Catering and will last about an hour.</string>
+			<key>Event</key>
+			<string>Dinner</string>
 			<key>Location</key>
 			<string>Owens Banquet Hall, Virginia Tech Campus</string>
 			<key>Sponsor</key>
-			<string>McKinsey</string>
+			<string>No Sponsor</string>
+			<key>Time</key>
+			<string>7:00pm - 8:00pm</string>
 		</dict>
 		<key>12</key>
 		<dict>
-			<key>Event</key>
-			<string>Awards Ceremony</string>
-			<key>Time</key>
-			<string>9:00pm - 9:30pm</string>
 			<key>Description</key>
-			<string>Awards for the Technical Paper Competition and other IIE honors will be given out by the keynote speaker and others.</string>
+			<string>An hour block is set aside for a speaker to review the days events and present information about their experiences that are relevant to Industrial Engineering.</string>
+			<key>Event</key>
+			<string>Keynote Speaker</string>
 			<key>Location</key>
 			<string>Owens Banquet Hall, Virginia Tech Campus</string>
 			<key>Sponsor</key>
-			<string>McKinsey</string>
+			<string>CCS-Inc.</string>
+			<key>Time</key>
+			<string>8:00pm - 9:00pm</string>
+		</dict>
+		<key>13</key>
+		<dict>
+			<key>Description</key>
+			<string>Awards for the Technical Paper Competition and other IIE honors will  be given out by a faculty member from the ISE Department at Virginia Tech.</string>
+			<key>Event</key>
+			<string>Awards Ceremony</string>
+			<key>Location</key>
+			<string>Owens Banquet Hall, Virginia Tech Campus</string>
+			<key>Sponsor</key>
+			<string>ISE Department</string>
+			<key>Time</key>
+			<string>9:00pm - 9:30pm</string>
 		</dict>
 	</dict>
 	<key>Sunday</key>
 	<dict>
 		<key>0</key>
 		<dict>
-			<key>Event</key>
-			<string>Breakfast</string>
-			<key>Time</key>
-			<string>8:00am - 9:00am</string>
 			<key>Description</key>
 			<string>A meal will be catered by the Inn at Virginia Tech and will last about an hour.</string>
+			<key>Event</key>
+			<string>Breakfast</string>
 			<key>Location</key>
 			<string>The Atrium outside of Latham Ballroom, The Inn at Virginia Tech</string>
+			<key>Sponsor</key>
+			<string>No Sponsor</string>
+			<key>Time</key>
+			<string>8:00am - 9:00am</string>
 		</dict>
 		<key>1</key>
 		<dict>
-			<key>Event</key>
-			<string>Plant Tour</string>
-			<key>Time</key>
-			<string>9:30am - 11:30am</string>
 			<key>Description</key>
 			<string>The plant tour will expose students to real life implementation of industrial and systems engineering.</string>
+			<key>Event</key>
+			<string>Plant Tour</string>
 			<key>Location</key>
 			<string>Virginia Tech Transportation Institute, Blacksburg VA</string>
 			<key>Sponsor</key>
 			<string>VTTI</string>
+			<key>Time</key>
+			<string>9:30am - 11:30am</string>
 		</dict>
 	</dict>
 </dict>

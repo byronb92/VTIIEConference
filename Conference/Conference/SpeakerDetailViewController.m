@@ -23,7 +23,7 @@
     self.title = [self.selectedSpeakerDictionary objectForKey:@"Speaker"];
     self.speakerPhoto.image = [UIImage imageNamed:[self.selectedSpeakerDictionary objectForKey:@"Photo"]];
     self.bioTextView.text = [self.selectedSpeakerDictionary objectForKey:@"Bio"];
-    self.talkTextView.text = [self.selectedSpeakerDictionary objectForKey:@"Topic Info"];
+//    self.talkTextView.text = [self.selectedSpeakerDictionary objectForKey:@"Topic Info"];
     
 }
 

@@ -64,7 +64,7 @@
     {
         SponsorWebViewController *sponsorWebViewController = [segue destinationViewController];
         sponsorWebViewController.urlToLoad = [self.sponsorUrls objectForKey:@"Lowes"];
-        sponsorWebViewController.title = @"Lowes";
+        sponsorWebViewController.title = @"Lowe's";
     }
     
     if ([[segue identifier] isEqualToString:@"PepsicoWebView"])

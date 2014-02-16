@@ -40,7 +40,8 @@
 		F4B61B60186CA98500EEE0DD /* WeekendAgenda.plist in Resources */ = {isa = PBXBuildFile; fileRef = F4B61B5F186CA98500EEE0DD /* WeekendAgenda.plist */; };
 		F4B61B66186CAEEC00EEE0DD /* EventViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4B61B65186CAEEC00EEE0DD /* EventViewController.m */; };
 		F4BE332318AEFF8A00C661EA /* WeatherWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4BE332218AEFF8A00C661EA /* WeatherWebViewController.m */; };
-		F4C876F518695C4C00065E2F /* ios6.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4C876F418695C4B00065E2F /* ios6.storyboard */; };
+		F4C3DD6B18AFDD49003E8DE1 /* SessionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4C3DD6A18AFDD49003E8DE1 /* SessionViewController.m */; };
+		F4C3DD6D18B079D7003E8DE1 /* Session_Info.html in Resources */ = {isa = PBXBuildFile; fileRef = F4C3DD6C18B079D7003E8DE1 /* Session_Info.html */; };
 		F4E0A85218ADE1250072380F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4E0A85118ADE1250072380F /* Main.storyboard */; };
 		F4EAC0CE18986EEE00C2DA05 /* SpeakerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4EAC0CD18986EEE00C2DA05 /* SpeakerViewController.m */; };
 		F4EAC0D1189871D000C2DA05 /* SpeakerDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4EAC0D0189871D000C2DA05 /* SpeakerDetailViewController.m */; };
@@ -113,7 +114,9 @@
 		F4B61B65186CAEEC00EEE0DD /* EventViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventViewController.m; sourceTree = "<group>"; };
 		F4BE332118AEFF8A00C661EA /* WeatherWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherWebViewController.h; sourceTree = "<group>"; };
 		F4BE332218AEFF8A00C661EA /* WeatherWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherWebViewController.m; sourceTree = "<group>"; };
-		F4C876F418695C4B00065E2F /* ios6.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ios6.storyboard; sourceTree = "<group>"; };
+		F4C3DD6918AFDD49003E8DE1 /* SessionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SessionViewController.h; sourceTree = "<group>"; };
+		F4C3DD6A18AFDD49003E8DE1 /* SessionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SessionViewController.m; sourceTree = "<group>"; };
+		F4C3DD6C18B079D7003E8DE1 /* Session_Info.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Session_Info.html; sourceTree = "<group>"; };
 		F4E0A85118ADE1250072380F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		F4EAC0CC18986EEE00C2DA05 /* SpeakerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpeakerViewController.h; sourceTree = "<group>"; };
 		F4EAC0CD18986EEE00C2DA05 /* SpeakerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpeakerViewController.m; sourceTree = "<group>"; };
@@ -193,7 +196,6 @@
 				F440BD541813519600858B37 /* AppDelegate.h */,
 				F440BD551813519600858B37 /* AppDelegate.m */,
 				F4E0A85118ADE1250072380F /* Main.storyboard */,
-				F4C876F418695C4B00065E2F /* ios6.storyboard */,
 				F440BD5D1813519600858B37 /* Images.xcassets */,
 				F4FE395518AE9344009B8DBD /* Info */,
 				F4B61B5B186CA8F600EEE0DD /* Events */,
@@ -270,18 +272,9 @@
 				F4B61B5D186CA90900EEE0DD /* WeekendViewController.m */,
 				F47C386718766B4100116FA1 /* EventDetailViewController.h */,
 				F47C386818766B4100116FA1 /* EventDetailViewController.m */,
-				F4164A1D186D876900B77B62 /* InterestViewController.h */,
-				F4164A1E186D876900B77B62 /* InterestViewController.m */,
-				F4164A22186F434B00B77B62 /* Attractions.plist */,
-				F418972F1872A768004ACE60 /* SpecificInterestViewController.h */,
-				F41897301872A768004ACE60 /* SpecificInterestViewController.m */,
-				F4164A20186D8D0200B77B62 /* maps.html */,
-				F47C3864187501C800116FA1 /* DirectionWebViewController.h */,
-				F47C3865187501C800116FA1 /* DirectionWebViewController.m */,
-				F46B859A18A73E45005606AC /* FoodDeliveryViewController.h */,
-				F46B859B18A73E45005606AC /* FoodDeliveryViewController.m */,
-				F46B859218A73CCF005606AC /* FoodDeliveryWebViewController.h */,
-				F46B859318A73CCF005606AC /* FoodDeliveryWebViewController.m */,
+				F4C3DD6918AFDD49003E8DE1 /* SessionViewController.h */,
+				F4C3DD6A18AFDD49003E8DE1 /* SessionViewController.m */,
+				F4C3DD6C18B079D7003E8DE1 /* Session_Info.html */,
 			);
 			name = Events;
 			sourceTree = "<group>";
@@ -306,6 +299,18 @@
 				F41321DB18AE9BDF00F4F97C /* InfoTableViewController.m */,
 				F4BE332118AEFF8A00C661EA /* WeatherWebViewController.h */,
 				F4BE332218AEFF8A00C661EA /* WeatherWebViewController.m */,
+				F4164A1D186D876900B77B62 /* InterestViewController.h */,
+				F4164A1E186D876900B77B62 /* InterestViewController.m */,
+				F4164A22186F434B00B77B62 /* Attractions.plist */,
+				F418972F1872A768004ACE60 /* SpecificInterestViewController.h */,
+				F41897301872A768004ACE60 /* SpecificInterestViewController.m */,
+				F4164A20186D8D0200B77B62 /* maps.html */,
+				F47C3864187501C800116FA1 /* DirectionWebViewController.h */,
+				F47C3865187501C800116FA1 /* DirectionWebViewController.m */,
+				F46B859A18A73E45005606AC /* FoodDeliveryViewController.h */,
+				F46B859B18A73E45005606AC /* FoodDeliveryViewController.m */,
+				F46B859218A73CCF005606AC /* FoodDeliveryWebViewController.h */,
+				F46B859318A73CCF005606AC /* FoodDeliveryWebViewController.m */,
 			);
 			name = Info;
 			sourceTree = "<group>";
@@ -393,8 +398,8 @@
 				F4E0A85218ADE1250072380F /* Main.storyboard in Resources */,
 				F4164A23186F434B00B77B62 /* Attractions.plist in Resources */,
 				F4164A21186D8D0200B77B62 /* maps.html in Resources */,
-				F4C876F518695C4C00065E2F /* ios6.storyboard in Resources */,
 				F4B1C7E618AD89E400BDD2BB /* SponsorURLs.plist in Resources */,
+				F4C3DD6D18B079D7003E8DE1 /* Session_Info.html in Resources */,
 				F4B61B60186CA98500EEE0DD /* WeekendAgenda.plist in Resources */,
 				F440BD501813519600858B37 /* InfoPlist.strings in Resources */,
 				F4ECCB861865519E00B29D49 /* Contacts.plist in Resources */,
@@ -436,6 +441,7 @@
 				F440BD521813519600858B37 /* main.m in Sources */,
 				F41897311872A768004ACE60 /* SpecificInterestViewController.m in Sources */,
 				F41321DC18AE9BDF00F4F97C /* InfoTableViewController.m in Sources */,
+				F4C3DD6B18AFDD49003E8DE1 /* SessionViewController.m in Sources */,
 				F440BD7C1813599400858B37 /* HomeViewController.m in Sources */,
 				F4BE332318AEFF8A00C661EA /* WeatherWebViewController.m in Sources */,
 			);
@@ -511,7 +517,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
 				PROVISIONING_PROFILE = "FBE1ED88-0A95-4E86-B751-801D1A43E3BC";
 				SDKROOT = iphoneos;
@@ -544,7 +550,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PROVISIONING_PROFILE = "FBE1ED88-0A95-4E86-B751-801D1A43E3BC";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -561,9 +567,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Conference/Conference-Prefix.pch";
 				INFOPLIST_FILE = "Conference/Conference-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "FBE1ED88-0A95-4E86-B751-801D1A43E3BC";
+				PROVISIONING_PROFILE = "3B52C4FA-3C3F-4C75-9E71-7CBC84F45E8F";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -578,9 +584,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Conference/Conference-Prefix.pch";
 				INFOPLIST_FILE = "Conference/Conference-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "FBE1ED88-0A95-4E86-B751-801D1A43E3BC";
+				PROVISIONING_PROFILE = "3B52C4FA-3C3F-4C75-9E71-7CBC84F45E8F";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

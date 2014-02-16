@@ -1,30 +1,24 @@
 //
-//  WeatherWebViewController.m
+//  SessionViewController.m
 //  Conference
 //
-//  Created by Byron Becker on 2/14/14.
+//  Created by Byron Becker on 2/15/14.
 //  Copyright (c) 2014 Byron Becker. All rights reserved.
 //
 
-#import "WeatherWebViewController.h"
+#import "SessionViewController.h"
 
-@interface WeatherWebViewController ()
+@interface SessionViewController ()
 
 @end
 
-@implementation WeatherWebViewController
+@implementation SessionViewController
 
 - (void)viewDidLoad
 {
-    NSString *urlToLoad = @"http://www.weather.com";
-    [self.weatherWebView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:urlToLoad]]];
+    NSURLRequest *urlRequest = [NSURLRequest requestWithURL:[NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"Session_Info" ofType:@"html"]]];
+    [self.sessionWebView loadRequest:urlRequest];
     [super viewDidLoad];
-}
-
-- (void)viewDidDisappear:(BOOL)animated
-{
-    [UIApplication sharedApplication].networkActivityIndicatorVisible = NO;
-    [super viewDidDisappear:animated];
 }
 
 - (void)didReceiveMemoryWarning
@@ -46,8 +40,7 @@
     NSString *errorString = [NSString stringWithFormat:
                              @"<html><font size=+2 color='red'><p>An error occurred: %@<br />Possible causes for this error:<br />- No network connection<br />- The website that contains the news is down.</p></font></html>",
                              error.localizedDescription];
-    [self.weatherWebView loadHTMLString:errorString baseURL:nil];
+    [self.sessionWebView loadHTMLString:errorString baseURL:nil];
 }
-
 
 @end

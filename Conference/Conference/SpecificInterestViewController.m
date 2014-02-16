@@ -37,7 +37,7 @@
 
 - (IBAction)getDirections:(UISegmentedControl *)sender {
     self.locationManager = [[CLLocationManager alloc] init];
-    self.locationManager.delegate = self;
+    //self.locationManager.delegate = self;
     self.locationManager.distanceFilter = kCLDistanceFilterNone;
     self.locationManager.desiredAccuracy = kCLLocationAccuracyNearestTenMeters;
     [self.locationManager startUpdatingLocation];
