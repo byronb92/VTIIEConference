@@ -20,6 +20,8 @@
 {
     // Obtain the complete version string.
     // E.G. If the version is 7.0.3, then "7.0.3." will be returned.
+    // UPDATE: Since iOS 6 is no longer supported, this is unnecessary.
+    // I keep this method for future reference.
     NSString *currentVersionFull = [[UIDevice currentDevice] systemVersion];
     [self initializeStoryBoardBasedOnVersion:currentVersionFull];
     return YES;
@@ -36,11 +38,7 @@
     
     if ([UIDevice currentDevice].userInterfaceIdiom == UIUserInterfaceIdiomPhone)
     {   // The iOS device = iPhone or iPod Touch
-        
-        // Read the first chr of the version string and convert it to an integer for comparison.
-        self.currentVersion = [[versionString substringToIndex:1] integerValue];
-        if (self.currentVersion == 7)
-        {
+
             // Load ios7(Main) storyboard.
             // Instantiate a new storyboard object using the storyboard file named Main
             UIStoryboard *iPhone75Storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
@@ -63,21 +61,5 @@
             // Change the navbar font color.
             [[UINavigationBar appearance] setTitleTextAttributes: [NSDictionary dictionaryWithObjectsAndKeys:UIColorFromRGB(0x660000), NSForegroundColorAttributeName, nil]];
         }
-        else {
-            // load ios6 storyboard
-            UIStoryboard *iPhone6Storyboard = [UIStoryboard storyboardWithName:@"ios6" bundle:nil];
-            UIViewController *initialViewController = [iPhone6Storyboard instantiateInitialViewController];
-            
-            self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-            self.window.rootViewController  = initialViewController;
-            [self.window makeKeyAndVisible];
-            
-            // Changes navigation color to maroon.
-            // Other navbar buttons are automatically changed based on this color.
-            [[UINavigationBar appearance] setTintColor:UIColorFromRGB(0x660000)];
-        }
-        
-        
-    }
 }
 @end

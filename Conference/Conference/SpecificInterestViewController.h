@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import <CoreLocation/CoreLocation.h>
 
-@interface SpecificInterestViewController : UIViewController
+@interface SpecificInterestViewController : UIViewController <CLLocationManagerDelegate>
 
 
 @property (strong, nonatomic) IBOutlet UIImageView *interestImageView;

@@ -14,7 +14,14 @@
 @property (strong, nonatomic) NSString *navBackButtonTitle;
 @property (strong, nonatomic) IBOutlet UITextView *descriptionTextView;
 @property (strong, nonatomic) IBOutlet UILabel *timeLabel;
-@property (strong, nonatomic) IBOutlet UILabel *locationLabel;
+
+@property (strong, nonatomic) IBOutlet UITextView *locationTextView;
+
+@property (strong, nonatomic) IBOutlet UILabel *sponsorLabel;
+@property (strong, nonatomic) IBOutlet UITextView *sponsorTextView;
+
+@property (strong, nonatomic) IBOutlet UIButton *sponsorDetailButton;
+- (IBAction)sponsorButtonClicked:(UIButton *)sender;
 
 @end
 

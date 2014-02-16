@@ -42,6 +42,7 @@
 		F4BE332318AEFF8A00C661EA /* WeatherWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4BE332218AEFF8A00C661EA /* WeatherWebViewController.m */; };
 		F4C3DD6B18AFDD49003E8DE1 /* SessionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4C3DD6A18AFDD49003E8DE1 /* SessionViewController.m */; };
 		F4C3DD6D18B079D7003E8DE1 /* Session_Info.html in Resources */ = {isa = PBXBuildFile; fileRef = F4C3DD6C18B079D7003E8DE1 /* Session_Info.html */; };
+		F4DADC1118B103D2007954D6 /* TransporationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4DADC1018B103D2007954D6 /* TransporationViewController.m */; };
 		F4E0A85218ADE1250072380F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4E0A85118ADE1250072380F /* Main.storyboard */; };
 		F4EAC0CE18986EEE00C2DA05 /* SpeakerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4EAC0CD18986EEE00C2DA05 /* SpeakerViewController.m */; };
 		F4EAC0D1189871D000C2DA05 /* SpeakerDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4EAC0D0189871D000C2DA05 /* SpeakerDetailViewController.m */; };
@@ -70,7 +71,7 @@
 		F418972D1872A4E5004ACE60 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		F418972F1872A768004ACE60 /* SpecificInterestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpecificInterestViewController.h; sourceTree = "<group>"; };
 		F41897301872A768004ACE60 /* SpecificInterestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpecificInterestViewController.m; sourceTree = "<group>"; };
-		F42AE94518ADAF43007EE1BB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Conference/Images.xcassets; sourceTree = "<group>"; };
+		F42AE94518ADAF43007EE1BB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F433B52C18A8AB4C00C65EE2 /* SponsorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SponsorViewController.h; sourceTree = "<group>"; };
 		F433B52D18A8AB4C00C65EE2 /* SponsorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SponsorViewController.m; sourceTree = "<group>"; };
 		F43A87D3184EF45500B90690 /* ContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactViewController.h; sourceTree = "<group>"; };
@@ -117,6 +118,8 @@
 		F4C3DD6918AFDD49003E8DE1 /* SessionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SessionViewController.h; sourceTree = "<group>"; };
 		F4C3DD6A18AFDD49003E8DE1 /* SessionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SessionViewController.m; sourceTree = "<group>"; };
 		F4C3DD6C18B079D7003E8DE1 /* Session_Info.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Session_Info.html; sourceTree = "<group>"; };
+		F4DADC0F18B103D2007954D6 /* TransporationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransporationViewController.h; sourceTree = "<group>"; };
+		F4DADC1018B103D2007954D6 /* TransporationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransporationViewController.m; sourceTree = "<group>"; };
 		F4E0A85118ADE1250072380F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		F4EAC0CC18986EEE00C2DA05 /* SpeakerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpeakerViewController.h; sourceTree = "<group>"; };
 		F4EAC0CD18986EEE00C2DA05 /* SpeakerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpeakerViewController.m; sourceTree = "<group>"; };
@@ -157,7 +160,6 @@
 		F440BD391813519600858B37 = {
 			isa = PBXGroup;
 			children = (
-				F42AE94518ADAF43007EE1BB /* Images.xcassets */,
 				F440BD4B1813519600858B37 /* Conference */,
 				F440BD6A1813519600858B37 /* ConferenceTests */,
 				F440BD441813519600858B37 /* Frameworks */,
@@ -196,6 +198,7 @@
 				F440BD541813519600858B37 /* AppDelegate.h */,
 				F440BD551813519600858B37 /* AppDelegate.m */,
 				F4E0A85118ADE1250072380F /* Main.storyboard */,
+				F42AE94518ADAF43007EE1BB /* Images.xcassets */,
 				F440BD5D1813519600858B37 /* Images.xcassets */,
 				F4FE395518AE9344009B8DBD /* Info */,
 				F4B61B5B186CA8F600EEE0DD /* Events */,
@@ -299,6 +302,8 @@
 				F41321DB18AE9BDF00F4F97C /* InfoTableViewController.m */,
 				F4BE332118AEFF8A00C661EA /* WeatherWebViewController.h */,
 				F4BE332218AEFF8A00C661EA /* WeatherWebViewController.m */,
+				F4DADC0F18B103D2007954D6 /* TransporationViewController.h */,
+				F4DADC1018B103D2007954D6 /* TransporationViewController.m */,
 				F4164A1D186D876900B77B62 /* InterestViewController.h */,
 				F4164A1E186D876900B77B62 /* InterestViewController.m */,
 				F4164A22186F434B00B77B62 /* Attractions.plist */,
@@ -436,6 +441,7 @@
 				F4B1C7E418AD892B00BDD2BB /* SponsorWebViewController.m in Sources */,
 				F47C386918766B4100116FA1 /* EventDetailViewController.m in Sources */,
 				F4164A1F186D876900B77B62 /* InterestViewController.m in Sources */,
+				F4DADC1118B103D2007954D6 /* TransporationViewController.m in Sources */,
 				F4ECCB8918662EA800B29D49 /* ContactCustomCell.m in Sources */,
 				F4EAC0D1189871D000C2DA05 /* SpeakerDetailViewController.m in Sources */,
 				F440BD521813519600858B37 /* main.m in Sources */,
@@ -562,14 +568,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Byron Becker (MA2RHH8K4H)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Byron Becker (MA2RHH8K4H)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Conference/Conference-Prefix.pch";
 				INFOPLIST_FILE = "Conference/Conference-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "3B52C4FA-3C3F-4C75-9E71-7CBC84F45E8F";
+				PROVISIONING_PROFILE = "FBE1ED88-0A95-4E86-B751-801D1A43E3BC";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -579,14 +585,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Byron Becker (MA2RHH8K4H)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Byron Becker (MA2RHH8K4H)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Conference/Conference-Prefix.pch";
 				INFOPLIST_FILE = "Conference/Conference-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "3B52C4FA-3C3F-4C75-9E71-7CBC84F45E8F";
+				PROVISIONING_PROFILE = "FBE1ED88-0A95-4E86-B751-801D1A43E3BC";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

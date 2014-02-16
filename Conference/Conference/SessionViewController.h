@@ -12,4 +12,5 @@
 
 @property (strong, nonatomic) IBOutlet UIWebView *sessionWebView;
 @property(strong, nonatomic) NSString *sessionText;
+
 @end

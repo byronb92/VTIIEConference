@@ -19,10 +19,12 @@
 {
     self.title = [self.currentEventData objectForKey:@"Event"];
     self.descriptionTextView.text = [self.currentEventData objectForKey:@"Description"];
+    self.descriptionTextView.contentInset = UIEdgeInsetsMake(-7.0,0.0,0,0.0);
     self.timeLabel.text = [self.currentEventData objectForKey:@"Time"];
     self.timeLabel.textColor = UIColorFromRGB(0x660000);
     
     self.locationTextView.text = [self.currentEventData objectForKey:@"Location"];
+    self.locationTextView.contentInset = UIEdgeInsetsMake(-7.0,0.0,0,0.0);
     self.locationTextView.textColor = UIColorFromRGB(0x660000);
     
     
@@ -32,6 +34,7 @@
         self.sponsorLabel.hidden = NO;
         self.sponsorTextView.hidden = NO;
         self.sponsorTextView.text = [self.currentEventData objectForKey:@"Sponsor"];
+        self.sponsorTextView.contentInset = UIEdgeInsetsMake(-7.0,0.0,0,0.0);
         self.sponsorTextView.textColor = UIColorFromRGB(0x660000);
     }
     else

@@ -45,7 +45,7 @@
     if([error code] == NSURLErrorCancelled) return;
     [UIApplication sharedApplication].networkActivityIndicatorVisible = NO;
     NSString *errorString = [NSString stringWithFormat:
-                             @"<html><font size=+2 color='red'><p>An error occurred: %@<br />Possible causes for this error:<br />- No network connection<br />- The website that contains the news is down.</p></font></html>",
+                             @"<html><font size=+2 color='red'><p>An error occurred: %@<br />Possible causes for this error:<br />- No network connection</p></font></html>",
                              error.localizedDescription];
     [self.newsWebView loadHTMLString:errorString baseURL:nil];
 }
