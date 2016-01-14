@@ -11,4 +11,6 @@ Things of Note.
 
 3. I forget to resize some of the images, which made the final app size 46 MB. Not a huge issue, but it would've been nice to have the app more lightweight.
 
-4. This is my first application created in Objective-C. There is an abundant amount of code reuse here, and when I have the time I'll eventually reconsolidate everything to follow more object-oriented guidelines.
+
+
+UPDATE: This app is no longer avaialble on the app store, since I no longer have an iOS developer license.
